@@ -5,7 +5,7 @@
 postags in 1-4 have been vetted; beyond that, nope
 
 to do list in order of importance:
-- add lb empty elements as milestones
+- add lb empty elements as milestones // DONE
 - add URN citations to every word
 - write documentation including criteria for said tag and associated attributes,
     type attribute for token tags, 10 slots of postag, punctuation postags (ref. Penn)
@@ -4501,22 +4501,24 @@ to do list in order of importance:
     <token tok-pos="" postag="V-3SPIP---" cite="">obsequitur</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="C---------" cite="">sed</token>
-    <token tok-pos="" postag="P--S---MA-" cite="">te</token>
-    <token tok-pos="" postag="N--S---MN-" cite="">decor</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">iste</token>
-    <token tok-pos="" postag="P--S---NN-" cite="">quod</token>
-    <token tok-pos="" postag="V-2SPIA---" cite="">optas</token>
-    <lb n="489"/>
-    <token tok-pos="" postag="V---PNA---" cite="">esse</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">vetat</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Voto</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="A--S---MB-" cite="">tuo</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">tua</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">forma</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">repugnat</token>
-    <token tok-pos="" postag="None" cite="">:</token>
+    <said degree="1" speaker="Narrator" cite="urn:cts:latinLit:phi0959.phi006:1.488-1.489">
+        <token tok-pos="" postag="P--S---MA-" cite="">te</token>
+        <token tok-pos="" postag="N--S---MN-" cite="">decor</token>
+        <token tok-pos="" postag="P--S---MN-" cite="">iste</token>
+        <token tok-pos="" postag="P--S---NN-" cite="">quod</token>
+        <token tok-pos="" postag="V-2SPIA---" cite="">optas</token>
+        <lb n="489"/>
+        <token tok-pos="" postag="V---PNA---" cite="">esse</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">vetat</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <token tok-pos="" postag="None" cite="">Voto</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="A--S---MB-" cite="">tuo</token>
+        <token tok-pos="" postag="A--S---FN-" cite="">tua</token>
+        <token tok-pos="" postag="N--S---FN-" cite="">forma</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">repugnat</token>
+        <token tok-pos="" postag="None" cite="">:</token>
+    </said>
     <lb n="490"/>
     <token tok-pos="" postag="None" cite="">Phoebus</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">amat</token>
@@ -5073,29 +5075,33 @@ to do list in order of importance:
     <token tok-pos="" postag="None" cite="">Peneidas</token>
     <token tok-pos="" postag="N--P---FA-" cite="">undas</token>
     <said degree="2" speaker="Daphne" cite="urn:cts:latinLit:phi0959.phi006:1.545">
-    <lb n="545"/>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="V-2SPMA---" cite="">fer</token>
-    <token tok-pos="" postag="N--S---MV-" cite="">pater</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
+        <lb n="545"/>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="V-2SPMA---" cite="">fer</token>
+        <token tok-pos="" postag="N--S---MV-" cite="">pater</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
     </said>
     <token tok-pos="" postag="V-3SPIA---" cite="" type="speech">inquit</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="N--S---FA-" cite="">opem</token>
-    <token tok-pos="" postag="C---------" cite="">si</token>
-    <token tok-pos="" postag="N--P---NN-" cite="">flumina</token>
-    <token tok-pos="" postag="N--S---NA-" cite="">numen</token>
-    <token tok-pos="" postag="V-2PPIA---" cite="">habetis</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Qua</token>
-    <token tok-pos="" postag="D---------" cite="">nimium</token>
-    <token tok-pos="" postag="V-1SRIA---" cite="">placui</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="T--SPGPNB-" cite="">mutando</token>
-    <token tok-pos="" postag="V-2SPMA---" cite="">perde</token>
-    <token tok-pos="" postag="N--S---FA-" cite="">figuram</token>
-    <token tok-pos="" postag="None" cite="">!</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
+    <said degree="2" speaker="Daphne" cite="urn:cts:latinLit:phi0959.phi006:1.545-1.546">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="N--S---FA-" cite="">opem</token>
+        <token tok-pos="" postag="C---------" cite="">si</token>
+        <token tok-pos="" postag="N--P---NN-" cite="">flumina</token>
+        <token tok-pos="" postag="N--S---NA-" cite="">numen</token>
+        <token tok-pos="" postag="V-2PPIA---" cite="">habetis</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <lb n="546"/>
+        <token tok-pos="" postag="None" cite="">Qua</token>
+        <token tok-pos="" postag="D---------" cite="">nimium</token>
+        <token tok-pos="" postag="V-1SRIA---" cite="">placui</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="T--SPGPNB-" cite="">mutando</token>
+        <token tok-pos="" postag="V-2SPMA---" cite="">perde</token>
+        <token tok-pos="" postag="N--S---FA-" cite="">figuram</token>
+        <token tok-pos="" postag="None" cite="">!</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <lb n="547"/>
     <token tok-pos="" postag="None" cite="">Vix</token>
     <token tok-pos="" postag="N--S---FB-" cite="">prece</token>
     <token tok-pos="" postag="T--SRPPFB-" cite="">finita</token>
@@ -5104,12 +5110,14 @@ to do list in order of importance:
     <token tok-pos="" postag="V-3SPIA---" cite="">occupat</token>
     <token tok-pos="" postag="N--P---MA-" cite="">artus</token>
     <token tok-pos="" postag="None" cite="">:</token>
+    <lb n="548"/>
     <token tok-pos="" postag="A--P---NN-" cite="">mollia</token>
     <token tok-pos="" postag="V-3PPIP---" cite="">cinguntur</token>
     <token tok-pos="" postag="A--S---MB-" cite="">tenui</token>
     <token tok-pos="" postag="N--P---NN-" cite="">praecordia</token>
     <token tok-pos="" postag="N--S---MB-" cite="">libro</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="549"/>
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="N--S---FA-" cite="">frondem</token>
     <token tok-pos="" postag="N--P---MN-" cite="">crines</token>
@@ -5119,6 +5127,7 @@ to do list in order of importance:
     <token tok-pos="" postag="N--P---NN-" cite="">bracchia</token>
     <token tok-pos="" postag="V-3PPIA---" cite="">crescunt</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="550"/>
     <token tok-pos="" postag="N--S---MN-" cite="">pes</token>
     <token tok-pos="" postag="D---------" cite="">modo</token>
     <token tok-pos="" postag="D---------" cite="">tam</token>
@@ -5127,10 +5136,9 @@ to do list in order of importance:
     <token tok-pos="" postag="N--P---FB-" cite="">radicibus</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">haeret</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="551"/>
     <token tok-pos="" postag="N--P---NA-" cite="">ora</token>
-    <token tok-pos="" postag="None" cite="">cacume</token>
-    <token tok-pos="" postag="U---------" cite="">-</token>
-    <token tok-pos="" postag="C---------" cite="">ne</token>
+    <token tok-pos="" postag="None" cite="">cacumen</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">habet</token>
     <token tok-pos="" postag="None" cite="">;</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">remanet</token>
@@ -5139,6 +5147,7 @@ to do list in order of importance:
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="P--S---FB-" cite="">illa</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="552"/>
     <token tok-pos="" postag="None" cite="">Hanc</token>
     <token tok-pos="" postag="D---------" cite="">quoque</token>
     <token tok-pos="" postag="None" cite="">Phoebus</token>
@@ -5149,6 +5158,7 @@ to do list in order of importance:
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="N--S---FB-" cite="">stipite</token>
     <token tok-pos="" postag="N--S---FB-" cite="">dextra</token>
+    <lb n="553"/>
     <token tok-pos="" postag="V-3SPIA---" cite="">sentit</token>
     <token tok-pos="" postag="D---------" cite="">adhuc</token>
     <token tok-pos="" postag="V---PNA---" cite="">trepidare</token>
@@ -5156,6 +5166,7 @@ to do list in order of importance:
     <token tok-pos="" postag="R---------" cite="">sub</token>
     <token tok-pos="" postag="N--S---MB-" cite="">cortice</token>
     <token tok-pos="" postag="N--S---NN-" cite="">pectus</token>
+    <lb n="554"/>
     <token tok-pos="" postag="T--SRPPMN-" cite="">conplexus</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="A--P---MB-" cite="">suis</token>
@@ -5165,6 +5176,7 @@ to do list in order of importance:
     <token tok-pos="" postag="N--P---NA-" cite="">membra</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="N--P---MB-" cite="">lacertis</token>
+    <lb n="555"/>
     <token tok-pos="" postag="N--P---NA-" cite="">oscula</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">dat</token>
     <token tok-pos="" postag="N--S---ND-" cite="">ligno</token>
@@ -5174,107 +5186,119 @@ to do list in order of importance:
     <token tok-pos="" postag="N--P---NA-" cite="">oscula</token>
     <token tok-pos="" postag="N--S---NN-" cite="">lignum</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="556"/>
     <token tok-pos="" postag="None" cite="">Cui</token>
     <token tok-pos="" postag="N--S---MN-" cite="">deus</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="C---------" cite="">at</token>
-    <token tok-pos="" postag="C---------" cite="">quoniam</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">coniunx</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">mea</token>
-    <token tok-pos="" postag="D---------" cite="">non</token>
-    <token tok-pos="" postag="V-2SPIA---" cite="">potes</token>
-    <token tok-pos="" postag="V---PNA---" cite="">esse</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">arbor</token>
-    <token tok-pos="" postag="V-2SFIA---" cite="">eris</token>
-    <token tok-pos="" postag="D---------" cite="">certe</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">dixit</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">mea</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Semper</token>
-    <token tok-pos="" postag="V-3PFIA---" cite="">habebunt</token>
-    <token tok-pos="" postag="P--S---FA-" cite="">te</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">coma</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="P--S---FA-" cite="">te</token>
-    <token tok-pos="" postag="N--P---FN-" cite="">citharae</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="P--S---FA-" cite="">te</token>
-    <token tok-pos="" postag="A--P---FN-" cite="">nostrae</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="N--S---FV-" cite="">laure</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="N--P---FN-" cite="">pharetrae</token>
-    <token tok-pos="" postag="None" cite="">:</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">tu</token>
-    <token tok-pos="" postag="N--P---MD-" cite="">ducibus</token>
-    <token tok-pos="" postag="None" cite="">Latiis</token>
-    <token tok-pos="" postag="V-2SFIA---" cite="">aderis</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="C---------" cite="">cum</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">laeta</token>
-    <token tok-pos="" postag="N--S---MA-" cite="">triumphum</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">vox</token>
-    <token tok-pos="" postag="V-3SFIA---" cite="">canet</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="V-3PFIA---" cite="">visent</token>
-    <token tok-pos="" postag="A--P---FA-" cite="">longas</token>
-    <token tok-pos="" postag="None" cite="">Capitolia</token>
-    <token tok-pos="" postag="N--P---FA-" cite="">pompas</token>
-    <token tok-pos="" postag="None" cite="">:</token>
-    <token tok-pos="" postag="N--P---MD-" cite="">postibus</token>
-    <token tok-pos="" postag="None" cite="">Augustis</token>
-    <token tok-pos="" postag="P--P---NA-" cite="">eadem</token>
-    <token tok-pos="" postag="A--S---FNS" cite="">fidissima</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">custos</token>
-    <token tok-pos="" postag="R---------" cite="">ante</token>
-    <token tok-pos="" postag="N--P---FA-" cite="">fores</token>
-    <token tok-pos="" postag="V-2SFIA---" cite="">stabis</token>
-    <token tok-pos="" postag="A--S---FA-" cite="">mediam</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="V-2SFIP---" cite="">tuebere</token>
-    <token tok-pos="" postag="N--S---FA-" cite="">quercum</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="C---------" cite="">ut</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="A--S---NA-" cite="">meum</token>
-    <token tok-pos="" postag="T--PRPPMB-" cite="">intonsis</token>
-    <token tok-pos="" postag="N--S---NN-" cite="">caput</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="A--S---NN-" cite="">iuvenale</token>
-    <token tok-pos="" postag="N--P---MB-" cite="">capillis</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">tu</token>
-    <token tok-pos="" postag="D---------" cite="">quoque</token>
-    <token tok-pos="" postag="A--P---MA-" cite="">perpetuos</token>
-    <token tok-pos="" postag="D---------" cite="">semper</token>
-    <token tok-pos="" postag="V-2SPMA---" cite="">gere</token>
-    <token tok-pos="" postag="N--S---FG-" cite="">frondis</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">honores</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="None" cite="">Finierat</token>
-    <token tok-pos="" postag="None" cite="">Paea</token>
-    <token tok-pos="" postag="U---------" cite="">-</token>
-    <token tok-pos="" postag="C---------" cite="">ne</token>
+    <said degree="2" speaker="Apollo" cite="urn:cts:latinLit:phi0959.phi006:1.556-1.557">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="C---------" cite="">at</token>
+        <token tok-pos="" postag="C---------" cite="">quoniam</token>
+        <token tok-pos="" postag="N--S---FN-" cite="">coniunx</token>
+        <token tok-pos="" postag="A--S---FN-" cite="">mea</token>
+        <token tok-pos="" postag="D---------" cite="">non</token>
+        <token tok-pos="" postag="V-2SPIA---" cite="">potes</token>
+        <token tok-pos="" postag="V---PNA---" cite="">esse</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <lb n="557"/>
+        <token tok-pos="" postag="N--S---FN-" cite="">arbor</token>
+        <token tok-pos="" postag="V-2SFIA---" cite="">eris</token>
+        <token tok-pos="" postag="D---------" cite="">certe</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <token tok-pos="" postag="V-3SRIA---" cite="" type="speech">dixit</token>
+    <said degree="2" speaker="Apollo" cite="urn:cts:latinLit:phi0959.phi006:1.557-1.">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="A--S---FN-" cite="">mea</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <token tok-pos="" postag="None" cite="">Semper</token>
+        <token tok-pos="" postag="V-3PFIA---" cite="">habebunt</token>
+        <lb n="558"/>
+        <token tok-pos="" postag="P--S---FA-" cite="">te</token>
+        <token tok-pos="" postag="N--S---FN-" cite="">coma</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="P--S---FA-" cite="">te</token>
+        <token tok-pos="" postag="N--P---FN-" cite="">citharae</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="P--S---FA-" cite="">te</token>
+        <token tok-pos="" postag="A--P---FN-" cite="">nostrae</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="N--S---FV-" cite="">laure</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="N--P---FN-" cite="">pharetrae</token>
+        <token tok-pos="" postag="None" cite="">:</token>
+        <lb n="559"/>
+        <token tok-pos="" postag="P--S---MN-" cite="">tu</token>
+        <token tok-pos="" postag="N--P---MD-" cite="">ducibus</token>
+        <token tok-pos="" postag="None" cite="">Latiis</token>
+        <token tok-pos="" postag="V-2SFIA---" cite="">aderis</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="C---------" cite="">cum</token>
+        <token tok-pos="" postag="A--S---FN-" cite="">laeta</token>
+        <token tok-pos="" postag="N--S---MA-" cite="">triumphum</token>
+        <lb n="560"/>
+        <token tok-pos="" postag="N--S---FN-" cite="">vox</token>
+        <token tok-pos="" postag="V-3SFIA---" cite="">canet</token>
+        <token tok-pos="" postag="C---------" cite="">et</token>
+        <token tok-pos="" postag="V-3PFIA---" cite="">visent</token>
+        <token tok-pos="" postag="A--P---FA-" cite="">longas</token>
+        <token tok-pos="" postag="None" cite="">Capitolia</token>
+        <token tok-pos="" postag="N--P---FA-" cite="">pompas</token>
+        <token tok-pos="" postag="None" cite="">:</token>
+        <lb n="561"/>
+        <token tok-pos="" postag="N--P---MD-" cite="">postibus</token>
+        <token tok-pos="" postag="None" cite="">Augustis</token>
+        <token tok-pos="" postag="P--P---NA-" cite="">eadem</token>
+        <token tok-pos="" postag="A--S---FNS" cite="">fidissima</token>
+        <token tok-pos="" postag="N--S---FN-" cite="">custos</token>
+        <lb n="562"/>
+        <token tok-pos="" postag="R---------" cite="">ante</token>
+        <token tok-pos="" postag="N--P---FA-" cite="">fores</token>
+        <token tok-pos="" postag="V-2SFIA---" cite="">stabis</token>
+        <token tok-pos="" postag="A--S---FA-" cite="">mediam</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="V-2SFIP---" cite="">tuebere</token>
+        <token tok-pos="" postag="N--S---FA-" cite="">quercum</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <lb n="563"/>
+        <token tok-pos="" postag="C---------" cite="">ut</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="A--S---NA-" cite="">meum</token>
+        <token tok-pos="" postag="T--PRPPMB-" cite="">intonsis</token>
+        <token tok-pos="" postag="N--S---NN-" cite="">caput</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
+        <token tok-pos="" postag="A--S---NN-" cite="">iuvenale</token>
+        <token tok-pos="" postag="N--P---MB-" cite="">capillis</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <lb n="564"/>
+        <token tok-pos="" postag="P--S---MN-" cite="">tu</token>
+        <token tok-pos="" postag="D---------" cite="">quoque</token>
+        <token tok-pos="" postag="A--P---MA-" cite="">perpetuos</token>
+        <token tok-pos="" postag="D---------" cite="">semper</token>
+        <token tok-pos="" postag="V-2SPMA---" cite="">gere</token>
+        <token tok-pos="" postag="N--S---FG-" cite="">frondis</token>
+        <token tok-pos="" postag="N--P---MA-" cite="">honores</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <lb n="565"/>
+    <token tok-pos="" postag="None" cite="" type="speech">Finierat</token>
+    <token tok-pos="" postag="None" cite="">Paean</token>
     <token tok-pos="" postag="None" cite="">:</token>
     <token tok-pos="" postag="N--P---NB-" cite="">factis</token>
     <token tok-pos="" postag="D---------" cite="">modo</token>
     <token tok-pos="" postag="N--S---FN-" cite="">laurea</token>
     <token tok-pos="" postag="N--P---MB-" cite="">ramis</token>
+    <lb n="566"/>
     <token tok-pos="" postag="V-3SRIA---" cite="">adnuit</token>
     <token tok-pos="" postag="C---------" cite="">ut</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--S---NA-" cite="">caput</token>
-    <token tok-pos="" postag="T--SRPPFN-" cite="">visa</token>
+    <token tok-pos="" postag="T--SRPPFN-" cite="" type="vision">visa</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
     <token tok-pos="" postag="V---RNA---" cite="">agitasse</token>
-    <token tok-pos="" postag="None" cite="">cacume</token>
-    <token tok-pos="" postag="U---------" cite="">-</token>
-    <token tok-pos="" postag="C---------" cite="">ne</token>
+    <token tok-pos="" postag="None" cite="">cacumen</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="567"/>
     <token tok-pos="" postag="None" cite="">Est</token>
     <token tok-pos="" postag="N--S---NN-" cite="">nemus</token>
     <token tok-pos="" postag="None" cite="">Haemoniae</token>
@@ -5283,9 +5307,10 @@ to do list in order of importance:
     <token tok-pos="" postag="P--S---NA-" cite="">quod</token>
     <token tok-pos="" postag="D---------" cite="">undique</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">claudit</token>
+    <lb n="568"/>
     <token tok-pos="" postag="N--S---FN-" cite="">silva</token>
     <token tok-pos="" postag="None" cite="">:</token>
-    <token tok-pos="" postag="V-3PPIA---" cite="">vocant</token>
+    <token tok-pos="" postag="V-3PPIA---" cite="" type="speech">vocant</token>
     <token tok-pos="" postag="None" cite="">Tempe</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
     <token tok-pos="" postag="None" cite="">Per</token>
@@ -5293,24 +5318,28 @@ to do list in order of importance:
     <token tok-pos="" postag="None" cite="">Peneus</token>
     <token tok-pos="" postag="R---------" cite="">ab</token>
     <token tok-pos="" postag="A--S---MB-" cite="">imo</token>
+    <lb n="569"/>
     <token tok-pos="" postag="T--SRPPMN-" cite="">effusus</token>
     <token tok-pos="" postag="None" cite="">Pindo</token>
     <token tok-pos="" postag="A--P---FB-" cite="">spumosis</token>
     <token tok-pos="" postag="V-3SPIP---" cite="">volvitur</token>
     <token tok-pos="" postag="N--P---FB-" cite="">undis</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="570"/>
     <token tok-pos="" postag="N--S---MB-" cite="">deiectu</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="A--S---MB-" cite="">gravi</token>
     <token tok-pos="" postag="A--P---MA-" cite="">tenues</token>
     <token tok-pos="" postag="T--PPPANA-" cite="">agitantia</token>
     <token tok-pos="" postag="N--P---MA-" cite="">fumos</token>
+    <lb n="571"/>
     <token tok-pos="" postag="N--P---NA-" cite="">nubila</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">conducit</token>
     <token tok-pos="" postag="A--P---MD-" cite="">summis</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--S---FB-" cite="">adspergine</token>
     <token tok-pos="" postag="N--P---FD-" cite="">silvis</token>
+    <lb n="572"/>
     <token tok-pos="" postag="V-3SPIA---" cite="">inpluit</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="N--S---MB-" cite="">sonitu</token>
@@ -5319,6 +5348,7 @@ to do list in order of importance:
     <token tok-pos="" postag="A--S---FB-" cite="">vicina</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">fatigat</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="573"/>
     <token tok-pos="" postag="None" cite="">Haec</token>
     <token tok-pos="" postag="N--S---FN-" cite="">domus</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
@@ -5329,6 +5359,7 @@ to do list in order of importance:
     <token tok-pos="" postag="V-3PPIA---" cite="">sunt</token>
     <token tok-pos="" postag="A--P---NN-" cite="">penetralia</token>
     <token tok-pos="" postag="A--S---MG-" cite="">magni</token>
+    <lb n="574"/>
     <token tok-pos="" postag="N--S---MG-" cite="">amnis</token>
     <token tok-pos="" postag="None" cite="">;</token>
     <token tok-pos="" postag="R---------" cite="">in</token>
@@ -5339,6 +5370,7 @@ to do list in order of importance:
     <token tok-pos="" postag="N--P---FB-" cite="">cautibus</token>
     <token tok-pos="" postag="N--S---NB-" cite="">antro</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="575"/>
     <token tok-pos="" postag="N--P---FD-" cite="">undis</token>
     <token tok-pos="" postag="N--P---NA-" cite="">iura</token>
     <token tok-pos="" postag="V-3SIIA---" cite="">dabat</token>
@@ -5347,23 +5379,28 @@ to do list in order of importance:
     <token tok-pos="" postag="T--PPPAFD-" cite="">colentibus</token>
     <token tok-pos="" postag="N--P---FA-" cite="">undas</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="576"/>
     <token tok-pos="" postag="None" cite="">Conveniunt</token>
     <token tok-pos="" postag="D---------" cite="">illuc</token>
     <token tok-pos="" postag="A--P---NN-" cite="">popularia</token>
     <token tok-pos="" postag="N--P---NN-" cite="">flumina</token>
     <token tok-pos="" postag="D---------" cite="">primum</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="577"/>
     <token tok-pos="" postag="A--P---NN-" cite="">nescia</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="V-3PPSP---" cite="">gratentur</token>
-    <token tok-pos="" postag="None" cite="">consolenturne</token>
+    <token tok-pos="" postag="V-3PPSP---" cite="" type="speech">gratentur</token>
+    <token tok-pos="" postag="None" cite="" type="speech">consolentur</token>
+    <token tok-pos="" postag="None" cite="">ne</token>
     <token tok-pos="" postag="N--S---MA-" cite="">parentem</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="578"/>
     <token tok-pos="" postag="A--S---MN-" cite="">populifer</token>
     <token tok-pos="" postag="None" cite="">Sperchios</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="A--S---MN-" cite="">inrequietus</token>
     <token tok-pos="" postag="None" cite="">Enipeus</token>
+    <lb n="579"/>
     <token tok-pos="" postag="None" cite="">Apidanus</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="A--S---MN-" cite="">senex</token>
@@ -5373,6 +5410,7 @@ to do list in order of importance:
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="None" cite="">Aeas</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="580"/>
     <token tok-pos="" postag="D---------" cite="">mox</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--P---MA-" cite="">amnes</token>
@@ -5385,6 +5423,7 @@ to do list in order of importance:
     <token tok-pos="" postag="N--S---MN-" cite="">impetus</token>
     <token tok-pos="" postag="P--P---MA-" cite="">illos</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="581"/>
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="N--S---NA-" cite="">mare</token>
     <token tok-pos="" postag="V-3PPIA---" cite="">deducunt</token>
@@ -5392,6 +5431,7 @@ to do list in order of importance:
     <token tok-pos="" postag="N--P---MB-" cite="">erroribus</token>
     <token tok-pos="" postag="N--P---FA-" cite="">undas</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="582"/>
     <token tok-pos="" postag="R---------" cite="">Inachus</token>
     <token tok-pos="" postag="A--S---MN-" cite="">unus</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">abest</token>
@@ -5399,6 +5439,7 @@ to do list in order of importance:
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="T--SRPPMN-" cite="">reconditus</token>
     <token tok-pos="" postag="N--S---NB-" cite="">antro</token>
+    <lb n="583"/>
     <token tok-pos="" postag="N--P---MB-" cite="">fletibus</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">auget</token>
     <token tok-pos="" postag="N--P---FA-" cite="">aquas</token>
@@ -5406,15 +5447,18 @@ to do list in order of importance:
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="A--S---MNS" cite="">miserrimus</token>
     <token tok-pos="" postag="None" cite="">Io</token>
+    <lb n="584"/>
     <token tok-pos="" postag="V-3SPIA---" cite="">luget</token>
     <token tok-pos="" postag="C---------" cite="">ut</token>
     <token tok-pos="" postag="T--SRPPFA-" cite="">amissam</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
     <token tok-pos="" postag="None" cite="">Nescit</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="None" cite="">vitane</token>
+    <token tok-pos="" postag="None" cite="">vita</token>
+    <token tok-pos="" postag="None" cite="">ne</token>
     <token tok-pos="" postag="V-3SPSP---" cite="">fruatur</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="585"/>
     <token tok-pos="" postag="C---------" cite="">an</token>
     <token tok-pos="" postag="V-3SPSA---" cite="">sit</token>
     <token tok-pos="" postag="R---------" cite="">apud</token>
@@ -5426,6 +5470,7 @@ to do list in order of importance:
     <token tok-pos="" postag="V-3SPIA---" cite="">invenit</token>
     <token tok-pos="" postag="D---------" cite="">usquam</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="586"/>
     <token tok-pos="" postag="V---PNA---" cite="">esse</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">putat</token>
     <token tok-pos="" postag="D---------" cite="">nusquam</token>
@@ -5434,35 +5479,43 @@ to do list in order of importance:
     <token tok-pos="" postag="A--P---NAC" cite="">peiora</token>
     <token tok-pos="" postag="V-3SPIP---" cite="">veretur</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Viderat</token>
+    <lb n="587"/>
+    <token tok-pos="" postag="None" cite="" type="vision">Viderat</token>
     <token tok-pos="" postag="R---------" cite="">a</token>
     <token tok-pos="" postag="A--S---NB-" cite="">patrio</token>
     <token tok-pos="" postag="T--SPPAFA-" cite="">redeuntem</token>
     <token tok-pos="" postag="None" cite="">Iuppiter</token>
     <token tok-pos="" postag="P--S---FA-" cite="">illam</token>
+    <lb n="588"/>
     <token tok-pos="" postag="N--S---NB-" cite="">flumine</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="E---------" cite="">o</token>
-    <token tok-pos="" postag="N--S---FV-" cite="">virgo</token>
-    <token tok-pos="" postag="None" cite="">Iove</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">digna</token>
-    <token tok-pos="" postag="A--S---MB-" cite="">tuo</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="A--S---MA-" cite="">beatum</token>
-    <token tok-pos="" postag="V-1SPIA---" cite="">nescio</token>
-    <token tok-pos="" postag="P--S---MA-" cite="">quem</token>
-    <token tok-pos="" postag="T--SFPAFV-" cite="">factura</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">toro</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="V-2SPMA---" cite="">pete</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="V-3SLIA---" cite="">dixerat</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="N--P---FA-" cite="">umbras</token>
-    <token tok-pos="" postag="A--P---NG-" cite="">altorum</token>
-    <token tok-pos="" postag="N--P---NG-" cite="">nemorum</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
+    <said degree="2" speaker="Jupiter" cite="urn:cts:latinLit:phi0959.phi006:1.588-1.589">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="E---------" cite="">o</token>
+        <token tok-pos="" postag="N--S---FV-" cite="">virgo</token>
+        <token tok-pos="" postag="None" cite="">Iove</token>
+        <token tok-pos="" postag="A--S---FN-" cite="">digna</token>
+        <token tok-pos="" postag="A--S---MB-" cite="">tuo</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="A--S---MA-" cite="">beatum</token>
+        <lb n="589"/>
+        <token tok-pos="" postag="V-1SPIA---" cite="">nescio</token>
+        <token tok-pos="" postag="P--S---MA-" cite="">quem</token>
+        <token tok-pos="" postag="T--SFPAFV-" cite="">factura</token>
+        <token tok-pos="" postag="N--S---MB-" cite="">toro</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="V-2SPMA---" cite="">pete</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <token tok-pos="" postag="V-3SLIA---" cite="" type="speech">dixerat</token>
+    <said degree="2" speaker="Jupiter" cite="urn:cts:latinLit:phi0959.phi006:1.589-1.">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="N--P---FA-" cite="">umbras</token>
+        <lb n="590"/>
+        <token tok-pos="" postag="A--P---NG-" cite="">altorum</token>
+        <token tok-pos="" postag="N--P---NG-" cite="">nemorum</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
     <token tok-pos="" postag="U---------" cite="">(</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="N--P---NG-" cite="">nemorum</token>
@@ -5470,54 +5523,62 @@ to do list in order of importance:
     <token tok-pos="" postag="N--P---FA-" cite="">umbras</token>
     <token tok-pos="" postag="U---------" cite="">)</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="C---------" cite="">dum</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">calet</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="A--S---MB-" cite="">medio</token>
-    <token tok-pos="" postag="N--S---MN-" cite="">sol</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="A--S---MNS" cite="">altissimus</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">orbe</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Quodsi</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">sola</token>
-    <token tok-pos="" postag="V-2SPIA---" cite="">times</token>
-    <token tok-pos="" postag="N--P---FA-" cite="">latebras</token>
-    <token tok-pos="" postag="V---PNA---" cite="">intrare</token>
-    <token tok-pos="" postag="N--P---FG-" cite="">ferarum</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">praeside</token>
-    <token tok-pos="" postag="----------" cite="">tuta</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">deo</token>
-    <token tok-pos="" postag="N--P---NG-" cite="">nemorum</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">secreta</token>
-    <token tok-pos="" postag="V-2SFIA---" cite="">subibis</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="C---------" cite="">nec</token>
-    <token tok-pos="" postag="R---------" cite="">de</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">plebe</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">deo</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="C---------" cite="">sed</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">qui</token>
-    <token tok-pos="" postag="A--P---NA-" cite="">caelestia</token>
-    <token tok-pos="" postag="A--S---FB-" cite="">magna</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">sceptra</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">manu</token>
-    <token tok-pos="" postag="V-1SPIA---" cite="">teneo</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="C---------" cite="">sed</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">qui</token>
-    <token tok-pos="" postag="A--P---NA-" cite="">vaga</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">fulmina</token>
-    <token tok-pos="" postag="V-1SPIA---" cite="">mitto</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Ne</token>
-    <token tok-pos="" postag="V-2SPMA---" cite="">fuge</token>
-    <token tok-pos="" postag="P--S---MA-" cite="">me</token>
-    <token tok-pos="" postag="None" cite="">!</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
+    <said degree="2" speaker="Jupiter" cite="urn:cts:latinLit:phi0959.phi006:1.591-1.596">
+        <lb n="591"/>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="C---------" cite="">dum</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">calet</token>
+        <token tok-pos="" postag="C---------" cite="">et</token>
+        <token tok-pos="" postag="A--S---MB-" cite="">medio</token>
+        <token tok-pos="" postag="N--S---MN-" cite="">sol</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
+        <token tok-pos="" postag="A--S---MNS" cite="">altissimus</token>
+        <token tok-pos="" postag="N--S---MB-" cite="">orbe</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <lb n="592"/>
+        <token tok-pos="" postag="None" cite="">Quodsi</token>
+        <token tok-pos="" postag="A--S---FN-" cite="">sola</token>
+        <token tok-pos="" postag="V-2SPIA---" cite="">times</token>
+        <token tok-pos="" postag="N--P---FA-" cite="">latebras</token>
+        <token tok-pos="" postag="V---PNA---" cite="">intrare</token>
+        <token tok-pos="" postag="N--P---FG-" cite="">ferarum</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <lb n="593"/>
+        <token tok-pos="" postag="N--S---MB-" cite="">praeside</token>
+        <token tok-pos="" postag="----------" cite="">tuta</token>
+        <token tok-pos="" postag="N--S---MB-" cite="">deo</token>
+        <token tok-pos="" postag="N--P---NG-" cite="">nemorum</token>
+        <token tok-pos="" postag="N--P---NA-" cite="">secreta</token>
+        <token tok-pos="" postag="V-2SFIA---" cite="">subibis</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <lb n="594"/>
+        <token tok-pos="" postag="C---------" cite="">nec</token>
+        <token tok-pos="" postag="R---------" cite="">de</token>
+        <token tok-pos="" postag="N--S---FB-" cite="">plebe</token>
+        <token tok-pos="" postag="N--S---MB-" cite="">deo</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="C---------" cite="">sed</token>
+        <token tok-pos="" postag="P--S---MN-" cite="">qui</token>
+        <token tok-pos="" postag="A--P---NA-" cite="">caelestia</token>
+        <token tok-pos="" postag="A--S---FB-" cite="">magna</token>
+        <lb n="595"/>
+        <token tok-pos="" postag="N--P---NA-" cite="">sceptra</token>
+        <token tok-pos="" postag="N--S---FB-" cite="">manu</token>
+        <token tok-pos="" postag="V-1SPIA---" cite="">teneo</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="C---------" cite="">sed</token>
+        <token tok-pos="" postag="P--S---MN-" cite="">qui</token>
+        <token tok-pos="" postag="A--P---NA-" cite="">vaga</token>
+        <token tok-pos="" postag="N--P---NA-" cite="">fulmina</token>
+        <token tok-pos="" postag="V-1SPIA---" cite="">mitto</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <lb n="596"/>
+        <token tok-pos="" postag="None" cite="">Ne</token>
+        <token tok-pos="" postag="V-2SPMA---" cite="">fuge</token>
+        <token tok-pos="" postag="P--S---MA-" cite="">me</token>
+        <token tok-pos="" postag="None" cite="">!</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
     <token tok-pos="" postag="U---------" cite="">-</token>
     <token tok-pos="" postag="V-3SIIA---" cite="">fugiebat</token>
     <token tok-pos="" postag="C---------" cite="">enim</token>
@@ -5525,6 +5586,7 @@ to do list in order of importance:
     <token tok-pos="" postag="None" cite="">Iam</token>
     <token tok-pos="" postag="A--P---NA-" cite="">pascua</token>
     <token tok-pos="" postag="None" cite="">Lernae</token>
+    <lb n="597"/>
     <token tok-pos="" postag="T--PRPPNA-" cite="">consita</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--P---FB-" cite="">arboribus</token>
@@ -5532,12 +5594,14 @@ to do list in order of importance:
     <token tok-pos="" postag="V-3SLIA---" cite="">reliquerat</token>
     <token tok-pos="" postag="N--P---NA-" cite="">arva</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="598"/>
     <token tok-pos="" postag="C---------" cite="">cum</token>
     <token tok-pos="" postag="N--S---MN-" cite="">deus</token>
     <token tok-pos="" postag="T--SRPPFB-" cite="">inducta</token>
     <token tok-pos="" postag="A--P---FA-" cite="">latas</token>
     <token tok-pos="" postag="N--S---FB-" cite="">caligine</token>
     <token tok-pos="" postag="N--P---FA-" cite="">terras</token>
+    <lb n="599"/>
     <token tok-pos="" postag="V-3SRIA---" cite="">occuluit</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">tenuit</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
@@ -5546,18 +5610,21 @@ to do list in order of importance:
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--S---MA-" cite="">pudorem</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="600"/>
     <token tok-pos="" postag="R---------" cite="">Interea</token>
     <token tok-pos="" postag="A--P---MA-" cite="">medios</token>
     <token tok-pos="" postag="None" cite="">Iuno</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">despexit</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="" type="vision">despexit</token>
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="N--P---MA-" cite="">agros</token>
+    <lb n="601"/>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="N--S---FG-" cite="">noctis</token>
     <token tok-pos="" postag="N--S---FA-" cite="">faciem</token>
     <token tok-pos="" postag="N--P---FA-" cite="">nebulas</token>
     <token tok-pos="" postag="V---RNA---" cite="">fecisse</token>
     <token tok-pos="" postag="A--P---FA-" cite="">volucres</token>
+    <lb n="602"/>
     <token tok-pos="" postag="R---------" cite="">sub</token>
     <token tok-pos="" postag="A--S---MB-" cite="">nitido</token>
     <token tok-pos="" postag="T--SRPPFN-" cite="">mirata</token>
@@ -5566,6 +5633,7 @@ to do list in order of importance:
     <token tok-pos="" postag="D---------" cite="">non</token>
     <token tok-pos="" postag="N--S---NG-" cite="">fluminis</token>
     <token tok-pos="" postag="P--P---FA-" cite="">illas</token>
+    <lb n="603"/>
     <token tok-pos="" postag="V---PNA---" cite="">esse</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="C---------" cite="">nec</token>
@@ -5574,15 +5642,17 @@ to do list in order of importance:
     <token tok-pos="" postag="N--S---FB-" cite="">tellure</token>
     <token tok-pos="" postag="V---PNP---" cite="">remitti</token>
     <token tok-pos="" postag="None" cite="">;</token>
+    <lb n="604"/>
     <token tok-pos="" postag="C---------" cite="">atque</token>
     <token tok-pos="" postag="A--S---MN-" cite="">suus</token>
     <token tok-pos="" postag="N--S---MN-" cite="">coniunx</token>
     <token tok-pos="" postag="D---------" cite="">ubi</token>
     <token tok-pos="" postag="V-3SPSA---" cite="">sit</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">circumspicit</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="" type="vision">circumspicit</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="C---------" cite="">ut</token>
     <token tok-pos="" postag="P--P---NA-" cite="">quae</token>
+    <lb n="605"/>
     <token tok-pos="" postag="T---RPPMG-" cite="">deprensi</token>
     <token tok-pos="" postag="D---------" cite="">totiens</token>
     <token tok-pos="" postag="D---------" cite="">iam</token>
@@ -5590,57 +5660,66 @@ to do list in order of importance:
     <token tok-pos="" postag="N--P---NA-" cite="">furta</token>
     <token tok-pos="" postag="N--S---MG-" cite="">mariti</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="606"/>
     <token tok-pos="" postag="None" cite="">Quem</token>
     <token tok-pos="" postag="C---------" cite="">postquam</token>
     <token tok-pos="" postag="N--S---NB-" cite="">caelo</token>
     <token tok-pos="" postag="D---------" cite="">non</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">repperit</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="C---------" cite="">aut</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">ego</token>
-    <token tok-pos="" postag="V-1SPIP---" cite="">fallor</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="C---------" cite="">aut</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">ego</token>
-    <token tok-pos="" postag="V-1SPIP---" cite="">laedor</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">ait</token>
+    <said degree="2" speaker="Juno" cite="urn:cts:latinLit:phi0959.phi006:1.606-1.607">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="C---------" cite="">aut</token>
+        <token tok-pos="" postag="P--S---MN-" cite="">ego</token>
+        <token tok-pos="" postag="V-1SPIP---" cite="">fallor</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <lb n="607"/>
+        <token tok-pos="" postag="C---------" cite="">aut</token>
+        <token tok-pos="" postag="P--S---MN-" cite="">ego</token>
+        <token tok-pos="" postag="V-1SPIP---" cite="">laedor</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <token tok-pos="" postag="V-3SPIA---" cite="" type="speech">ait</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="T--SRPPFN-" cite="">delapsa</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="R---------" cite="">ab</token>
     <token tok-pos="" postag="N--S---MB-" cite="">aethere</token>
     <token tok-pos="" postag="A--S---MB-" cite="">summo</token>
+    <lb n="608"/>
     <token tok-pos="" postag="V-3SRIA---" cite="">constitit</token>
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="N--P---FB-" cite="">terris</token>
     <token tok-pos="" postag="N--P---FA-" cite="">nebulas</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="V---PNA---" cite="">recedere</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">iussit</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="" type="speech">iussit</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="609"/>
     <token tok-pos="" postag="None" cite="">Coniugis</token>
     <token tok-pos="" postag="N--S---MA-" cite="">adventum</token>
     <token tok-pos="" postag="V-3SLIA---" cite="">praesenserat</token>
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="T--SPPAFA-" cite="">nitentem</token>
+    <lb n="610"/>
     <token tok-pos="" postag="R---------" cite="">Inachidos</token>
     <token tok-pos="" postag="N--P---MA-" cite="">vultus</token>
     <token tok-pos="" postag="V-3SLIA---" cite="">mutaverat</token>
     <token tok-pos="" postag="P--S---MN-" cite="">ille</token>
     <token tok-pos="" postag="N--S---FA-" cite="">iuvencam</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="611"/>
     <token tok-pos="" postag="None" cite="">Bos</token>
     <token tok-pos="" postag="D---------" cite="">quoque</token>
     <token tok-pos="" postag="A--S---FN-" cite="">formosa</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Speciem</token>
+    <token tok-pos="" postag="None" cite="" type="vision">Speciem</token>
     <token tok-pos="" postag="None" cite="">Saturnia</token>
     <token tok-pos="" postag="N--S---FG-" cite="">vaccae</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="612"/>
     <token tok-pos="" postag="C---------" cite="">quamquam</token>
     <token tok-pos="" postag="A--S---FN-" cite="">invita</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
@@ -5652,8 +5731,8 @@ to do list in order of importance:
     <token tok-pos="" postag="P--S---MG-" cite="">cuius</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="D---------" cite="">unde</token>
+    <lb n="613"/>
     <token tok-pos="" postag="C---------" cite="">quo</token>
-    <token tok-pos="" postag="U---------" cite="">-</token>
     <token tok-pos="" postag="C---------" cite="">ve</token>
     <token tok-pos="" postag="V-3SPSA---" cite="">sit</token>
     <token tok-pos="" postag="N--S---NB-" cite="">armento</token>
@@ -5663,22 +5742,25 @@ to do list in order of importance:
     <token tok-pos="" postag="A--S---FN-" cite="">nescia</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">quaerit</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="614"/>
     <token tok-pos="" postag="None" cite="">Iuppiter</token>
     <token tok-pos="" postag="R---------" cite="">e</token>
     <token tok-pos="" postag="N--S---FB-" cite="">terra</token>
     <token tok-pos="" postag="None" cite="">genitam</token>
-    <token tok-pos="" postag="None" cite="">mentitur</token>
+    <token tok-pos="" postag="None" cite="" type="speech">mentitur</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="C---------" cite="">ut</token>
     <token tok-pos="" postag="None" cite="">auctor</token>
+    <lb n="615"/>
     <token tok-pos="" postag="None" cite="">desinat</token>
-    <token tok-pos="" postag="None" cite="">inquiri</token>
+    <token tok-pos="" postag="None" cite="" type="speech">inquiri</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
     <token tok-pos="" postag="None" cite="">Petit</token>
     <token tok-pos="" postag="P--S---FA-" cite="">hanc</token>
     <token tok-pos="" postag="None" cite="">Saturnia</token>
     <token tok-pos="" postag="N--S---NA-" cite="">munus</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="616"/>
     <token tok-pos="" postag="None" cite="">Quid</token>
     <token tok-pos="" postag="V-3SPSA---" cite="">faciat</token>
     <token tok-pos="" postag="None" cite="">?</token>
@@ -5687,6 +5769,7 @@ to do list in order of importance:
     <token tok-pos="" postag="V---PNA---" cite="">addicere</token>
     <token tok-pos="" postag="N--P---MA-" cite="">amores</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="617"/>
     <token tok-pos="" postag="D---------" cite="">non</token>
     <token tok-pos="" postag="V---PNA---" cite="">dare</token>
     <token tok-pos="" postag="A--S---NN-" cite="">suspectum</token>
@@ -5695,11 +5778,12 @@ to do list in order of importance:
     <token tok-pos="" postag="None" cite="">Pudor</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
     <token tok-pos="" postag="P--S---MN-" cite="">qui</token>
-    <token tok-pos="" postag="V-3SPSA---" cite="">suadeat</token>
+    <token tok-pos="" postag="V-3SPSA---" cite="" type="speech">suadeat</token>
     <token tok-pos="" postag="D---------" cite="">illinc</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="618"/>
     <token tok-pos="" postag="D---------" cite="">hinc</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">dissuadet</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="" type="speech">dissuadet</token>
     <token tok-pos="" postag="N--S---MN-" cite="">amor</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
     <token tok-pos="" postag="None" cite="">Victus</token>
@@ -5707,6 +5791,7 @@ to do list in order of importance:
     <token tok-pos="" postag="V-3SISA---" cite="">esset</token>
     <token tok-pos="" postag="N--S---MB-" cite="">amore</token>
     <token tok-pos="" postag="None" cite="">;</token>
+    <lb n="619"/>
     <token tok-pos="" postag="C---------" cite="">sed</token>
     <token tok-pos="" postag="A--S---NN-" cite="">leve</token>
     <token tok-pos="" postag="C---------" cite="">si</token>
@@ -5716,6 +5801,7 @@ to do list in order of importance:
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--S---MG-" cite="">tori</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
+    <lb n="620"/>
     <token tok-pos="" postag="N--S---FN-" cite="">vacca</token>
     <token tok-pos="" postag="V-3SISP---" cite="">negaretur</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
@@ -5724,12 +5810,14 @@ to do list in order of importance:
     <token tok-pos="" postag="N--S---FN-" cite="">vacca</token>
     <token tok-pos="" postag="V---PNP---" cite="">videri</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="621"/>
     <token tok-pos="" postag="None" cite="">Paelice</token>
     <token tok-pos="" postag="T--SRPPFB-" cite="">donata</token>
     <token tok-pos="" postag="D---------" cite="">non</token>
     <token tok-pos="" postag="D---------" cite="">protinus</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">exuit</token>
     <token tok-pos="" postag="A--S---MA-" cite="">omnem</token>
+    <lb n="622"/>
     <token tok-pos="" postag="N--S---FN-" cite="">diva</token>
     <token tok-pos="" postag="N--S---MA-" cite="">metum</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">timuit</token>
@@ -5740,19 +5828,22 @@ to do list in order of importance:
     <token tok-pos="" postag="A--S---FN-" cite="">anxia</token>
     <token tok-pos="" postag="N--S---NG-" cite="">furti</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="623"/>
     <token tok-pos="" postag="C---------" cite="">donec</token>
     <token tok-pos="" postag="None" cite="">Arestoridae</token>
     <token tok-pos="" postag="T--SPGPFA-" cite="">servandam</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">tradidit</token>
     <token tok-pos="" postag="None" cite="">Argo</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="624"/>
     <token tok-pos="" postag="None" cite="">Centum</token>
-    <token tok-pos="" postag="N--P---NB-" cite="">luminibus</token>
+    <token tok-pos="" postag="N--P---NB-" cite="" type="vision">luminibus</token>
     <token tok-pos="" postag="T--SRPPNA-" cite="">cinctum</token>
     <token tok-pos="" postag="N--S---NA-" cite="">caput</token>
     <token tok-pos="" postag="None" cite="">Argus</token>
     <token tok-pos="" postag="V-3SIIA---" cite="">habebat</token>
     <token tok-pos="" postag="None" cite="">:</token>
+    <lb n="625"/>
     <token tok-pos="" postag="D---------" cite="">inde</token>
     <token tok-pos="" postag="A--P---FB-" cite="">suis</token>
     <token tok-pos="" postag="N--P---FB-" cite="">vicibus</token>
@@ -5760,6 +5851,7 @@ to do list in order of importance:
     <token tok-pos="" postag="A--P---NN-" cite="">bina</token>
     <token tok-pos="" postag="N--S---FA-" cite="">quietem</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="626"/>
     <token tok-pos="" postag="N--P---NN-" cite="">cetera</token>
     <token tok-pos="" postag="V-3PIIA---" cite="">servabant</token>
     <token tok-pos="" postag="C---------" cite="">atque</token>
@@ -5767,17 +5859,19 @@ to do list in order of importance:
     <token tok-pos="" postag="N--S---FB-" cite="">statione</token>
     <token tok-pos="" postag="V-3PIIA---" cite="">manebant</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="627"/>
     <token tok-pos="" postag="None" cite="">Constiterat</token>
     <token tok-pos="" postag="C---------" cite="">cum</token>
     <token tok-pos="" postag="D---------" cite="">quoque</token>
     <token tok-pos="" postag="D---------" cite="">modo</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="V-3SIIA---" cite="">spectabat</token>
+    <token tok-pos="" postag="V-3SIIA---" cite="" type="vision">spectabat</token>
     <token tok-pos="" postag="R---------" cite="">ad</token>
     <token tok-pos="" postag="None" cite="">Io</token>
     <token tok-pos="" postag="None" cite="">:</token>
+    <lb n="628"/>
     <token tok-pos="" postag="R---------" cite="">ante</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">oculos</token>
+    <token tok-pos="" postag="N--P---MA-" cite="" type="vision">oculos</token>
     <token tok-pos="" postag="None" cite="">Io</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="C---------" cite="">quamvis</token>
@@ -5785,6 +5879,7 @@ to do list in order of importance:
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="V-3SIIA---" cite="">habebat</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="629"/>
     <token tok-pos="" postag="None" cite="">Luce</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">sinit</token>
     <token tok-pos="" postag="V---PNP---" cite="">pasci</token>
@@ -5796,6 +5891,7 @@ to do list in order of importance:
     <token tok-pos="" postag="A--S---FB-" cite="">alta</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="630"/>
     <token tok-pos="" postag="V-3SPIA---" cite="">claudit</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="A--S---ND-" cite="">indigno</token>
@@ -5803,6 +5899,7 @@ to do list in order of importance:
     <token tok-pos="" postag="N--P---NA-" cite="">vincula</token>
     <token tok-pos="" postag="N--S---ND-" cite="">collo</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="631"/>
     <token tok-pos="" postag="N--P---FB-" cite="">frondibus</token>
     <token tok-pos="" postag="A--P---FB-" cite="">arboreis</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
@@ -5810,16 +5907,16 @@ to do list in order of importance:
     <token tok-pos="" postag="V-3SPIP---" cite="">pascitur</token>
     <token tok-pos="" postag="N--S---FB-" cite="">herba</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="632"/>
     <token tok-pos="" postag="R---------" cite="">pro</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--S---MB-" cite="">toro</token>
     <token tok-pos="" postag="N--S---FD-" cite="">terrae</token>
     <token tok-pos="" postag="D---------" cite="">non</token>
     <token tok-pos="" postag="D---------" cite="">semper</token>
-    <token tok-pos="" postag="None" cite="">grame</token>
-    <token tok-pos="" postag="U---------" cite="">-</token>
-    <token tok-pos="" postag="C---------" cite="">ne</token>
+    <token tok-pos="" postag="None" cite="">gramen</token>
     <token tok-pos="" postag="T--SPPAFD-" cite="">habenti</token>
+    <lb n="633"/>
     <token tok-pos="" postag="V-3SPIA---" cite="">incubat</token>
     <token tok-pos="" postag="A--S---FN-" cite="">infelix</token>
     <token tok-pos="" postag="A--P---NA-" cite="">limosa</token>
@@ -5827,6 +5924,7 @@ to do list in order of importance:
     <token tok-pos="" postag="N--P---NA-" cite="">flumina</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">potat</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="634"/>
     <token tok-pos="" postag="None" cite="">Illa</token>
     <token tok-pos="" postag="D---------" cite="">etiam</token>
     <token tok-pos="" postag="A--S---FN-" cite="">supplex</token>
@@ -5834,6 +5932,7 @@ to do list in order of importance:
     <token tok-pos="" postag="C---------" cite="">cum</token>
     <token tok-pos="" postag="N--P---NA-" cite="">bracchia</token>
     <token tok-pos="" postag="V-3SISA---" cite="">vellet</token>
+    <lb n="635"/>
     <token tok-pos="" postag="V---PNA---" cite="">tendere</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="D---------" cite="">non</token>
@@ -5844,21 +5943,24 @@ to do list in order of importance:
     <token tok-pos="" postag="V-3SISA---" cite="">tenderet</token>
     <token tok-pos="" postag="None" cite="">Argo</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="636"/>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="T--SRPPFN-" cite="">conata</token>
-    <token tok-pos="" postag="V---PNP---" cite="">queri</token>
+    <token tok-pos="" postag="V---PNP---" cite="" type="speech">queri</token>
     <token tok-pos="" postag="N--P---MA-" cite="">mugitus</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">edidit</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="" type="speech">edidit</token>
     <token tok-pos="" postag="N--S---NB-" cite="">ore</token>
+    <lb n="637"/>
     <token tok-pos="" postag="V-3SRIA---" cite="">pertimuit</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="A--P---MA-" cite="">sonos</token>
     <token tok-pos="" postag="A--S---FB-" cite="">propria</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="T--SRPPFN-" cite="">exterrita</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">voce</token>
+    <token tok-pos="" postag="N--S---FB-" cite="" type="speech">voce</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="638"/>
     <token tok-pos="" postag="None" cite="">Venit</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="R---------" cite="">ad</token>
@@ -5869,15 +5971,17 @@ to do list in order of importance:
     <token tok-pos="" postag="D---------" cite="">saepe</token>
     <token tok-pos="" postag="V-3SIIA---" cite="">solebat</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="639"/>
     <token tok-pos="" postag="R---------" cite="">Inachidas</token>
     <token tok-pos="" postag="N--P---FA-" cite="">ripas</token>
     <token tok-pos="" postag="None" cite="">;</token>
     <token tok-pos="" postag="A--P---NA-" cite="">nova</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="C---------" cite="">ut</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">conspexit</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="" type="vision">conspexit</token>
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="N--S---FB-" cite="">unda</token>
+    <lb n="640"/>
     <token tok-pos="" postag="N--P---NA-" cite="">cornua</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">pertimuit</token>
@@ -5886,6 +5990,7 @@ to do list in order of importance:
     <token tok-pos="" postag="T--SRPPFN-" cite="">exsternata</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">refugit</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="641"/>
     <token tok-pos="" postag="None" cite="">Naides</token>
     <token tok-pos="" postag="V-3PPIA---" cite="">ignorant</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
@@ -5894,6 +5999,7 @@ to do list in order of importance:
     <token tok-pos="" postag="R---------" cite="">Inachus</token>
     <token tok-pos="" postag="P--S---MN-" cite="">ipse</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="642"/>
     <token tok-pos="" postag="P--S---FN-" cite="">quae</token>
     <token tok-pos="" postag="V-3SPSA---" cite="">sit</token>
     <token tok-pos="" postag="None" cite="">;</token>
@@ -5904,6 +6010,7 @@ to do list in order of importance:
     <token tok-pos="" postag="V-3SPIP---" cite="">sequitur</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--P---FA-" cite="">sorores</token>
+    <lb n="643"/>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="V-3SPIP---" cite="">patitur</token>
     <token tok-pos="" postag="V---PNP---" cite="">tangi</token>
@@ -5912,12 +6019,14 @@ to do list in order of importance:
     <token tok-pos="" postag="T--PPPAMD-" cite="">admirantibus</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">offert</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="644"/>
     <token tok-pos="" postag="None" cite="">Decerptas</token>
     <token tok-pos="" postag="A--S---MNC" cite="">senior</token>
     <token tok-pos="" postag="V-3SLIA---" cite="">porrexerat</token>
     <token tok-pos="" postag="R---------" cite="">Inachus</token>
     <token tok-pos="" postag="N--P---FA-" cite="">herbas</token>
     <token tok-pos="" postag="None" cite="">:</token>
+    <lb n="645"/>
     <token tok-pos="" postag="P--S---FN-" cite="">illa</token>
     <token tok-pos="" postag="N--P---FA-" cite="">manus</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">lambit</token>
@@ -5926,6 +6035,7 @@ to do list in order of importance:
     <token tok-pos="" postag="V-3SPIA---" cite="">dat</token>
     <token tok-pos="" postag="N--P---NA-" cite="">oscula</token>
     <token tok-pos="" postag="N--P---MD-" cite="">palmis</token>
+    <lb n="646"/>
     <token tok-pos="" postag="C---------" cite="">nec</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">retinet</token>
     <token tok-pos="" postag="N--P---FA-" cite="">lacrimas</token>
@@ -5933,21 +6043,23 @@ to do list in order of importance:
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="C---------" cite="">si</token>
     <token tok-pos="" postag="D---------" cite="">modo</token>
-    <token tok-pos="" postag="N--P---NN-" cite="">verba</token>
+    <token tok-pos="" postag="N--P---NN-" cite="" type="speech">verba</token>
     <token tok-pos="" postag="V-3PPSP---" cite="">sequantur</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="V-3SPSA---" cite="">oret</token>
+    <lb n="647"/>
+    <token tok-pos="" postag="V-3SPSA---" cite="" type="speech">oret</token>
     <token tok-pos="" postag="N--S---FA-" cite="">opem</token>
     <token tok-pos="" postag="N--S---NA-" cite="">nomen</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="A--S---NA-" cite="">suum</token>
     <token tok-pos="" postag="N--P---MA-" cite="">casus</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="V-3SPSP---" cite="">loquatur</token>
+    <token tok-pos="" postag="V-3SPSP---" cite="" type="speech">loquatur</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Littera</token>
+    <lb n="648"/>
+    <token tok-pos="" postag="None" cite="" type="speech">Littera</token>
     <token tok-pos="" postag="R---------" cite="">pro</token>
-    <token tok-pos="" postag="N--P---NB-" cite="">verbis</token>
+    <token tok-pos="" postag="N--P---NB-" cite="" type="speech">verbis</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="P--S---FA-" cite="">quam</token>
     <token tok-pos="" postag="N--S---MN-" cite="">pes</token>
@@ -5955,138 +6067,160 @@ to do list in order of importance:
     <token tok-pos="" postag="N--S---MB-" cite="">pulvere</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">duxit</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="649"/>
     <token tok-pos="" postag="N--S---NG-" cite="">corporis</token>
     <token tok-pos="" postag="N--S---NA-" cite="">indicium</token>
     <token tok-pos="" postag="T--SRPPNG-" cite="">mutati</token>
     <token tok-pos="" postag="N--S---NA-" cite="">triste</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">peregit</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="None" cite="">Me</token>
-    <token tok-pos="" postag="A--S---MA-" cite="">miserum</token>
-    <token tok-pos="" postag="None" cite="">!</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
+    <said degree="2" speaker="Inachus" cite="urn:cts:latinLit:phi0959.phi006:1.650">
+        <lb n="650"/>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="None" cite="">Me</token>
+        <token tok-pos="" postag="A--S---MA-" cite="">miserum</token>
+        <token tok-pos="" postag="None" cite="">!</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
     <token tok-pos="" postag="V-3SPIA---" cite="">exclamat</token>
     <token tok-pos="" postag="N--S---MN-" cite="">pater</token>
     <token tok-pos="" postag="R---------" cite="">Inachus</token>
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="T--SPPAFG-" cite="">gementis</token>
+    <lb n="651"/>
     <token tok-pos="" postag="N--P---NB-" cite="">cornibus</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="A--S---FG-" cite="">niveae</token>
     <token tok-pos="" postag="T--SPPAMN-" cite="">pendens</token>
     <token tok-pos="" postag="N--S---FB-" cite="">cervice</token>
     <token tok-pos="" postag="N--S---FG-" cite="">iuvencae</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="P--S---MA-" cite="">me</token>
-    <token tok-pos="" postag="A--S---MA-" cite="">miserum</token>
-    <token tok-pos="" postag="None" cite="">!</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">ingeminat</token>
+    <said degree="2" speaker="Inachus" cite="urn:cts:latinLit:phi0959.phi006:1.652">
+        <lb n="652"/>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="P--S---MA-" cite="">me</token>
+        <token tok-pos="" postag="A--S---MA-" cite="">miserum</token>
+        <token tok-pos="" postag="None" cite="">!</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <token tok-pos="" postag="V-3SPIA---" cite="" type="speech">ingeminat</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="None" cite="">tune</token>
-    <token tok-pos="" postag="V-2SPIA---" cite="">es</token>
-    <token tok-pos="" postag="T--SRPPFN-" cite="">quaesita</token>
-    <token tok-pos="" postag="R---------" cite="">per</token>
-    <token tok-pos="" postag="A--P---FA-" cite="">omnes</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">nata</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="P--S---MD-" cite="">mihi</token>
-    <token tok-pos="" postag="N--P---FA-" cite="">terras</token>
-    <token tok-pos="" postag="None" cite="">?</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">tu</token>
-    <token tok-pos="" postag="D---------" cite="">non</token>
-    <token tok-pos="" postag="T--SRPPFN-" cite="">inventa</token>
-    <token tok-pos="" postag="T--SRPPFB-" cite="">reperta</token>
-    <token tok-pos="" postag="N--S---MN-" cite="">luctus</token>
-    <token tok-pos="" postag="V-2SIIA---" cite="">eras</token>
-    <token tok-pos="" postag="A--S---MNC" cite="">levior</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Retices</token>
-    <token tok-pos="" postag="C---------" cite="">nec</token>
-    <token tok-pos="" postag="A--P---NA-" cite="">mutua</token>
-    <token tok-pos="" postag="A--P---MD-" cite="">nostris</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">dicta</token>
-    <token tok-pos="" postag="V-2SPIA---" cite="">refers</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="A--S---NB-" cite="">alto</token>
-    <token tok-pos="" postag="D---------" cite="">tantum</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">suspiria</token>
-    <token tok-pos="" postag="V-2SPIA---" cite="">ducis</token>
-    <token tok-pos="" postag="N--S---NB-" cite="">pectore</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="P--S---NA-" cite="">quodque</token>
-    <token tok-pos="" postag="A--S---NA-" cite="">unum</token>
-    <token tok-pos="" postag="V-2SPSA---" cite="">potes</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="R---------" cite="">ad</token>
-    <token tok-pos="" postag="A--P---NA-" cite="">mea</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">verba</token>
-    <token tok-pos="" postag="V-2SPIA---" cite="">remugis</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">At</token>
-    <token tok-pos="" postag="P--S---MD-" cite="">tibi</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">ego</token>
-    <token tok-pos="" postag="A--S---MN-" cite="">ignarus</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">thalamos</token>
-    <token tok-pos="" postag="N--P---FA-" cite="">taedas</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="V-1SIIA---" cite="">parabam</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">spes</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">fuit</token>
-    <token tok-pos="" postag="N--S---MG-" cite="">generi</token>
-    <token tok-pos="" postag="P--S---MD-" cite="">mihi</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">prima</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">secunda</token>
-    <token tok-pos="" postag="N--P---MG-" cite="">nepotum</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">De</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">grege</token>
-    <token tok-pos="" postag="D---------" cite="">nunc</token>
-    <token tok-pos="" postag="P--S---FD-" cite="">tibi</token>
-    <token tok-pos="" postag="N--S---MN-" cite="">vir</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="D---------" cite="">nunc</token>
-    <token tok-pos="" postag="R---------" cite="">de</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">grege</token>
-    <token tok-pos="" postag="N--S---MN-" cite="">natus</token>
-    <token tok-pos="" postag="T--SPGPMN-" cite="">habendus</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Nec</token>
-    <token tok-pos="" postag="V---PNA---" cite="">finire</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">licet</token>
-    <token tok-pos="" postag="A--P---MA-" cite="">tantos</token>
-    <token tok-pos="" postag="P--S---MD-" cite="">mihi</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">morte</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">dolores</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="C---------" cite="">sed</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">nocet</token>
-    <token tok-pos="" postag="V---PNA---" cite="">esse</token>
-    <token tok-pos="" postag="N--S---MA-" cite="">deum</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="T--SRPPFN-" cite="">praeclusa</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">ianua</token>
-    <token tok-pos="" postag="N--S---NG-" cite="">leti</token>
-    <token tok-pos="" postag="A--S---NA-" cite="">aeternum</token>
-    <token tok-pos="" postag="A--P---MA-" cite="">nostros</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">luctus</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">extendit</token>
-    <token tok-pos="" postag="R---------" cite="">in</token>
-    <token tok-pos="" postag="N--S---NA-" cite="">aevum</token>
-    <token tok-pos="" postag="None" cite="">?</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
+    <said degree="2" speaker="Inachus" cite="urn:cts:latinLit:phi0959.phi006:1.652-1.662">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="None" cite="">tune</token>
+        <token tok-pos="" postag="V-2SPIA---" cite="">es</token>
+        <token tok-pos="" postag="T--SRPPFN-" cite="">quaesita</token>
+        <token tok-pos="" postag="R---------" cite="">per</token>
+        <token tok-pos="" postag="A--P---FA-" cite="">omnes</token>
+        <lb n="653"/>
+        <token tok-pos="" postag="N--S---FN-" cite="">nata</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="P--S---MD-" cite="">mihi</token>
+        <token tok-pos="" postag="N--P---FA-" cite="">terras</token>
+        <token tok-pos="" postag="None" cite="">?</token>
+        <token tok-pos="" postag="P--S---MN-" cite="">tu</token>
+        <token tok-pos="" postag="D---------" cite="">non</token>
+        <token tok-pos="" postag="T--SRPPFN-" cite="">inventa</token>
+        <token tok-pos="" postag="T--SRPPFB-" cite="">reperta</token>
+        <lb n="654"/>
+        <token tok-pos="" postag="N--S---MN-" cite="">luctus</token>
+        <token tok-pos="" postag="V-2SIIA---" cite="">eras</token>
+        <token tok-pos="" postag="A--S---MNC" cite="">levior</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <token tok-pos="" postag="None" cite="">Retices</token>
+        <token tok-pos="" postag="C---------" cite="">nec</token>
+        <token tok-pos="" postag="A--P---NA-" cite="" type="speech">mutua</token>
+        <token tok-pos="" postag="A--P---MD-" cite="">nostris</token>
+        <lb n="655"/>
+        <token tok-pos="" postag="N--P---NA-" cite="" type="speech">dicta</token>
+        <token tok-pos="" postag="V-2SPIA---" cite="">refers</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="A--S---NB-" cite="">alto</token>
+        <token tok-pos="" postag="D---------" cite="">tantum</token>
+        <token tok-pos="" postag="N--P---NA-" cite="">suspiria</token>
+        <token tok-pos="" postag="V-2SPIA---" cite="">ducis</token>
+        <lb n="656"/>
+        <token tok-pos="" postag="N--S---NB-" cite="">pectore</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="P--S---NA-" cite="">quodque</token>
+        <token tok-pos="" postag="A--S---NA-" cite="">unum</token>
+        <token tok-pos="" postag="V-2SPSA---" cite="">potes</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="R---------" cite="">ad</token>
+        <token tok-pos="" postag="A--P---NA-" cite="">mea</token>
+        <token tok-pos="" postag="N--P---NA-" cite="" type="speech">verba</token>
+        <token tok-pos="" postag="V-2SPIA---" cite="" type="speech">remugis</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <lb n="657"/>
+        <token tok-pos="" postag="None" cite="">At</token>
+        <token tok-pos="" postag="P--S---MD-" cite="">tibi</token>
+        <token tok-pos="" postag="P--S---MN-" cite="">ego</token>
+        <token tok-pos="" postag="A--S---MN-" cite="">ignarus</token>
+        <token tok-pos="" postag="N--P---MA-" cite="">thalamos</token>
+        <token tok-pos="" postag="N--P---FA-" cite="">taedas</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="V-1SIIA---" cite="">parabam</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <lb n="658"/>
+        <token tok-pos="" postag="N--S---FN-" cite="">spes</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="V-3SRIA---" cite="">fuit</token>
+        <token tok-pos="" postag="N--S---MG-" cite="">generi</token>
+        <token tok-pos="" postag="P--S---MD-" cite="">mihi</token>
+        <token tok-pos="" postag="A--S---FN-" cite="">prima</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="A--S---FN-" cite="">secunda</token>
+        <token tok-pos="" postag="N--P---MG-" cite="">nepotum</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <lb n="659"/>
+        <token tok-pos="" postag="None" cite="">De</token>
+        <token tok-pos="" postag="N--S---MB-" cite="">grege</token>
+        <token tok-pos="" postag="D---------" cite="">nunc</token>
+        <token tok-pos="" postag="P--S---FD-" cite="">tibi</token>
+        <token tok-pos="" postag="N--S---MN-" cite="">vir</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="D---------" cite="">nunc</token>
+        <token tok-pos="" postag="R---------" cite="">de</token>
+        <token tok-pos="" postag="N--S---MB-" cite="">grege</token>
+        <token tok-pos="" postag="N--S---MN-" cite="">natus</token>
+        <token tok-pos="" postag="T--SPGPMN-" cite="">habendus</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <lb n="660"/>
+        <token tok-pos="" postag="None" cite="">Nec</token>
+        <token tok-pos="" postag="V---PNA---" cite="">finire</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">licet</token>
+        <token tok-pos="" postag="A--P---MA-" cite="">tantos</token>
+        <token tok-pos="" postag="P--S---MD-" cite="">mihi</token>
+        <token tok-pos="" postag="N--S---FB-" cite="">morte</token>
+        <token tok-pos="" postag="N--P---MA-" cite="">dolores</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <lb n="661"/>
+        <token tok-pos="" postag="C---------" cite="">sed</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">nocet</token>
+        <token tok-pos="" postag="V---PNA---" cite="">esse</token>
+        <token tok-pos="" postag="N--S---MA-" cite="">deum</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="T--SRPPFN-" cite="">praeclusa</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="N--S---FN-" cite="">ianua</token>
+        <token tok-pos="" postag="N--S---NG-" cite="">leti</token>
+        <lb n="662"/>
+        <token tok-pos="" postag="A--S---NA-" cite="">aeternum</token>
+        <token tok-pos="" postag="A--P---MA-" cite="">nostros</token>
+        <token tok-pos="" postag="N--P---MA-" cite="">luctus</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">extendit</token>
+        <token tok-pos="" postag="R---------" cite="">in</token>
+        <token tok-pos="" postag="N--S---NA-" cite="">aevum</token>
+        <token tok-pos="" postag="None" cite="">?</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <lb n="663"/>
     <token tok-pos="" postag="None" cite="">Talia</token>
-    <token tok-pos="" postag="T--SPPAMA-" cite="">maerentem</token>
+    <token tok-pos="" postag="T--SPPAMA-" cite="" type="speech">maerentem</token>
     <token tok-pos="" postag="A--S---MN-" cite="">stellatus</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">submovet</token>
     <token tok-pos="" postag="None" cite="">Argus</token>
+    <lb n="664"/>
     <token tok-pos="" postag="T--SRPPFA-" cite="">ereptam</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--S---MD-" cite="">patri</token>
@@ -6094,24 +6228,25 @@ to do list in order of importance:
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="N--S---FB-" cite="">pascua</token>
     <token tok-pos="" postag="N--S---FA-" cite="">natam</token>
+    <lb n="665"/>
     <token tok-pos="" postag="V-3SPIA---" cite="">abstrahit</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
     <token tok-pos="" postag="None" cite="">Ipse</token>
     <token tok-pos="" postag="D---------" cite="">procul</token>
     <token tok-pos="" postag="N--S---MG-" cite="">montis</token>
     <token tok-pos="" postag="A--S---NA-" cite="">sublime</token>
-    <token tok-pos="" postag="None" cite="">cacume</token>
-    <token tok-pos="" postag="U---------" cite="">-</token>
-    <token tok-pos="" postag="C---------" cite="">ne</token>
+    <token tok-pos="" postag="None" cite="">cacumen</token>
+    <lb n="666"/>
     <token tok-pos="" postag="V-3SPIA---" cite="">occupat</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="D---------" cite="">unde</token>
     <token tok-pos="" postag="T--SPPAMN-" cite="">sedens</token>
     <token tok-pos="" postag="N--P---FA-" cite="">partes</token>
-    <token tok-pos="" postag="V-3SPIP---" cite="">speculatur</token>
+    <token tok-pos="" postag="V-3SPIP---" cite="" type="vision">speculatur</token>
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="A--P---FA-" cite="">omnes</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="667"/>
     <token tok-pos="" postag="None" cite="">Nec</token>
     <token tok-pos="" postag="N--P---MG-" cite="">superum</token>
     <token tok-pos="" postag="N--S---MN-" cite="">rector</token>
@@ -6119,15 +6254,17 @@ to do list in order of importance:
     <token tok-pos="" postag="A--P---NA-" cite="">tanta</token>
     <token tok-pos="" postag="None" cite="">Phoronidos</token>
     <token tok-pos="" postag="D---------" cite="">ultra</token>
+    <lb n="668"/>
     <token tok-pos="" postag="V---PNA---" cite="">ferre</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">potest</token>
     <token tok-pos="" postag="N--S---MA-" cite="">natum</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">vocat</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="" type="speech">vocat</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="P--S---MA-" cite="">quem</token>
     <token tok-pos="" postag="A--S---FN-" cite="">lucida</token>
     <token tok-pos="" postag="N--S---MB-" cite="">partu</token>
+    <lb n="669"/>
     <token tok-pos="" postag="None" cite="">Pleias</token>
     <token tok-pos="" postag="T--SRPPFN-" cite="">enixa</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
@@ -6138,6 +6275,7 @@ to do list in order of importance:
     <token tok-pos="" postag="V-3SPIA---" cite="">imperat</token>
     <token tok-pos="" postag="None" cite="">Argum</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="670"/>
     <token tok-pos="" postag="None" cite="">Parva</token>
     <token tok-pos="" postag="N--S---FB-" cite="">mora</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
@@ -6146,6 +6284,7 @@ to do list in order of importance:
     <token tok-pos="" postag="N--S---FA-" cite="">virgam</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="A--S---FB-" cite="">potenti</token>
+    <lb n="671"/>
     <token tok-pos="" postag="A--S---FA-" cite="">somniferam</token>
     <token tok-pos="" postag="V---RNA---" cite="">sumpsisse</token>
     <token tok-pos="" postag="N--S---FB-" cite="">manu</token>
@@ -6153,6 +6292,7 @@ to do list in order of importance:
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--P---MB-" cite="">capillis</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="672"/>
     <token tok-pos="" postag="None" cite="">Haec</token>
     <token tok-pos="" postag="C---------" cite="">ubi</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">disposuit</token>
@@ -6162,6 +6302,7 @@ to do list in order of importance:
     <token tok-pos="" postag="T--SRPPMN-" cite="">natus</token>
     <token tok-pos="" postag="R---------" cite="">ab</token>
     <token tok-pos="" postag="N--S---FB-" cite="">arce</token>
+    <lb n="673"/>
     <token tok-pos="" postag="V-3SPIA---" cite="">desilit</token>
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="N--P---FA-" cite="">terras</token>
@@ -6170,6 +6311,7 @@ to do list in order of importance:
     <token tok-pos="" postag="N--S---NA-" cite="">tegimen</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">removit</token>
+    <lb n="674"/>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">posuit</token>
     <token tok-pos="" postag="N--P---FA-" cite="">pennas</token>
@@ -6179,6 +6321,7 @@ to do list in order of importance:
     <token tok-pos="" postag="T--SRPPFN-" cite="">retenta</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="675"/>
     <token tok-pos="" postag="None" cite="">Hac</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">agit</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
@@ -6190,97 +6333,113 @@ to do list in order of importance:
     <token tok-pos="" postag="N--P---NA-" cite="">rura</token>
     <token tok-pos="" postag="N--P---FA-" cite="">capellas</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="676"/>
     <token tok-pos="" postag="C---------" cite="">dum</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">venit</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="T--PRPPFA-" cite="">adductas</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="T--PRPPFB-" cite="">structis</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">cantat</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="" type="speech">cantat</token>
     <token tok-pos="" postag="N--P---FB-" cite="">avenis</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Voce</token>
+    <lb n="677"/>
+    <token tok-pos="" postag="None" cite="" type="speech">Voce</token>
     <token tok-pos="" postag="A--P---NA-" cite="">nova</token>
     <token tok-pos="" postag="T--SRPPMN-" cite="">captus</token>
     <token tok-pos="" postag="N--S---MN-" cite="">custos</token>
     <token tok-pos="" postag="None" cite="">Iunonius</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="C---------" cite="">at</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">tu</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">quisquis</token>
-    <token tok-pos="" postag="V-2SPIA---" cite="">es</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="P--S---MB-" cite="">hoc</token>
-    <token tok-pos="" postag="V-2SIIA---" cite="">poteras</token>
-    <token tok-pos="" postag="C---------" cite="">cum</token>
-    <token tok-pos="" postag="P--S---MA-" cite="">me</token>
-    <token tok-pos="" postag="V---PNA---" cite="">considere</token>
-    <token tok-pos="" postag="N--S---NB-" cite="">saxo</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
+    <said degree="2" speaker="Argus" cite="urn:cts:latinLit:phi0959.phi006:1.677-1.678">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="C---------" cite="">at</token>
+        <token tok-pos="" postag="P--S---MN-" cite="">tu</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <lb n="678"/>
+        <token tok-pos="" postag="P--S---MN-" cite="">quisquis</token>
+        <token tok-pos="" postag="V-2SPIA---" cite="">es</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="P--S---MB-" cite="">hoc</token>
+        <token tok-pos="" postag="V-2SIIA---" cite="">poteras</token>
+        <token tok-pos="" postag="C---------" cite="">cum</token>
+        <token tok-pos="" postag="P--S---MA-" cite="">me</token>
+        <token tok-pos="" postag="V---PNA---" cite="">considere</token>
+        <token tok-pos="" postag="N--S---NB-" cite="">saxo</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <lb n="679"/>
     <token tok-pos="" postag="None" cite="">Argus</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">ait</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="" type="speech">ait</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="None" cite="">neque</token>
-    <token tok-pos="" postag="C---------" cite="">enim</token>
-    <token tok-pos="" postag="N--S---ND-" cite="">pecori</token>
-    <token tok-pos="" postag="A--S---FNC" cite="">fecundior</token>
-    <token tok-pos="" postag="A--S---MB-" cite="">ullo</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">herba</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">loco</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="A--S---FA-" cite="">aptam</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="V-2SPIA---" cite="">vides</token>
-    <token tok-pos="" postag="N--P---MD-" cite="">pastoribus</token>
-    <token tok-pos="" postag="N--S---FA-" cite="">umbram</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
+    <said degree="2" speaker="Argus" cite="urn:cts:latinLit:phi0959.phi006:1.679-1.680">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="None" cite="">neque</token>
+        <token tok-pos="" postag="C---------" cite="">enim</token>
+        <token tok-pos="" postag="N--S---ND-" cite="">pecori</token>
+        <token tok-pos="" postag="A--S---FNC" cite="">fecundior</token>
+        <token tok-pos="" postag="A--S---MB-" cite="">ullo</token>
+        <lb n="680"/>
+        <token tok-pos="" postag="N--S---FN-" cite="">herba</token>
+        <token tok-pos="" postag="N--S---MB-" cite="">loco</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="A--S---FA-" cite="">aptam</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="V-2SPIA---" cite="" type="vision">vides</token>
+        <token tok-pos="" postag="N--P---MD-" cite="">pastoribus</token>
+        <token tok-pos="" postag="N--S---FA-" cite="">umbram</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <lb n="681"/>
     <token tok-pos="" postag="None" cite="">Sedit</token>
     <token tok-pos="" postag="None" cite="">Atlantiades</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="T--SPPAFA-" cite="">euntem</token>
     <token tok-pos="" postag="N--P---NA-" cite="">multa</token>
-    <token tok-pos="" postag="T--SPGPMB-" cite="">loquendo</token>
+    <token tok-pos="" postag="T--SPGPMB-" cite="" type="speech">loquendo</token>
+    <lb n="682"/>
     <token tok-pos="" postag="V-3SRIA---" cite="">detinuit</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">sermone</token>
+    <token tok-pos="" postag="N--S---MB-" cite="" type="speech">sermone</token>
     <token tok-pos="" postag="N--S---FA-" cite="">diem</token>
     <token tok-pos="" postag="A--P---FB-" cite="">iunctis</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="T--SPGPNB-" cite="">canendo</token>
+    <token tok-pos="" postag="T--SPGPNB-" cite="" type="speech">canendo</token>
+    <lb n="683"/>
     <token tok-pos="" postag="V---PNA---" cite="">vincere</token>
     <token tok-pos="" postag="N--P---FB-" cite="">harundinibus</token>
     <token tok-pos="" postag="T--PPPANA-" cite="">servantia</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">lumina</token>
+    <token tok-pos="" postag="N--P---NA-" cite="" type="vision">lumina</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">temptat</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="684"/>
     <token tok-pos="" postag="None" cite="">Ille</token>
     <token tok-pos="" postag="D---------" cite="">tamen</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">pugnat</token>
     <token tok-pos="" postag="A--P---MA-" cite="">molles</token>
     <token tok-pos="" postag="V---PNA---" cite="">evincere</token>
     <token tok-pos="" postag="N--P---MA-" cite="">somnos</token>
+    <lb n="685"/>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="C---------" cite="">quamvis</token>
     <token tok-pos="" postag="N--S---MN-" cite="">sopor</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="N--P---MG-" cite="">oculorum</token>
+    <token tok-pos="" postag="N--P---MG-" cite="" type="vision">oculorum</token>
     <token tok-pos="" postag="N--S---FB-" cite="">parte</token>
     <token tok-pos="" postag="T--SRPPMN-" cite="">receptus</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="686"/>
     <token tok-pos="" postag="N--S---FB-" cite="">parte</token>
     <token tok-pos="" postag="D---------" cite="">tamen</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">vigilat</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="" type="vision">vigilat</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Quaerit</token>
+    <token tok-pos="" postag="None" cite="" type="speech">Quaerit</token>
     <token tok-pos="" postag="D---------" cite="">quoque</token>
     <token tok-pos="" postag="U---------" cite="">(</token>
     <token tok-pos="" postag="C---------" cite="">namque</token>
     <token tok-pos="" postag="T--SRPPFN-" cite="">reperta</token>
+    <lb n="687"/>
     <token tok-pos="" postag="N--S---FN-" cite="">fistula</token>
     <token tok-pos="" postag="D---------" cite="">nuper</token>
     <token tok-pos="" postag="V-3SIIA---" cite="">erat</token>
@@ -6291,115 +6450,132 @@ to do list in order of importance:
     <token tok-pos="" postag="N--S---FB-" cite="">ratione</token>
     <token tok-pos="" postag="T--SRPPFN-" cite="">reperta</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="688"/>
     <token tok-pos="" postag="None" cite="">Tum</token>
     <token tok-pos="" postag="N--S---MN-" cite="">deus</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="None" cite="">Arcadiae</token>
-    <token tok-pos="" postag="A--P---MB-" cite="">gelidis</token>
-    <token tok-pos="" postag="R---------" cite="">in</token>
-    <token tok-pos="" postag="N--P---MB-" cite="">montibus</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">inquit</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="R---------" cite="">inter</token>
-    <token tok-pos="" postag="N--P---FA-" cite="">hamadryadas</token>
-    <token tok-pos="" postag="A--S---FNS" cite="">celeberrima</token>
-    <token tok-pos="" postag="None" cite="">Nonacrinas</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">naias</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">una</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">fuit</token>
-    <token tok-pos="" postag="None" cite="">;</token>
-    <token tok-pos="" postag="N--P---FN-" cite="">nymphae</token>
-    <token tok-pos="" postag="None" cite="">Syringa</token>
-    <token tok-pos="" postag="V-3PIIA---" cite="">vocabant</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Non</token>
-    <token tok-pos="" postag="D---------" cite="">semel</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">satyros</token>
-    <token tok-pos="" postag="V-3SLIA---" cite="">eluserat</token>
-    <token tok-pos="" postag="P--S---FN-" cite="">illa</token>
-    <token tok-pos="" postag="T--PPPAMA-" cite="">sequentes</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="P--P---MA-" cite="">quoscumque</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">deos</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">umbrosa</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">silva</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">ferax</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="N--S---NN-" cite="">rus</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">habet</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Ortygiam</token>
-    <token tok-pos="" postag="N--P---NB-" cite="">studiis</token>
-    <token tok-pos="" postag="P--S---FN-" cite="">ipsa</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="V-3SIIA---" cite="">colebat</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">virginitate</token>
-    <token tok-pos="" postag="N--S---FA-" cite="">deam</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Ritu</token>
-    <token tok-pos="" postag="D---------" cite="">quoque</token>
-    <token tok-pos="" postag="T--SRPPFN-" cite="">cincta</token>
-    <token tok-pos="" postag="None" cite="">Dianae</token>
-    <token tok-pos="" postag="V-3SISA---" cite="">falleret</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="V-3SISA---" cite="">posset</token>
-    <token tok-pos="" postag="V---PNP---" cite="">credi</token>
-    <token tok-pos="" postag="None" cite="">Latonia</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="C---------" cite="">si</token>
-    <token tok-pos="" postag="D---------" cite="">non</token>
-    <token tok-pos="" postag="A--S---MN-" cite="">corneus</token>
-    <token tok-pos="" postag="P--S---FD-" cite="">huic</token>
-    <token tok-pos="" postag="N--S---MN-" cite="">arcus</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="C---------" cite="">si</token>
-    <token tok-pos="" postag="D---------" cite="">non</token>
-    <token tok-pos="" postag="V-3SISA---" cite="">foret</token>
-    <token tok-pos="" postag="A--S---MN-" cite="">aureus</token>
-    <token tok-pos="" postag="P--S---FD-" cite="">illi</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Sic</token>
-    <token tok-pos="" postag="D---------" cite="">quoque</token>
-    <token tok-pos="" postag="V-3SIIA---" cite="">fallebat</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Redeuntem</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">colle</token>
-    <token tok-pos="" postag="None" cite="">Lycaeo</token>
-    <token tok-pos="" postag="None" cite="">Pa</token>
-    <token tok-pos="" postag="U---------" cite="">-</token>
-    <token tok-pos="" postag="C---------" cite="">ne</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">videt</token>
-    <token tok-pos="" postag="P--S---FA-" cite="">hanc</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">pinu</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="N--S---NA-" cite="">caput</token>
-    <token tok-pos="" postag="T--SRPPMN-" cite="">praecinctus</token>
-    <token tok-pos="" postag="A--S---FB-" cite="">acuta</token>
-    <token tok-pos="" postag="A--P---NA-" cite="">talia</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">verba</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">refert</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
+    <said degree="2" speaker="Mercury" cite="urn:cts:latinLit:phi0959.phi006:1.688">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="None" cite="">Arcadiae</token>
+        <token tok-pos="" postag="A--P---MB-" cite="">gelidis</token>
+        <token tok-pos="" postag="R---------" cite="">in</token>
+        <token tok-pos="" postag="N--P---MB-" cite="">montibus</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <token tok-pos="" postag="V-3SPIA---" cite="" type="speech">inquit</token>
+    <lb n="689"/>
+    <said degree="2" speaker="Mercury" cite="urn:cts:latinLit:phi0959.phi006:1.689-1.699">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="R---------" cite="">inter</token>
+        <token tok-pos="" postag="N--P---FA-" cite="">hamadryadas</token>
+        <token tok-pos="" postag="A--S---FNS" cite="">celeberrima</token>
+        <token tok-pos="" postag="None" cite="">Nonacrinas</token>
+        <lb n="690"/>
+        <token tok-pos="" postag="N--S---FN-" cite="">naias</token>
+        <token tok-pos="" postag="A--S---FN-" cite="">una</token>
+        <token tok-pos="" postag="V-3SRIA---" cite="">fuit</token>
+        <token tok-pos="" postag="None" cite="">;</token>
+        <token tok-pos="" postag="N--P---FN-" cite="">nymphae</token>
+        <token tok-pos="" postag="None" cite="">Syringa</token>
+        <token tok-pos="" postag="V-3PIIA---" cite="" type="speech">vocabant</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <lb n="691"/>
+        <token tok-pos="" postag="None" cite="">Non</token>
+        <token tok-pos="" postag="D---------" cite="">semel</token>
+        <token tok-pos="" postag="C---------" cite="">et</token>
+        <token tok-pos="" postag="N--P---MA-" cite="">satyros</token>
+        <token tok-pos="" postag="V-3SLIA---" cite="">eluserat</token>
+        <token tok-pos="" postag="P--S---FN-" cite="">illa</token>
+        <token tok-pos="" postag="T--PPPAMA-" cite="">sequentes</token>
+        <lb n="692"/>
+        <token tok-pos="" postag="C---------" cite="">et</token>
+        <token tok-pos="" postag="P--P---MA-" cite="">quoscumque</token>
+        <token tok-pos="" postag="N--P---MA-" cite="">deos</token>
+        <token tok-pos="" postag="A--S---FN-" cite="">umbrosa</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="N--S---FN-" cite="">silva</token>
+        <token tok-pos="" postag="A--S---FN-" cite="">ferax</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <lb n="693"/>
+        <token tok-pos="" postag="N--S---NN-" cite="">rus</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">habet</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <token tok-pos="" postag="None" cite="">Ortygiam</token>
+        <token tok-pos="" postag="N--P---NB-" cite="">studiis</token>
+        <token tok-pos="" postag="P--S---FN-" cite="">ipsa</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="V-3SIIA---" cite="">colebat</token>
+        <lb n="694"/>
+        <token tok-pos="" postag="N--S---FB-" cite="">virginitate</token>
+        <token tok-pos="" postag="N--S---FA-" cite="">deam</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <token tok-pos="" postag="None" cite="">Ritu</token>
+        <token tok-pos="" postag="D---------" cite="">quoque</token>
+        <token tok-pos="" postag="T--SRPPFN-" cite="">cincta</token>
+        <token tok-pos="" postag="None" cite="">Dianae</token>
+        <lb n="695"/>
+        <token tok-pos="" postag="V-3SISA---" cite="">falleret</token>
+        <token tok-pos="" postag="C---------" cite="">et</token>
+        <token tok-pos="" postag="V-3SISA---" cite="">posset</token>
+        <token tok-pos="" postag="V---PNP---" cite="">credi</token>
+        <token tok-pos="" postag="None" cite="">Latonia</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="C---------" cite="">si</token>
+        <token tok-pos="" postag="D---------" cite="">non</token>
+        <lb n="696"/>
+        <token tok-pos="" postag="A--S---MN-" cite="">corneus</token>
+        <token tok-pos="" postag="P--S---FD-" cite="">huic</token>
+        <token tok-pos="" postag="N--S---MN-" cite="">arcus</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="C---------" cite="">si</token>
+        <token tok-pos="" postag="D---------" cite="">non</token>
+        <token tok-pos="" postag="V-3SISA---" cite="">foret</token>
+        <token tok-pos="" postag="A--S---MN-" cite="">aureus</token>
+        <token tok-pos="" postag="P--S---FD-" cite="">illi</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <lb n="697"/>
+        <token tok-pos="" postag="None" cite="">Sic</token>
+        <token tok-pos="" postag="D---------" cite="">quoque</token>
+        <token tok-pos="" postag="V-3SIIA---" cite="">fallebat</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <token tok-pos="" postag="None" cite="">Redeuntem</token>
+        <token tok-pos="" postag="N--S---MB-" cite="">colle</token>
+        <token tok-pos="" postag="None" cite="">Lycaeo</token>
+        <lb n="698"/>
+        <token tok-pos="" postag="None" cite="">Pan</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="" type="vision">videt</token>
+        <token tok-pos="" postag="P--S---FA-" cite="">hanc</token>
+        <token tok-pos="" postag="N--S---FB-" cite="">pinu</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="N--S---NA-" cite="">caput</token>
+        <token tok-pos="" postag="T--SRPPMN-" cite="">praecinctus</token>
+        <token tok-pos="" postag="A--S---FB-" cite="">acuta</token>
+        <lb n="699"/>
+        <token tok-pos="" postag="A--P---NA-" cite="">talia</token>
+        <token tok-pos="" postag="N--P---NA-" cite="" type="speech">verba</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="" type="speech">refert</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
     <token tok-pos="" postag="U---------" cite="">-</token>
     <token tok-pos="" postag="V-3SIIA---" cite="">restabat</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">verba</token>
-    <token tok-pos="" postag="V---PNA---" cite="">referre</token>
+    <token tok-pos="" postag="N--P---NA-" cite="" type="speech">verba</token>
+    <token tok-pos="" postag="V---PNA---" cite="" type="speech">referre</token>
+    <lb n="700"/>
     <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="N--P---FB-" cite="">precibus</token>
+    <token tok-pos="" postag="N--P---FB-" cite="" type="speech">precibus</token>
     <token tok-pos="" postag="T--PRPPFB-" cite="">spretis</token>
     <token tok-pos="" postag="V---RNA---" cite="">fugisse</token>
     <token tok-pos="" postag="R---------" cite="">per</token>
     <token tok-pos="" postag="A--P---NA-" cite="">avia</token>
     <token tok-pos="" postag="N--S---FA-" cite="">nympham</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="701"/>
     <token tok-pos="" postag="C---------" cite="">donec</token>
     <token tok-pos="" postag="A--S---MG-" cite="">harenosi</token>
     <token tok-pos="" postag="A--S---MA-" cite="">placidum</token>
     <token tok-pos="" postag="None" cite="">Ladonis</token>
     <token tok-pos="" postag="R---------" cite="">ad</token>
     <token tok-pos="" postag="N--S---MA-" cite="">amnem</token>
+    <lb n="702"/>
     <token tok-pos="" postag="V-3SRSA---" cite="">venerit</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
     <token tok-pos="" postag="None" cite="">Hic</token>
@@ -6408,13 +6584,15 @@ to do list in order of importance:
     <token tok-pos="" postag="T--PPPAFB-" cite="">inpedientibus</token>
     <token tok-pos="" postag="N--P---FB-" cite="">undis</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="703"/>
     <token tok-pos="" postag="C---------" cite="">ut</token>
     <token tok-pos="" postag="P--S---MA-" cite="">se</token>
     <token tok-pos="" postag="V-3PISA---" cite="">mutarent</token>
     <token tok-pos="" postag="A--P---FA-" cite="">liquidas</token>
-    <token tok-pos="" postag="V---RNA---" cite="">orasse</token>
+    <token tok-pos="" postag="V---RNA---" cite="" type="speech">orasse</token>
     <token tok-pos="" postag="N--P---FA-" cite="">sorores</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="704"/>
     <token tok-pos="" postag="None" cite="">Pana</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
@@ -6425,6 +6603,7 @@ to do list in order of importance:
     <token tok-pos="" postag="None" cite="">Syringa</token>
     <token tok-pos="" postag="V-3SISA---" cite="">putaret</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="705"/>
     <token tok-pos="" postag="N--S---NB-" cite="">corpore</token>
     <token tok-pos="" postag="R---------" cite="">pro</token>
     <token tok-pos="" postag="N--S---FG-" cite="">nymphae</token>
@@ -6432,6 +6611,7 @@ to do list in order of importance:
     <token tok-pos="" postag="V---RNA---" cite="">tenuisse</token>
     <token tok-pos="" postag="A--P---MA-" cite="">palustres</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="706"/>
     <token tok-pos="" postag="None" cite="">Dum</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="D---------" cite="">ibi</token>
@@ -6441,38 +6621,47 @@ to do list in order of importance:
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="N--S---FB-" cite="">harundine</token>
     <token tok-pos="" postag="N--P---MA-" cite="">ventos</token>
+    <lb n="707"/>
     <token tok-pos="" postag="V---RNA---" cite="">effecisse</token>
     <token tok-pos="" postag="N--S---MA-" cite="">sonum</token>
     <token tok-pos="" postag="A--S---MA-" cite="">tenuem</token>
     <token tok-pos="" postag="A--S---MA-" cite="">similem</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="T--SPPAMD-" cite="">querenti</token>
+    <token tok-pos="" postag="T--SPPAMD-" cite="" type="speech">querenti</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="708"/>
     <token tok-pos="" postag="None" cite="">Arte</token>
     <token tok-pos="" postag="A--P---NA-" cite="">nova</token>
-    <token tok-pos="" postag="N--S---FG-" cite="">vocis</token>
+    <token tok-pos="" postag="N--S---FG-" cite="" type="speech">vocis</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--S---MA-" cite="">deum</token>
     <token tok-pos="" postag="N--S---FB-" cite="">dulcedine</token>
     <token tok-pos="" postag="T--SRPPMA-" cite="">captum</token>
-    <token tok-pos="" postag="U---------" cite="">'</token>
-    <token tok-pos="" postag="P--S---NN-" cite="">hoc</token>
-    <token tok-pos="" postag="P--S---MD-" cite="">mihi</token>
-    <token tok-pos="" postag="N--S---NN-" cite="">concilium</token>
-    <token tok-pos="" postag="R---------" cite="">cum</token>
-    <token tok-pos="" postag="P--S---MA-" cite="">te</token>
-    <token tok-pos="" postag="U---------" cite="">'</token>
-    <token tok-pos="" postag="V---RNA---" cite="">dixisse</token>
-    <token tok-pos="" postag="U---------" cite="">'</token>
-    <token tok-pos="" postag="V-3SFIA---" cite="">manebit</token>
-    <token tok-pos="" postag="None" cite="">!</token>
-    <token tok-pos="" postag="U---------" cite="">'</token>
+    <lb n="709"/>
+    <said degree="3" speaker="Pan" cite="urn:cts:latinLit:phi0959.phi006:1.709">
+        <token tok-pos="" postag="U---------" cite="">'</token>
+        <token tok-pos="" postag="P--S---NN-" cite="">hoc</token>
+        <token tok-pos="" postag="P--S---MD-" cite="">mihi</token>
+        <token tok-pos="" postag="N--S---NN-" cite="">concilium</token>
+        <token tok-pos="" postag="R---------" cite="">cum</token>
+        <token tok-pos="" postag="P--S---MA-" cite="">te</token>
+        <token tok-pos="" postag="U---------" cite="">'</token>
+    </said>
+    <token tok-pos="" postag="V---RNA---" cite="" type="speech">dixisse</token>
+    <said degree="3" speaker="Pan" cite="urn:cts:latinLit:phi0959.phi006:1.709">
+        <token tok-pos="" postag="U---------" cite="">'</token>
+        <token tok-pos="" postag="V-3SFIA---" cite="">manebit</token>
+        <token tok-pos="" postag="None" cite="">!</token>
+        <token tok-pos="" postag="U---------" cite="">'</token>
+    </said>
+    <lb n="710"/>
     <token tok-pos="" postag="C---------" cite="">atque</token>
     <token tok-pos="" postag="D---------" cite="">ita</token>
     <token tok-pos="" postag="A--P---MB-" cite="">disparibus</token>
     <token tok-pos="" postag="N--P---MB-" cite="">calamis</token>
     <token tok-pos="" postag="N--S---FB-" cite="">conpagine</token>
     <token tok-pos="" postag="N--S---FG-" cite="">cerae</token>
+    <lb n="711"/>
     <token tok-pos="" postag="R---------" cite="">inter</token>
     <token tok-pos="" postag="P--P---MA-" cite="">se</token>
     <token tok-pos="" postag="T--PRPPMB-" cite="">iunctis</token>
@@ -6480,30 +6669,35 @@ to do list in order of importance:
     <token tok-pos="" postag="V---RNA---" cite="">tenuisse</token>
     <token tok-pos="" postag="N--S---FG-" cite="">puellae</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="712"/>
     <token tok-pos="" postag="None" cite="">Talia</token>
-    <token tok-pos="" postag="T--SFPAMN-" cite="">dicturus</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">vidit</token>
+    <token tok-pos="" postag="T--SFPAMN-" cite="" type="speech">dicturus</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="" type="vision">vidit</token>
     <token tok-pos="" postag="None" cite="">Cyllenius</token>
     <token tok-pos="" postag="A--P---MN-" cite="">omnes</token>
+    <lb n="713"/>
     <token tok-pos="" postag="V---RNA---" cite="">succubuisse</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">oculos</token>
+    <token tok-pos="" postag="N--P---MA-" cite="" type="vision">oculos</token>
     <token tok-pos="" postag="T--PRPPNA-" cite="">adoperta</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">lumina</token>
+    <token tok-pos="" postag="N--P---NA-" cite="" type="vision">lumina</token>
     <token tok-pos="" postag="N--S---MD-" cite="">somno</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="714"/>
     <token tok-pos="" postag="None" cite="">Supprimit</token>
     <token tok-pos="" postag="D---------" cite="">extemplo</token>
-    <token tok-pos="" postag="N--S---FA-" cite="">vocem</token>
+    <token tok-pos="" postag="N--S---FA-" cite="" type="speech">vocem</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">firmat</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--S---MA-" cite="">soporem</token>
+    <lb n="715"/>
     <token tok-pos="" postag="A--P---NA-" cite="">languida</token>
     <token tok-pos="" postag="T--SPPAMN-" cite="">permulcens</token>
     <token tok-pos="" postag="T--SRPPFB-" cite="">medicata</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">lumina</token>
+    <token tok-pos="" postag="N--P---NA-" cite="" type="vision">lumina</token>
     <token tok-pos="" postag="N--S---FB-" cite="">virga</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="716"/>
     <token tok-pos="" postag="None" cite="">Nec</token>
     <token tok-pos="" postag="N--S---FB-" cite="">mora</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
@@ -6511,6 +6705,7 @@ to do list in order of importance:
     <token tok-pos="" postag="T--SPPAMA-" cite="">nutantem</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">vulnerat</token>
     <token tok-pos="" postag="N--S---MB-" cite="">ense</token>
+    <lb n="717"/>
     <token tok-pos="" postag="P--S---FB-" cite="">qua</token>
     <token tok-pos="" postag="N--S---ND-" cite="">collo</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
@@ -6520,6 +6715,7 @@ to do list in order of importance:
     <token tok-pos="" postag="N--S---ND-" cite="">saxo</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="A--S---MA-" cite="">cruentum</token>
+    <lb n="718"/>
     <token tok-pos="" postag="V-3SPIA---" cite="">deicit</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">maculat</token>
@@ -6527,27 +6723,32 @@ to do list in order of importance:
     <token tok-pos="" postag="N--S---MB-" cite="">sanguine</token>
     <token tok-pos="" postag="N--S---FA-" cite="">rupem</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Arge</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="V-2SPIA---" cite="">iaces</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="P--S---NA-" cite="">quodque</token>
-    <token tok-pos="" postag="R---------" cite="">in</token>
-    <token tok-pos="" postag="N---------" cite="">tot</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">lumina</token>
-    <token tok-pos="" postag="N--S---NN-" cite="">lumen</token>
-    <token tok-pos="" postag="V-2SIIA---" cite="">habebas</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="T--SRPPNN-" cite="">exstinctum</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="M---------" cite="">centum</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">oculos</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">nox</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">occupat</token>
-    <token tok-pos="" postag="D---------" cite="">una</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <said degree="1" speaker="Narrator" cite="urn:cts:latinLit:phi0959.phi006:1.719-1.720">
+        <lb n="719"/>
+        <token tok-pos="" postag="None" cite="">Arge</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="V-2SPIA---" cite="">iaces</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="P--S---NA-" cite="">quodque</token>
+        <token tok-pos="" postag="R---------" cite="">in</token>
+        <token tok-pos="" postag="N---------" cite="">tot</token>
+        <token tok-pos="" postag="N--P---NA-" cite="" type="vision">lumina</token>
+        <token tok-pos="" postag="N--S---NN-" cite="" type="vision">lumen</token>
+        <token tok-pos="" postag="V-2SIIA---" cite="">habebas</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <lb n="720"/>
+        <token tok-pos="" postag="T--SRPPNN-" cite="">exstinctum</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="M---------" cite="">centum</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="N--P---MA-" cite="" type="vision">oculos</token>
+        <token tok-pos="" postag="N--S---FN-" cite="">nox</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">occupat</token>
+        <token tok-pos="" postag="D---------" cite="">una</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+    </said>
+    <lb n="721"/>
     <token tok-pos="" postag="None" cite="">Excipit</token>
     <token tok-pos="" postag="P--P---MA-" cite="">hos</token>
     <token tok-pos="" postag="N--S---FG-" cite="">volucris</token>
@@ -6555,6 +6756,7 @@ to do list in order of importance:
     <token tok-pos="" postag="A--S---FG-" cite="">suae</token>
     <token tok-pos="" postag="None" cite="">Saturnia</token>
     <token tok-pos="" postag="N--P---FB-" cite="">pennis</token>
+    <lb n="722"/>
     <token tok-pos="" postag="V-3SPIA---" cite="">collocat</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="N--P---FB-" cite="">gemmis</token>
@@ -6562,21 +6764,22 @@ to do list in order of importance:
     <token tok-pos="" postag="T--PPPAFB-" cite="">stellantibus</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">inplet</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="723"/>
     <token tok-pos="" postag="None" cite="">Protinus</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">exarsit</token>
     <token tok-pos="" postag="C---------" cite="">nec</token>
     <token tok-pos="" postag="N--P---NA-" cite="">tempora</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">distulit</token>
     <token tok-pos="" postag="N--S---FG-" cite="">irae</token>
+    <lb n="724"/>
     <token tok-pos="" postag="A--S---FA-" cite="">horriferam</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--P---MB-" cite="">oculis</token>
     <token tok-pos="" postag="N--S---MB-" cite="">animo</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">obiecit</token>
-    <token tok-pos="" postag="None" cite="">Eriny</token>
-    <token tok-pos="" postag="U---------" cite="">-</token>
-    <token tok-pos="" postag="C---------" cite="">ne</token>
+    <token tok-pos="" postag="None" cite="">Erinyn</token>
+    <lb n="725"/>
     <token tok-pos="" postag="N--S---FG-" cite="">paelicis</token>
     <token tok-pos="" postag="None" cite="">Argolicae</token>
     <token tok-pos="" postag="N--P---MA-" cite="">stimulos</token>
@@ -6584,6 +6787,7 @@ to do list in order of importance:
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="N--S---NB-" cite="">pectore</token>
     <token tok-pos="" postag="A--P---MA-" cite="">caecos</token>
+    <lb n="726"/>
     <token tok-pos="" postag="V-3SRIA---" cite="">condidit</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="A--S---FA-" cite="">profugam</token>
@@ -6592,14 +6796,18 @@ to do list in order of importance:
     <token tok-pos="" postag="V-3SRIA---" cite="">terruit</token>
     <token tok-pos="" postag="N--S---MA-" cite="">orbem</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Ultimus</token>
-    <token tok-pos="" postag="A--S---MD-" cite="">inmenso</token>
-    <token tok-pos="" postag="V-2SIIA---" cite="">restabas</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="None" cite="">Nile</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="N--S---MD-" cite="">labori</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <said degree="1" speaker="Narrator" cite="urn:cts:latinLit:phi0959.phi006:1.727">
+        <lb n="727"/>
+        <token tok-pos="" postag="None" cite="">Ultimus</token>
+        <token tok-pos="" postag="A--S---MD-" cite="">inmenso</token>
+        <token tok-pos="" postag="V-2SIIA---" cite="">restabas</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="None" cite="">Nile</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="N--S---MD-" cite="">labori</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+    </said>
+    <lb n="728"/>
     <token tok-pos="" postag="None" cite="">Quem</token>
     <token tok-pos="" postag="D---------" cite="">simul</token>
     <token tok-pos="" postag="C---------" cite="">ac</token>
@@ -6609,6 +6817,7 @@ to do list in order of importance:
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="N--S---MB-" cite="">margine</token>
     <token tok-pos="" postag="N--S---FG-" cite="">ripae</token>
+    <lb n="729"/>
     <token tok-pos="" postag="V-3SRIA---" cite="">procubuit</token>
     <token tok-pos="" postag="N--P---NB-" cite="">genibus</token>
     <token tok-pos="" postag="A--S---NB-" cite="">resupino</token>
@@ -6616,6 +6825,7 @@ to do list in order of importance:
     <token tok-pos="" postag="A--S---FN-" cite="">ardua</token>
     <token tok-pos="" postag="N--S---NB-" cite="">collo</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="730"/>
     <token tok-pos="" postag="P--P---MA-" cite="">quos</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">potuit</token>
     <token tok-pos="" postag="A--P---MA-" cite="">solos</token>
@@ -6623,23 +6833,26 @@ to do list in order of importance:
     <token tok-pos="" postag="T--SPPAFN-" cite="">tollens</token>
     <token tok-pos="" postag="R---------" cite="">ad</token>
     <token tok-pos="" postag="N--P---NA-" cite="">sidera</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">vultus</token>
+    <token tok-pos="" postag="N--P---MA-" cite="" type="vision">vultus</token>
+    <lb n="731"/>
     <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">gemitu</token>
+    <token tok-pos="" postag="N--S---MB-" cite="" type="speech">gemitu</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="N--P---FB-" cite="">lacrimis</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="A--S---MB-" cite="">luctisono</token>
     <token tok-pos="" postag="N--S---MB-" cite="">mugitu</token>
+    <lb n="732"/>
     <token tok-pos="" postag="R---------" cite="">cum</token>
     <token tok-pos="" postag="None" cite="">Iove</token>
-    <token tok-pos="" postag="T--SRPPFN-" cite="">visa</token>
-    <token tok-pos="" postag="V---PNP---" cite="">queri</token>
+    <token tok-pos="" postag="T--SRPPFN-" cite="" type="vision">visa</token>
+    <token tok-pos="" postag="V---PNP---" cite="" type="speech">queri</token>
     <token tok-pos="" postag="N--S---MA-" cite="">finem</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="V---PNA---" cite="">orare</token>
+    <token tok-pos="" postag="V---PNA---" cite="" type="speech">orare</token>
     <token tok-pos="" postag="N--P---NG-" cite="">malorum</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="733"/>
     <token tok-pos="" postag="None" cite="">Coniugis</token>
     <token tok-pos="" postag="P--S---MN-" cite="">ille</token>
     <token tok-pos="" postag="A--S---FG-" cite="">suae</token>
@@ -6647,39 +6860,49 @@ to do list in order of importance:
     <token tok-pos="" postag="N--P---NA-" cite="">colla</token>
     <token tok-pos="" postag="N--P---FB-" cite="">lacertis</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="734"/>
     <token tok-pos="" postag="V-3SPSA---" cite="">finiat</token>
     <token tok-pos="" postag="C---------" cite="">ut</token>
     <token tok-pos="" postag="N--P---FA-" cite="">poenas</token>
     <token tok-pos="" postag="D---------" cite="">tandem</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">rogat</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="R---------" cite="">in</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="" type="speech">rogat</token>
+    <said degree="2" speaker="Jupiter" cite="urn:cts:latinLit:phi0959.phi006:1.734">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="R---------" cite="">in</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
     <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="A--S---NA-" cite="">futurum</token>
-    <token tok-pos="" postag="V-2SPMA---" cite="">pone</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">metus</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">inquit</token>
+    <said degree="2" speaker="Jupiter" cite="urn:cts:latinLit:phi0959.phi006:1.734-1.735">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="A--S---NA-" cite="">futurum</token>
+        <lb n="735"/>
+        <token tok-pos="" postag="V-2SPMA---" cite="">pone</token>
+        <token tok-pos="" postag="N--P---MA-" cite="">metus</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <token tok-pos="" postag="V-3SPIA---" cite="" type="speech">inquit</token>
     <token tok-pos="" postag="None" cite="">;</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="D---------" cite="">numquam</token>
-    <token tok-pos="" postag="P--S---MD-" cite="">tibi</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">causa</token>
-    <token tok-pos="" postag="N--S---MG-" cite="">doloris</token>
-    <token tok-pos="" postag="P--S---FN-" cite="">haec</token>
-    <token tok-pos="" postag="V-3SFIA---" cite="">erit</token>
-    <token tok-pos="" postag="None" cite="">:</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
+    <said degree="2" speaker="Jupiter" cite="urn:cts:latinLit:phi0959.phi006:1.735">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="D---------" cite="">numquam</token>
+        <token tok-pos="" postag="P--S---MD-" cite="">tibi</token>
+        <token tok-pos="" postag="N--S---FN-" cite="">causa</token>
+        <token tok-pos="" postag="N--S---MG-" cite="">doloris</token>
+        <lb n="736"/>
+        <token tok-pos="" postag="P--S---FN-" cite="">haec</token>
+        <token tok-pos="" postag="V-3SFIA---" cite="">erit</token>
+        <token tok-pos="" postag="None" cite="">:</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="None" cite="">Stygias</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">iubet</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="" type="speech">iubet</token>
     <token tok-pos="" postag="P--S---NB-" cite="">hoc</token>
     <token tok-pos="" postag="V---PNA---" cite="">audire</token>
     <token tok-pos="" postag="N--P---FA-" cite="">paludes</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="737"/>
     <token tok-pos="" postag="None" cite="">Ut</token>
     <token tok-pos="" postag="T--SRPPFN-" cite="">lenita</token>
     <token tok-pos="" postag="N--S---FN-" cite="">dea</token>
@@ -6689,6 +6912,7 @@ to do list in order of importance:
     <token tok-pos="" postag="V-3SPIA---" cite="">capit</token>
     <token tok-pos="" postag="P--S---FN-" cite="">illa</token>
     <token tok-pos="" postag="A--P---MAC" cite="">priores</token>
+    <lb n="738"/>
     <token tok-pos="" postag="V-3SPIA---" cite="">fit</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="C---------" cite="">quod</token>
@@ -6700,14 +6924,16 @@ to do list in order of importance:
     <token tok-pos="" postag="N--S---NB-" cite="">corpore</token>
     <token tok-pos="" postag="N--P---FN-" cite="">saetae</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="739"/>
     <token tok-pos="" postag="N--P---NN-" cite="">cornua</token>
     <token tok-pos="" postag="V-3PPIA---" cite="">decrescunt</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">fit</token>
-    <token tok-pos="" postag="N--S---NG-" cite="">luminis</token>
+    <token tok-pos="" postag="N--S---NG-" cite="" type="vision">luminis</token>
     <token tok-pos="" postag="A--S---MNC" cite="">artior</token>
     <token tok-pos="" postag="N--S---MN-" cite="">orbis</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="740"/>
     <token tok-pos="" postag="V-3SPIP---" cite="">contrahitur</token>
     <token tok-pos="" postag="N--S---MN-" cite="">rictus</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
@@ -6717,6 +6943,7 @@ to do list in order of importance:
     <token tok-pos="" postag="N--S---FN-" cite="">manus</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="741"/>
     <token tok-pos="" postag="N--S---FN-" cite="">ungula</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="R---------" cite="">in</token>
@@ -6725,6 +6952,7 @@ to do list in order of importance:
     <token tok-pos="" postag="V-3SPIP---" cite="">absumitur</token>
     <token tok-pos="" postag="N--P---MA-" cite="">ungues</token>
     <token tok-pos="" postag="None" cite="">:</token>
+    <lb n="742"/>
     <token tok-pos="" postag="R---------" cite="">de</token>
     <token tok-pos="" postag="N--S---FB-" cite="">bove</token>
     <token tok-pos="" postag="N--S---N--" cite="">nil</token>
@@ -6735,28 +6963,32 @@ to do list in order of importance:
     <token tok-pos="" postag="R---------" cite="">in</token>
     <token tok-pos="" postag="P--S---FB-" cite="">illa</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="743"/>
     <token tok-pos="" postag="None" cite="">Officio</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--P---NG-" cite="">pedum</token>
     <token tok-pos="" postag="N--S---FN-" cite="">nymphe</token>
     <token tok-pos="" postag="T--SRPPFN-" cite="">contenta</token>
     <token tok-pos="" postag="A--P---MG-" cite="">duorum</token>
+    <lb n="744"/>
     <token tok-pos="" postag="V-3SPIP---" cite="">erigitur</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">metuit</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="V---PNP---" cite="">loqui</token>
+    <token tok-pos="" postag="V---PNP---" cite="" type="speech">loqui</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="C---------" cite="">ne</token>
     <token tok-pos="" postag="N--S---MB-" cite="">more</token>
     <token tok-pos="" postag="N--S---FG-" cite="">iuvencae</token>
-    <token tok-pos="" postag="V-3SPSA---" cite="">mugiat</token>
+    <lb n="745"/>
+    <token tok-pos="" postag="V-3SPSA---" cite="" type="speech">mugiat</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="D---------" cite="">timide</token>
-    <token tok-pos="" postag="N--P---NN-" cite="">verba</token>
+    <token tok-pos="" postag="N--P---NN-" cite="" type="speech">verba</token>
     <token tok-pos="" postag="A--P---NA-" cite="">intermissa</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">retemptat</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="746"/>
     <token tok-pos="" postag="None" cite="">Nunc</token>
     <token tok-pos="" postag="N--S---FN-" cite="">dea</token>
     <token tok-pos="" postag="A--S---FB-" cite="">linigera</token>
@@ -6764,6 +6996,7 @@ to do list in order of importance:
     <token tok-pos="" postag="A--S---FNS" cite="">celeberrima</token>
     <token tok-pos="" postag="N--S---FB-" cite="">turba</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="747"/>
     <token tok-pos="" postag="D---------" cite="">nunc</token>
     <token tok-pos="" postag="None" cite="">Epaphus</token>
     <token tok-pos="" postag="A--S---MG-" cite="">magni</token>
@@ -6771,6 +7004,7 @@ to do list in order of importance:
     <token tok-pos="" postag="R---------" cite="">de</token>
     <token tok-pos="" postag="N--S---NB-" cite="">semine</token>
     <token tok-pos="" postag="D---------" cite="">tandem</token>
+    <lb n="748"/>
     <token tok-pos="" postag="V-3SPIP---" cite="">creditur</token>
     <token tok-pos="" postag="V---PNA---" cite="">esse</token>
     <token tok-pos="" postag="None" cite="">Iovis</token>
@@ -6780,6 +7014,7 @@ to do list in order of importance:
     <token tok-pos="" postag="N--P---FA-" cite="">urbes</token>
     <token tok-pos="" postag="T--PRPPNA-" cite="">iuncta</token>
     <token tok-pos="" postag="N--S---FD-" cite="">parenti</token>
+    <lb n="749"/>
     <token tok-pos="" postag="N--P---NA-" cite="">templa</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">tenet</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
@@ -6789,16 +7024,16 @@ to do list in order of importance:
     <token tok-pos="" postag="A--S---MN-" cite="">aequalis</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="N--P---MB-" cite="">annis</token>
+    <lb n="750"/>
     <token tok-pos="" postag="None" cite="">Sole</token>
     <token tok-pos="" postag="T--SRPPMN-" cite="">satus</token>
-    <token tok-pos="" postag="None" cite="">Phaetho</token>
-    <token tok-pos="" postag="U---------" cite="">-</token>
-    <token tok-pos="" postag="C---------" cite="">ne</token>
+    <token tok-pos="" postag="None" cite="">Phaethon</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
     <token tok-pos="" postag="None" cite="">Quem</token>
     <token tok-pos="" postag="D---------" cite="">quondam</token>
     <token tok-pos="" postag="A--S---FN-" cite="">magna</token>
     <token tok-pos="" postag="T--SPPAMA-" cite="">loquentem</token>
+    <lb n="751"/>
     <token tok-pos="" postag="C---------" cite="">nec</token>
     <token tok-pos="" postag="P--S---MD-" cite="">sibi</token>
     <token tok-pos="" postag="T--SPPAMA-" cite="">cedentem</token>
@@ -6806,103 +7041,120 @@ to do list in order of importance:
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--S---MB-" cite="">parente</token>
     <token tok-pos="" postag="A--S---MA-" cite="">superbum</token>
+    <lb n="752"/>
     <token tok-pos="" postag="D---------" cite="">non</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">tulit</token>
     <token tok-pos="" postag="R---------" cite="">Inachides</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="N--S---FD-" cite="">matri</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
+    <said degree="2" speaker="Epaphus" cite="urn:cts:latinLit:phi0959.phi006:1.752">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="N--S---FD-" cite="">matri</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
     <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">ait</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">omnia</token>
-    <token tok-pos="" postag="A--S---MN-" cite="">demens</token>
-    <token tok-pos="" postag="V-2SPIA---" cite="">credis</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="V-2SPIA---" cite="">es</token>
-    <token tok-pos="" postag="A--S---MN-" cite="">tumidus</token>
-    <token tok-pos="" postag="N--S---MG-" cite="">genitoris</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">imagine</token>
-    <token tok-pos="" postag="A--S---MG-" cite="">falsi</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="" type="speech">ait</token>
+    <said degree="2" speaker="Epaphus" cite="urn:cts:latinLit:phi0959.phi006:1.752-1.753">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="N--P---NA-" cite="">omnia</token>
+        <token tok-pos="" postag="A--S---MN-" cite="">demens</token>
+        <lb n="753"/>
+        <token tok-pos="" postag="V-2SPIA---" cite="">credis</token>
+        <token tok-pos="" postag="C---------" cite="">et</token>
+        <token tok-pos="" postag="V-2SPIA---" cite="">es</token>
+        <token tok-pos="" postag="A--S---MN-" cite="">tumidus</token>
+        <token tok-pos="" postag="N--S---MG-" cite="">genitoris</token>
+        <token tok-pos="" postag="N--S---FB-" cite="">imagine</token>
+        <token tok-pos="" postag="A--S---MG-" cite="">falsi</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <lb n="754"/>
     <token tok-pos="" postag="None" cite="">Erubuit</token>
-    <token tok-pos="" postag="None" cite="">Phaetho</token>
-    <token tok-pos="" postag="U---------" cite="">-</token>
-    <token tok-pos="" postag="C---------" cite="">ne</token>
+    <token tok-pos="" postag="None" cite="">Phaethon</token>
     <token tok-pos="" postag="N--S---FA-" cite="">iram</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--S---MB-" cite="">pudore</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">repressit</token>
+    <lb n="755"/>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">tulit</token>
     <token tok-pos="" postag="R---------" cite="">ad</token>
-    <token tok-pos="" postag="None" cite="">Clymene</token>
-    <token tok-pos="" postag="U---------" cite="">-</token>
-    <token tok-pos="" postag="C---------" cite="">ne</token>
+    <token tok-pos="" postag="None" cite="">Clymenen</token>
     <token tok-pos="" postag="None" cite="">Epaphi</token>
     <token tok-pos="" postag="N--P---NA-" cite="">convicia</token>
     <token tok-pos="" postag="N--S---FA-" cite="">matrem</token>
     <token tok-pos="" postag="None" cite="">;</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="D---------" cite="">quo</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
+    <said degree="2" speaker="Phaethon" cite="urn:cts:latinLit:phi0959.phi006:1.756">
+        <lb n="756"/>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="D---------" cite="">quo</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
     <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="D---------" cite="">magis</token>
-    <token tok-pos="" postag="V-2SPSA---" cite="">doleas</token>
-    <token tok-pos="" postag="N--S---FV-" cite="">genetrix</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">ait</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">ille</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">ego</token>
-    <token tok-pos="" postag="A--S---MN-" cite="">liber</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">ille</token>
-    <token tok-pos="" postag="A--S---MN-" cite="">ferox</token>
-    <token tok-pos="" postag="V-1SRIA---" cite="">tacui</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Pudet</token>
-    <token tok-pos="" postag="P--P---NA-" cite="">haec</token>
-    <token tok-pos="" postag="N--P---NN-" cite="">opprobria</token>
-    <token tok-pos="" postag="P--P---MD-" cite="">nobis</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="V---PNP---" cite="">dici</token>
-    <token tok-pos="" postag="V---RNA---" cite="">potuisse</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="D---------" cite="">non</token>
-    <token tok-pos="" postag="V---RNA---" cite="">potuisse</token>
-    <token tok-pos="" postag="V---PNP---" cite="">refelli</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">At</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">tu</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="C---------" cite="">si</token>
-    <token tok-pos="" postag="D---------" cite="">modo</token>
-    <token tok-pos="" postag="V-1SPIA---" cite="">sum</token>
-    <token tok-pos="" postag="A--S---FB-" cite="">caelesti</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">stirpe</token>
-    <token tok-pos="" postag="T--SRPPMN-" cite="">creatus</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="V-2SPMA---" cite="">ede</token>
-    <token tok-pos="" postag="N--S---FA-" cite="">notam</token>
-    <token tok-pos="" postag="A--S---NG-" cite="">tanti</token>
-    <token tok-pos="" postag="N--S---NG-" cite="">generis</token>
-    <token tok-pos="" postag="P--S---MA-" cite="">me</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="V-2SPMA---" cite="">adsere</token>
-    <token tok-pos="" postag="N--S---ND-" cite="">caelo</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="None" cite="">Dixit</token>
+    <said degree="2" speaker="Phaethon" cite="urn:cts:latinLit:phi0959.phi006:1.756-1.75">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="D---------" cite="">magis</token>
+        <token tok-pos="" postag="V-2SPSA---" cite="">doleas</token>
+        <token tok-pos="" postag="N--S---FV-" cite="">genetrix</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <token tok-pos="" postag="V-3SPIA---" cite="" type="speech">ait</token>
+    <said degree="2" speaker="Phaethon" cite="urn:cts:latinLit:phi0959.phi006:1.756">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="P--S---MN-" cite="">ille</token>
+        <token tok-pos="" postag="P--S---MN-" cite="">ego</token>
+        <token tok-pos="" postag="A--S---MN-" cite="">liber</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <lb n="757"/>
+        <token tok-pos="" postag="P--S---MN-" cite="">ille</token>
+        <token tok-pos="" postag="A--S---MN-" cite="">ferox</token>
+        <token tok-pos="" postag="V-1SRIA---" cite="">tacui</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <token tok-pos="" postag="None" cite="">Pudet</token>
+        <token tok-pos="" postag="P--P---NA-" cite="">haec</token>
+        <token tok-pos="" postag="N--P---NN-" cite="">opprobria</token>
+        <token tok-pos="" postag="P--P---MD-" cite="">nobis</token>
+        <lb n="758"/>
+        <token tok-pos="" postag="C---------" cite="">et</token>
+        <token tok-pos="" postag="V---PNP---" cite="" type="speech">dici</token>
+        <token tok-pos="" postag="V---RNA---" cite="">potuisse</token>
+        <token tok-pos="" postag="C---------" cite="">et</token>
+        <token tok-pos="" postag="D---------" cite="">non</token>
+        <token tok-pos="" postag="V---RNA---" cite="">potuisse</token>
+        <token tok-pos="" postag="V---PNP---" cite="">refelli</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <lb n="759"/>
+        <token tok-pos="" postag="None" cite="">At</token>
+        <token tok-pos="" postag="P--S---MN-" cite="">tu</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="C---------" cite="">si</token>
+        <token tok-pos="" postag="D---------" cite="">modo</token>
+        <token tok-pos="" postag="V-1SPIA---" cite="">sum</token>
+        <token tok-pos="" postag="A--S---FB-" cite="">caelesti</token>
+        <token tok-pos="" postag="N--S---FB-" cite="">stirpe</token>
+        <token tok-pos="" postag="T--SRPPMN-" cite="">creatus</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <lb n="760"/>
+        <token tok-pos="" postag="V-2SPMA---" cite="">ede</token>
+        <token tok-pos="" postag="N--S---FA-" cite="">notam</token>
+        <token tok-pos="" postag="A--S---NG-" cite="">tanti</token>
+        <token tok-pos="" postag="N--S---NG-" cite="">generis</token>
+        <token tok-pos="" postag="P--S---MA-" cite="">me</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="V-2SPMA---" cite="">adsere</token>
+        <token tok-pos="" postag="N--S---ND-" cite="">caelo</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <lb n="761"/>
+    <token tok-pos="" postag="None" cite="" type="speech">Dixit</token>
     <token tok-pos="" postag="C---------" cite="">et</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">inplicuit</token>
     <token tok-pos="" postag="A--S---ND-" cite="">materno</token>
     <token tok-pos="" postag="N--P---NA-" cite="">bracchia</token>
     <token tok-pos="" postag="N--S---ND-" cite="">collo</token>
+    <lb n="762"/>
     <token tok-pos="" postag="R---------" cite="">per</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="A--S---NA-" cite="">suum</token>
@@ -6912,13 +7164,15 @@ to do list in order of importance:
     <token tok-pos="" postag="N--P---FA-" cite="">taedas</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="N--P---FG-" cite="">sororum</token>
+    <lb n="763"/>
     <token tok-pos="" postag="V-3SISA---" cite="">traderet</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">oravit</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="" type="speech">oravit</token>
     <token tok-pos="" postag="A--S---MG-" cite="">veri</token>
     <token tok-pos="" postag="P--S---MD-" cite="">sibi</token>
     <token tok-pos="" postag="N--P---NA-" cite="">signa</token>
     <token tok-pos="" postag="N--S---MG-" cite="">parentis</token>
     <token tok-pos="" postag="U---------" cite="">.</token>
+    <lb n="764"/>
     <token tok-pos="" postag="None" cite="">Ambiguum</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
     <token tok-pos="" postag="None" cite="">Clymene</token>
@@ -6927,123 +7181,138 @@ to do list in order of importance:
     <token tok-pos="" postag="None" cite="">Phaethontis</token>
     <token tok-pos="" postag="C---------" cite="">an</token>
     <token tok-pos="" postag="N--S---FB-" cite="">ira</token>
+    <lb n="765"/>
     <token tok-pos="" postag="T--SRPPFN-" cite="">mota</token>
     <token tok-pos="" postag="D---------" cite="">magis</token>
-    <token tok-pos="" postag="N--S---NG-" cite="">dicti</token>
+    <token tok-pos="" postag="N--S---NG-" cite="" type="speech">dicti</token>
     <token tok-pos="" postag="P--P---MD-" cite="">sibi</token>
     <token tok-pos="" postag="N--S---NG-" cite="">criminis</token>
     <token tok-pos="" postag="A--P---NA-" cite="">utraque</token>
     <token tok-pos="" postag="N--S---ND-" cite="">caelo</token>
+    <lb n="766"/>
     <token tok-pos="" postag="N--P---NA-" cite="">bracchia</token>
     <token tok-pos="" postag="V-3SRIA---" cite="">porrexit</token>
-    <token tok-pos="" postag="T--SPPAFN-" cite="">spectans</token>
+    <token tok-pos="" postag="T--SPPAFN-" cite="" type="vision">spectans</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="R---------" cite="">ad</token>
     <token tok-pos="" postag="N--P---NA-" cite="">lumina</token>
     <token tok-pos="" postag="N--S---MG-" cite="">solis</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="R---------" cite="">per</token>
-    <token tok-pos="" postag="N--S---NA-" cite="">iubar</token>
-    <token tok-pos="" postag="P--S---NA-" cite="">hoc</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">inquit</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
-    <token tok-pos="" postag="N--P---MB-" cite="">radiis</token>
-    <token tok-pos="" postag="A--S---NA-" cite="">insigne</token>
-    <token tok-pos="" postag="A--P---MB-" cite="">coruscis</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="N--S---MV-" cite="">nate</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="P--S---MD-" cite="">tibi</token>
-    <token tok-pos="" postag="V-1SPIA---" cite="">iuro</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="C---------" cite="">quod</token>
-    <token tok-pos="" postag="P--P---MA-" cite="">nos</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">audit</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">videt</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="P--S---NA-" cite="">hoc</token>
-    <token tok-pos="" postag="P--S---MA-" cite="">te</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="P--S---MA-" cite="">quem</token>
-    <token tok-pos="" postag="V-2SPIA---" cite="">spectas</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="P--S---MB-" cite="">hoc</token>
-    <token tok-pos="" postag="P--S---MA-" cite="">te</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">qui</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">temperat</token>
-    <token tok-pos="" postag="N--S---MA-" cite="">orbem</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="None" cite="">Sole</token>
-    <token tok-pos="" postag="T--SRPPMA-" cite="">satum</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Si</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">ficta</token>
-    <token tok-pos="" postag="V-1SPIP---" cite="">loquor</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="V-3SPSA---" cite="">neget</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">ipse</token>
-    <token tok-pos="" postag="T--SPGPMA-" cite="">videndum</token>
-    <token tok-pos="" postag="P--S---MA-" cite="">se</token>
-    <token tok-pos="" postag="P--S---FD-" cite="">mihi</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="V-3SPSA---" cite="">sit</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="N--P---MB-" cite="">oculis</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">lux</token>
-    <token tok-pos="" postag="P--S---FN-" cite="">ista</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">novissima</token>
-    <token tok-pos="" postag="A--P---MD-" cite="">nostris</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Nec</token>
-    <token tok-pos="" postag="A--S---MN-" cite="">longus</token>
-    <token tok-pos="" postag="A--P---MA-" cite="">patrios</token>
-    <token tok-pos="" postag="N--S---MN-" cite="">labor</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="P--S---MD-" cite="">tibi</token>
-    <token tok-pos="" postag="V---RNA---" cite="">nosse</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">penates</token>
-    <token tok-pos="" postag="None" cite="">:</token>
-    <token tok-pos="" postag="D---------" cite="">unde</token>
-    <token tok-pos="" postag="V-3SPIP---" cite="">oritur</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">domus</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="N--S---FD-" cite="">terrae</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">contermina</token>
-    <token tok-pos="" postag="A--S---FD-" cite="">nostrae</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Si</token>
-    <token tok-pos="" postag="D---------" cite="">modo</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">fert</token>
-    <token tok-pos="" postag="N--S---MN-" cite="">animus</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="V-2SPMP---" cite="">gradere</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="V-2SFIP---" cite="">scitabere</token>
-    <token tok-pos="" postag="R---------" cite="">ab</token>
-    <token tok-pos="" postag="P--S---MB-" cite="">ipso</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="U---------" cite="">"</token>
+    <said degree="2" speaker="Clymene" cite="urn:cts:latinLit:phi0959.phi006:1.767">
+        <lb n="767"/>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="R---------" cite="">per</token>
+        <token tok-pos="" postag="N--S---NA-" cite="">iubar</token>
+        <token tok-pos="" postag="P--S---NA-" cite="">hoc</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <token tok-pos="" postag="V-3SPIA---" cite="" type="speech">inquit</token>
+    <said degree="2" speaker="Clymene" cite="urn:cts:latinLit:phi0959.phi006:1.767-1.76">
+        <token tok-pos="" postag="U---------" cite="">"</token>
+        <token tok-pos="" postag="N--P---MB-" cite="">radiis</token>
+        <token tok-pos="" postag="A--S---NA-" cite="">insigne</token>
+        <token tok-pos="" postag="A--P---MB-" cite="">coruscis</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <lb n="768"/>
+        <token tok-pos="" postag="N--S---MV-" cite="">nate</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="P--S---MD-" cite="">tibi</token>
+        <token tok-pos="" postag="V-1SPIA---" cite="" type="speech">iuro</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="C---------" cite="">quod</token>
+        <token tok-pos="" postag="P--P---MA-" cite="">nos</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">audit</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="" type="vision">videt</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <lb n="769"/>
+        <token tok-pos="" postag="P--S---NA-" cite="">hoc</token>
+        <token tok-pos="" postag="P--S---MA-" cite="">te</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="P--S---MA-" cite="">quem</token>
+        <token tok-pos="" postag="V-2SPIA---" cite="" type="vision">spectas</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="P--S---MB-" cite="">hoc</token>
+        <token tok-pos="" postag="P--S---MA-" cite="">te</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="P--S---MN-" cite="">qui</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">temperat</token>
+        <token tok-pos="" postag="N--S---MA-" cite="">orbem</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <lb n="770"/>
+        <token tok-pos="" postag="None" cite="">Sole</token>
+        <token tok-pos="" postag="T--SRPPMA-" cite="">satum</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <token tok-pos="" postag="None" cite="">Si</token>
+        <token tok-pos="" postag="N--P---NA-" cite="">ficta</token>
+        <token tok-pos="" postag="V-1SPIP---" cite="" type="speech">loquor</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="V-3SPSA---" cite="">neget</token>
+        <token tok-pos="" postag="P--S---MN-" cite="">ipse</token>
+        <token tok-pos="" postag="T--SPGPMA-" cite="" type="vision">videndum</token>
+        <lb n="771"/>
+        <token tok-pos="" postag="P--S---MA-" cite="">se</token>
+        <token tok-pos="" postag="P--S---FD-" cite="">mihi</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="V-3SPSA---" cite="">sit</token>
+        <token tok-pos="" postag="C---------" cite="">que</token>
+        <token tok-pos="" postag="N--P---MB-" cite="" type="vision">oculis</token>
+        <token tok-pos="" postag="N--S---FN-" cite="">lux</token>
+        <token tok-pos="" postag="P--S---FN-" cite="">ista</token>
+        <token tok-pos="" postag="A--S---FN-" cite="">novissima</token>
+        <token tok-pos="" postag="A--P---MD-" cite="">nostris</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <lb n="772"/>
+        <token tok-pos="" postag="None" cite="">Nec</token>
+        <token tok-pos="" postag="A--S---MN-" cite="">longus</token>
+        <token tok-pos="" postag="A--P---MA-" cite="">patrios</token>
+        <token tok-pos="" postag="N--S---MN-" cite="">labor</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
+        <token tok-pos="" postag="P--S---MD-" cite="">tibi</token>
+        <token tok-pos="" postag="V---RNA---" cite="">nosse</token>
+        <token tok-pos="" postag="N--P---MA-" cite="">penates</token>
+        <token tok-pos="" postag="None" cite="">:</token>
+        <lb n="773"/>
+        <token tok-pos="" postag="D---------" cite="">unde</token>
+        <token tok-pos="" postag="V-3SPIP---" cite="">oritur</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="N--S---FN-" cite="">domus</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
+        <token tok-pos="" postag="N--S---FD-" cite="">terrae</token>
+        <token tok-pos="" postag="A--S---FN-" cite="">contermina</token>
+        <token tok-pos="" postag="A--S---FD-" cite="">nostrae</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <lb n="774"/>
+        <token tok-pos="" postag="None" cite="">Si</token>
+        <token tok-pos="" postag="D---------" cite="">modo</token>
+        <token tok-pos="" postag="V-3SPIA---" cite="">fert</token>
+        <token tok-pos="" postag="N--S---MN-" cite="">animus</token>
+        <token tok-pos="" postag="U---------" cite="">,</token>
+        <token tok-pos="" postag="V-2SPMP---" cite="">gradere</token>
+        <token tok-pos="" postag="C---------" cite="">et</token>
+        <token tok-pos="" postag="V-2SFIP---" cite="">scitabere</token>
+        <token tok-pos="" postag="R---------" cite="">ab</token>
+        <token tok-pos="" postag="P--S---MB-" cite="">ipso</token>
+        <token tok-pos="" postag="U---------" cite="">.</token>
+        <token tok-pos="" postag="U---------" cite="">"</token>
+    </said>
+    <lb n="775"/>
     <token tok-pos="" postag="None" cite="">Emicat</token>
     <token tok-pos="" postag="D---------" cite="">extemplo</token>
     <token tok-pos="" postag="A--S---MN-" cite="">laetus</token>
     <token tok-pos="" postag="R---------" cite="">post</token>
     <token tok-pos="" postag="A--P---NA-" cite="">talia</token>
     <token tok-pos="" postag="N--S---FG-" cite="">matris</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">dicta</token>
+    <lb n="776"/>
+    <token tok-pos="" postag="N--P---NA-" cite="" type="speech">dicta</token>
     <token tok-pos="" postag="A--S---FG-" cite="">suae</token>
-    <token tok-pos="" postag="None" cite="">Phaetho</token>
-    <token tok-pos="" postag="U---------" cite="">-</token>
-    <token tok-pos="" postag="C---------" cite="">ne</token>
+    <token tok-pos="" postag="None" cite="">Phaethon</token>
     <token tok-pos="" postag="D---------" cite="">et</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">concipit</token>
     <token tok-pos="" postag="N--S---MA-" cite="">aethera</token>
     <token tok-pos="" postag="N--S---FB-" cite="">mente</token>
     <token tok-pos="" postag="U---------" cite="">,</token>
+    <lb n="777"/>
     <token tok-pos="" postag="None" cite="">Aethiopas</token>
     <token tok-pos="" postag="C---------" cite="">que</token>
     <token tok-pos="" postag="A--P---MA-" cite="">suos</token>
@@ -7052,6 +7321,7 @@ to do list in order of importance:
     <token tok-pos="" postag="R---------" cite="">sub</token>
     <token tok-pos="" postag="N--P---MB-" cite="">ignibus</token>
     <token tok-pos="" postag="R---------" cite="">Indos</token>
+    <lb n="778"/>
     <token tok-pos="" postag="A--P---MB-" cite="">sidereis</token>
     <token tok-pos="" postag="V-3SPIA---" cite="">transit</token>
     <token tok-pos="" postag="A--P---MA-" cite="">patrios</token>
