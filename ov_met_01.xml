@@ -8,7 +8,7 @@ to do list in order of importance:
 - add lb empty elements as milestones // DONE
 - add URN citations to every word
 - write documentation including criteria for said tag and associated attributes,
-    type attribute for token tags, 10 slots of postag, punctuation postags (ref. Penn)
+    type attribute for token tags, 10 slots of postag, punctuation postags (ref. Penn) // DONE (?)
 - tag direct speech spans with degree, speaker, and cite attributes
 - tag words of speech or vision with type attribute
 - vet postags
@@ -48,7 +48,6 @@ to do list in order of importance:
         >adspirate</token>
     <token tok-pos="" postag="AP-P---ND-" cite="urn:cts:latinLit:phi0959.phi006:1.3">meis</token>
     <token tok-pos="" postag="A--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.3">prima</token>
-    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.3">-</token>
     <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.3">que</token>
     <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.3">ab</token>
     <token tok-pos="" postag="N--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.3">origine</token>
@@ -94,7 +93,6 @@ to do list in order of importance:
     <token tok-pos="" postag="A--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.7">rudis</token>
     <token tok-pos="" postag="A--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.7"
         >indigesta</token>
-    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.7">-</token>
     <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.7">que</token>
     <token tok-pos="" postag="N--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.7">moles</token>
 
@@ -107,7 +105,6 @@ to do list in order of importance:
     <token tok-pos="" postag="A--S---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.8">iners</token>
     <token tok-pos="" postag="T--PRPPNN-" cite="urn:cts:latinLit:phi0959.phi006:1.8"
         >congesta</token>
-    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.8">-</token>
     <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.8">que</token>
     <token tok-pos="" postag="P--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.8">eodem</token>
 
@@ -171,7 +168,6 @@ to do list in order of importance:
 
     <lb n="15"/>
     <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.15">ut</token>
-    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.15">-</token>
     <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.15">que</token>
     <token tok-pos="" postag="N--S---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.15">aer</token>
     <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.15">,</token>
@@ -184,699 +180,708 @@ to do list in order of importance:
     <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.15">.</token>
 
     <lb n="16"/>
-    <token tok-pos="" postag="None" cite="">Sic</token>
-    <token tok-pos="" postag="V-3SIIA---" cite="">erat</token>
-    <token tok-pos="" postag="None" cite="">instabilis</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">tellus</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="None" cite="">innabilis</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">unda</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.16">Sic</token>
+    <token tok-pos="" postag="V-3SIIA---" cite="urn:cts:latinLit:phi0959.phi006:1.16">erat</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.16">instabilis</token>
+    <token tok-pos="" postag="N--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.16">tellus</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.16">,</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.16">innabilis</token>
+    <token tok-pos="" postag="N--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.16">unda</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.16">,</token>
 
     <lb n="17"/>
-    <token tok-pos="" postag="N--P---MB-" cite="">lucis</token>
-    <token tok-pos="" postag="T--SPPAMN-" cite="">egens</token>
-    <token tok-pos="" postag="N--S---MN-" cite="">aer</token>
-    <token tok-pos="" postag="None" cite="">:</token>
-    <token tok-pos="" postag="A--P---MN-" cite="">nulli</token>
-    <token tok-pos="" postag="A--S---FB-" cite="">sua</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">forma</token>
-    <token tok-pos="" postag="None" cite="">manebat</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="N--P---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.17">lucis</token>
+    <token tok-pos="" postag="T--SPPAMN-" cite="urn:cts:latinLit:phi0959.phi006:1.17">egens</token>
+    <token tok-pos="" postag="N--S---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.17">aer</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.17">:</token>
+    <token tok-pos="" postag="A--P---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.17">nulli</token>
+    <token tok-pos="" postag="A--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.17">sua</token>
+    <token tok-pos="" postag="N--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.17">forma</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.17">manebat</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.17">,</token>
 
     <lb n="18"/>
-    <token tok-pos="" postag="V-3SIIA---" cite="">obstabat</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="N--P---MB-" cite="">aliis</token>
-    <token tok-pos="" postag="A--S---NA-" cite="">aliud</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="C---------" cite="">quia</token>
-    <token tok-pos="" postag="N--S---NB-" cite="">corpore</token>
-    <token tok-pos="" postag="R---------" cite="">in</token>
-    <token tok-pos="" postag="A--S---NB-" cite="">uno</token>
+    <token tok-pos="" postag="V-3SIIA---" cite="urn:cts:latinLit:phi0959.phi006:1.18"
+        >obstabat</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.18">que</token>
+    <token tok-pos="" postag="N--P---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.18">aliis</token>
+    <token tok-pos="" postag="A--S---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.18">aliud</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.18">,</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.18">quia</token>
+    <token tok-pos="" postag="N--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.18"
+        >corpore</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.18">in</token>
+    <token tok-pos="" postag="A--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.18">uno</token>
 
     <lb n="19"/>
-    <token tok-pos="" postag="A--S---FN-" cite="">frigida</token>
-    <token tok-pos="" postag="None" cite="">pugnabant</token>
-    <token tok-pos="" postag="None" cite="">calidis</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="None" cite="">umentia</token>
-    <token tok-pos="" postag="A--P---MB-" cite="">siccis</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="A--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.19"
+        >frigida</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.19">pugnabant</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.19">calidis</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.19">,</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.19">umentia</token>
+    <token tok-pos="" postag="A--P---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.19">siccis</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.19">,</token>
 
     <lb n="20"/>
-    <token tok-pos="" postag="A--P---NA-" cite="">mollia</token>
-    <token tok-pos="" postag="C---------" cite="">cum</token>
-    <token tok-pos="" postag="A--P---FB-" cite="">duris</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="R---------" cite="">sine</token>
-    <token tok-pos="" postag="N--S---NB-" cite="">pondere</token>
-    <token tok-pos="" postag="None" cite="">habentia</token>
-    <token tok-pos="" postag="N--S---NA-" cite="">pondus</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="A--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.20">mollia</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.20">cum</token>
+    <token tok-pos="" postag="A--P---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.20">duris</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.20">,</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.20">sine</token>
+    <token tok-pos="" postag="N--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.20"
+        >pondere</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.20">habentia</token>
+    <token tok-pos="" postag="N--S---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.20">pondus</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.20">.</token>
 
     <lb n="21"/>
-    <token tok-pos="" postag="None" cite="">Hanc</token>
-    <token tok-pos="" postag="N--S---MN-" cite="">deus</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="A--S---FNC" cite="">melior</token>
-    <token tok-pos="" postag="None" cite="">litem</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">natura</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">diremit</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.21">Hanc</token>
+    <token tok-pos="" postag="N--S---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.21">deus</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.21">et</token>
+    <token tok-pos="" postag="A--S---FNC" cite="urn:cts:latinLit:phi0959.phi006:1.21">melior</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.21">litem</token>
+    <token tok-pos="" postag="N--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.21">natura</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.21"
+        >diremit</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.21">.</token>
 
     <lb n="22"/>
-    <token tok-pos="" postag="None" cite="">Nam</token>
-    <token tok-pos="" postag="N--S---NB-" cite="">caelo</token>
-    <token tok-pos="" postag="N--P---FA-" cite="">terras</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="N--P---FB-" cite="">terris</token>
-    <token tok-pos="" postag="None" cite="">abscidit</token>
-    <token tok-pos="" postag="N--P---FA-" cite="">undas</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.22">Nam</token>
+    <token tok-pos="" postag="N--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.22">caelo</token>
+    <token tok-pos="" postag="N--P---FA-" cite="urn:cts:latinLit:phi0959.phi006:1.22">terras</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.22">et</token>
+    <token tok-pos="" postag="N--P---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.22">terris</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.22">abscidit</token>
+    <token tok-pos="" postag="N--P---FA-" cite="urn:cts:latinLit:phi0959.phi006:1.22">undas</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.22">,</token>
 
     <lb n="23"/>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="A--S---MA-" cite="">liquidum</token>
-    <token tok-pos="" postag="None" cite="">spisso</token>
-    <token tok-pos="" postag="None" cite="">secrevit</token>
-    <token tok-pos="" postag="R---------" cite="">ab</token>
-    <token tok-pos="" postag="N--S---NB-" cite="">aere</token>
-    <token tok-pos="" postag="N--S---NA-" cite="">caelum</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.23">et</token>
+    <token tok-pos="" postag="A--S---MA-" cite="urn:cts:latinLit:phi0959.phi006:1.23"
+        >liquidum</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.23">spisso</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.23">secrevit</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.23">ab</token>
+    <token tok-pos="" postag="N--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.23">aere</token>
+    <token tok-pos="" postag="N--S---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.23">caelum</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.23">.</token>
 
     <lb n="24"/>
-    <token tok-pos="" postag="None" cite="">Quae</token>
-    <token tok-pos="" postag="C---------" cite="">postquam</token>
-    <token tok-pos="" postag="None" cite="">evolvit</token>
-    <token tok-pos="" postag="None" cite="">caeco</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="None" cite="">exemit</token>
-    <token tok-pos="" postag="None" cite="">acervo</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.24">Quae</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.24"
+        >postquam</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.24">evolvit</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.24">caeco</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.24">que</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.24">exemit</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.24">acervo</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.24">,</token>
 
     <lb n="25"/>
-    <token tok-pos="" postag="None" cite="">dissociata</token>
-    <token tok-pos="" postag="N--P---MB-" cite="">locis</token>
-    <token tok-pos="" postag="None" cite="">concordi</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">pace</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">ligavit</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.25">dissociata</token>
+    <token tok-pos="" postag="N--P---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.25">locis</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.25">concordi</token>
+    <token tok-pos="" postag="N--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.25">pace</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.25"
+        >ligavit</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.25">.</token>
 
     <lb n="26"/>
-    <token tok-pos="" postag="None" cite="">Ignea</token>
-    <token tok-pos="" postag="None" cite="">convexi</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">vis</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="R---------" cite="">sine</token>
-    <token tok-pos="" postag="N--S---NB-" cite="">pondere</token>
-    <token tok-pos="" postag="N--S---NG-" cite="">caeli</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.26">Ignea</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.26">convexi</token>
+    <token tok-pos="" postag="N--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.26">vis</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.26">et</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.26">sine</token>
+    <token tok-pos="" postag="N--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.26"
+        >pondere</token>
+    <token tok-pos="" postag="N--S---NG-" cite="urn:cts:latinLit:phi0959.phi006:1.26">caeli</token>
 
     <lb n="27"/>
-    <token tok-pos="" postag="None" cite="">emicuit</token>
-    <token tok-pos="" postag="A--S---FB-" cite="">summa</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="N--S---MA-" cite="">locum</token>
-    <token tok-pos="" postag="P--S---MD-" cite="">sibi</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">fecit</token>
-    <token tok-pos="" postag="R---------" cite="">in</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">arce</token>
-    <token tok-pos="" postag="None" cite="">:</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.27">emicuit</token>
+    <token tok-pos="" postag="A--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.27">summa</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.27">que</token>
+    <token tok-pos="" postag="N--S---MA-" cite="urn:cts:latinLit:phi0959.phi006:1.27">locum</token>
+    <token tok-pos="" postag="P--S---MD-" cite="urn:cts:latinLit:phi0959.phi006:1.27">sibi</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.27">fecit</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.27">in</token>
+    <token tok-pos="" postag="N--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.27">arce</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.27">:</token>
 
     <lb n="28"/>
-    <token tok-pos="" postag="A--S---MN-" cite="">proximus</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="N--S---MN-" cite="">aer</token>
-    <token tok-pos="" postag="P--S---MD-" cite="">illi</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">levitate</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">loco</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="None" cite="">:</token>
+    <token tok-pos="" postag="A--S---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.28">proximus</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="urn:cts:latinLit:phi0959.phi006:1.28">est</token>
+    <token tok-pos="" postag="N--S---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.28">aer</token>
+    <token tok-pos="" postag="P--S---MD-" cite="urn:cts:latinLit:phi0959.phi006:1.28">illi</token>
+    <token tok-pos="" postag="N--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.28">levitate</token>
+    <token tok-pos="" postag="N--S---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.28">loco</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.28">que</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.28">:</token>
 
     <lb n="29"/>
-    <token tok-pos="" postag="None" cite="">densior</token>
-    <token tok-pos="" postag="P--P---FB-" cite="">his</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">tellus</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="None" cite="">elementa</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="None" cite="">grandia</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">traxit</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.29">densior</token>
+    <token tok-pos="" postag="P--P---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.29">his</token>
+    <token tok-pos="" postag="N--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.29">tellus</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.29">,</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.29">elementa</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.29">que</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.29">grandia</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.29">traxit</token>
 
     <lb n="30"/>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="None" cite="">pressa</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">gravitate</token>
-    <token tok-pos="" postag="A--S---FB-" cite="">sua</token>
-    <token tok-pos="" postag="None" cite="">:</token>
-    <token tok-pos="" postag="None" cite="">circumfluus</token>
-    <token tok-pos="" postag="N--S---MN-" cite="">umor</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.30">et</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.30">pressa</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="urn:cts:latinLit:phi0959.phi006:1.30">est</token>
+    <token tok-pos="" postag="N--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.30">gravitate</token>
+    <token tok-pos="" postag="A--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.30">sua</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.30">:</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.30">circumfluus</token>
+    <token tok-pos="" postag="N--S---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.30">umor</token>
 
     <lb n="31"/>
-    <token tok-pos="" postag="A--S---FN-" cite="">ultima</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">possedit</token>
-    <token tok-pos="" postag="A--S---NN-" cite="">solidum</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">coercuit</token>
-    <token tok-pos="" postag="N--S---MA-" cite="">orbem</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="A--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.31">ultima</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.31">possedit</token>
+    <token tok-pos="" postag="A--S---NN-" cite="urn:cts:latinLit:phi0959.phi006:1.31">solidum</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.31">que</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.31">coercuit</token>
+    <token tok-pos="" postag="N--S---MA-" cite="urn:cts:latinLit:phi0959.phi006:1.31">orbem</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.31">.</token>
 
     <lb n="32"/>
-    <token tok-pos="" postag="None" cite="">Sic</token>
-    <token tok-pos="" postag="C---------" cite="">ubi</token>
-    <token tok-pos="" postag="None" cite="">dispositam</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">quisquis</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">fuit</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">ille</token>
-    <token tok-pos="" postag="N--P---MG-" cite="">deorum</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.32">Sic</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.32">ubi</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.32">dispositam</token>
+    <token tok-pos="" postag="P--S---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.32">quisquis</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.32">fuit</token>
+    <token tok-pos="" postag="P--S---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.32">ille</token>
+    <token tok-pos="" postag="N--P---MG-" cite="urn:cts:latinLit:phi0959.phi006:1.32">deorum</token>
 
     <lb n="33"/>
-    <token tok-pos="" postag="None" cite="">congeriem</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">secuit</token>
-    <token tok-pos="" postag="None" cite="">sectam</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="R---------" cite="">in</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">membra</token>
-    <token tok-pos="" postag="None" cite="">redegit</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.33">congeriem</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.33">secuit</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.33">sectam</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.33">que</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.33">in</token>
+    <token tok-pos="" postag="N--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.33">membra</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.33">redegit</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.33">,</token>
 
     <lb n="34"/>
-    <token tok-pos="" postag="N--S---NB-" cite="">principio</token>
-    <token tok-pos="" postag="N--S---FA-" cite="">terram</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="C---------" cite="">ne</token>
-    <token tok-pos="" postag="D---------" cite="">non</token>
-    <token tok-pos="" postag="A--S---MN-" cite="">aequalis</token>
-    <token tok-pos="" postag="R---------" cite="">ab</token>
-    <token tok-pos="" postag="A--S---FB-" cite="">omni</token>
+    <token tok-pos="" postag="N--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.34">principio</token>
+    <token tok-pos="" postag="N--S---FA-" cite="urn:cts:latinLit:phi0959.phi006:1.34">terram</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.34">,</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.34">ne</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.34">non</token>
+    <token tok-pos="" postag="A--S---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.34">aequalis</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.34">ab</token>
+    <token tok-pos="" postag="A--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.34">omni</token>
 
     <lb n="35"/>
-    <token tok-pos="" postag="N--S---FB-" cite="">parte</token>
-    <token tok-pos="" postag="V-3SISA---" cite="">foret</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="A--S---MG-" cite="">magni</token>
-    <token tok-pos="" postag="N--S---FA-" cite="">speciem</token>
-    <token tok-pos="" postag="None" cite="">glomeravit</token>
-    <token tok-pos="" postag="R---------" cite="">in</token>
-    <token tok-pos="" postag="N--S---MG-" cite="">orbis</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="N--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.35">parte</token>
+    <token tok-pos="" postag="V-3SISA---" cite="urn:cts:latinLit:phi0959.phi006:1.35">foret</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.35">,</token>
+    <token tok-pos="" postag="A--S---MG-" cite="urn:cts:latinLit:phi0959.phi006:1.35">magni</token>
+    <token tok-pos="" postag="N--S---FA-" cite="urn:cts:latinLit:phi0959.phi006:1.35">speciem</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.35">glomeravit</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.35">in</token>
+    <token tok-pos="" postag="N--S---MG-" cite="urn:cts:latinLit:phi0959.phi006:1.35">orbis</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.35">.</token>
 
     <lb n="36"/>
-    <token tok-pos="" postag="None" cite="">Tum</token>
-    <token tok-pos="" postag="None" cite="">freta</token>
-    <token tok-pos="" postag="None" cite="">diffudit</token>
-    <token tok-pos="" postag="A--P---MB-" cite="">rapidis</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="None" cite="">tumescere</token>
-    <token tok-pos="" postag="N--P---MB-" cite="">ventis</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.36">Tum</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.36">freta</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.36">diffudit</token>
+    <token tok-pos="" postag="A--P---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.36">rapidis</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.36">que</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.36">tumescere</token>
+    <token tok-pos="" postag="N--P---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.36">ventis</token>
 
     <lb n="37"/>
-    <token tok-pos="" postag="V-3SRIA---" cite="">iussit</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="None" cite="">ambitae</token>
-    <token tok-pos="" postag="V---PNA---" cite="">circumdare</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">litora</token>
-    <token tok-pos="" postag="N--S---FG-" cite="">terrae</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.37">iussit</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.37">et</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.37">ambitae</token>
+    <token tok-pos="" postag="V---PNA---" cite="urn:cts:latinLit:phi0959.phi006:1.37">circumdare</token>
+    <token tok-pos="" postag="N--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.37">litora</token>
+    <token tok-pos="" postag="N--S---FG-" cite="urn:cts:latinLit:phi0959.phi006:1.37">terrae</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.37">.</token>
 
     <lb n="38"/>
-    <token tok-pos="" postag="None" cite="">Addidit</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="N--P---FA-" cite="">fontes</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">stagna</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">inmensa</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">lacus</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.38">Addidit</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.38">et</token>
+    <token tok-pos="" postag="N--P---FA-" cite="urn:cts:latinLit:phi0959.phi006:1.38">fontes</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.38">et</token>
+    <token tok-pos="" postag="N--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.38">stagna</token>
+    <token tok-pos="" postag="A--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.38">inmensa</token>
+    <token tok-pos="" postag="N--P---MA-" cite="urn:cts:latinLit:phi0959.phi006:1.38">lacus</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.38">que</token>
 
     <lb n="39"/>
-    <token tok-pos="" postag="N--P---NA-" cite="">flumina</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="None" cite="">obliquis</token>
-    <token tok-pos="" postag="None" cite="">cinxit</token>
-    <token tok-pos="" postag="None" cite="">declivia</token>
-    <token tok-pos="" postag="N--P---FB-" cite="">ripis</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="N--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.39">flumina</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.39">que</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.39">obliquis</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.39">cinxit</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.39">declivia</token>
+    <token tok-pos="" postag="N--P---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.39">ripis</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.39">,</token>
 
     <lb n="40"/>
-    <token tok-pos="" postag="P--P---NA-" cite="">quae</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="T--SRPPFB-" cite="">diversa</token>
-    <token tok-pos="" postag="N--P---MB-" cite="">locis</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="D---------" cite="">partim</token>
-    <token tok-pos="" postag="None" cite="">sorbentur</token>
-    <token tok-pos="" postag="R---------" cite="">ab</token>
-    <token tok-pos="" postag="P--S---FN-" cite="">ipsa</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="P--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.40">quae</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.40">,</token>
+    <token tok-pos="" postag="T--SRPPFB-" cite="urn:cts:latinLit:phi0959.phi006:1.40">diversa</token>
+    <token tok-pos="" postag="N--P---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.40">locis</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.40">,</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.40">partim</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.40">sorbentur</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.40">ab</token>
+    <token tok-pos="" postag="P--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.40">ipsa</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.40">,</token>
 
     <lb n="41"/>
-    <token tok-pos="" postag="R---------" cite="">in</token>
-    <token tok-pos="" postag="N--S---NA-" cite="">mare</token>
-    <token tok-pos="" postag="None" cite="">perveniunt</token>
-    <token tok-pos="" postag="D---------" cite="">partim</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">campo</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="T--SRPPFB-" cite="">recepta</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.41">in</token>
+    <token tok-pos="" postag="N--S---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.41">mare</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.41">perveniunt</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.41">partim</token>
+    <token tok-pos="" postag="N--S---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.41">campo</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.41">que</token>
+    <token tok-pos="" postag="T--SRPPFB-" cite="urn:cts:latinLit:phi0959.phi006:1.41">recepta</token>
 
     <lb n="42"/>
-    <token tok-pos="" postag="None" cite="">liberioris</token>
-    <token tok-pos="" postag="N--S---FG-" cite="">aquae</token>
-    <token tok-pos="" postag="R---------" cite="">pro</token>
-    <token tok-pos="" postag="N--P---FB-" cite="">ripis</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">litora</token>
-    <token tok-pos="" postag="V-3PPIA---" cite="">pulsant</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.42">liberioris</token>
+    <token tok-pos="" postag="N--S---FG-" cite="urn:cts:latinLit:phi0959.phi006:1.42">aquae</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.42">pro</token>
+    <token tok-pos="" postag="N--P---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.42">ripis</token>
+    <token tok-pos="" postag="N--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.42">litora</token>
+    <token tok-pos="" postag="V-3PPIA---" cite="urn:cts:latinLit:phi0959.phi006:1.42">pulsant</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.42">.</token>
 
     <lb n="43"/>
-    <token tok-pos="" postag="None" cite="">Iussit</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="None" cite="">extendi</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">campos</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="V---PNA---" cite="">subsidere</token>
-    <token tok-pos="" postag="None" cite="">valles</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.43">Iussit</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.43">et</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.43">extendi</token>
+    <token tok-pos="" postag="N--P---MA-" cite="urn:cts:latinLit:phi0959.phi006:1.43">campos</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.43">,</token>
+    <token tok-pos="" postag="V---PNA---" cite="urn:cts:latinLit:phi0959.phi006:1.43">subsidere</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.43">valles</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.43">,</token>
 
     <lb n="44"/>
-    <token tok-pos="" postag="N--S---FB-" cite="">fronde</token>
-    <token tok-pos="" postag="None" cite="">tegi</token>
-    <token tok-pos="" postag="N--P---FA-" cite="">silvas</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="None" cite="">lapidosos</token>
-    <token tok-pos="" postag="V---PNA---" cite="">surgere</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">montes</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="N--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.44">fronde</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.44">tegi</token>
+    <token tok-pos="" postag="N--P---FA-" cite="urn:cts:latinLit:phi0959.phi006:1.44">silvas</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.44">,</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.44">lapidosos</token>
+    <token tok-pos="" postag="V---PNA---" cite="urn:cts:latinLit:phi0959.phi006:1.44">surgere</token>
+    <token tok-pos="" postag="N--P---MA-" cite="urn:cts:latinLit:phi0959.phi006:1.44">montes</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.44">.</token>
 
     <lb n="45"/>
-    <token tok-pos="" postag="None" cite="">Ut</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="A--P---FN-" cite="">duae</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">dextra</token>
-    <token tok-pos="" postag="N--S---NA-" cite="">caelum</token>
-    <token tok-pos="" postag="D---------" cite="">totidem</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">sinistra</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.45">Ut</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.45">que</token>
+    <token tok-pos="" postag="A--P---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.45">duae</token>
+    <token tok-pos="" postag="N--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.45">dextra</token>
+    <token tok-pos="" postag="N--S---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.45">caelum</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.45">totidem</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.45">que</token>
+    <token tok-pos="" postag="N--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.45">sinistra</token>
 
     <lb n="46"/>
-    <token tok-pos="" postag="N--S---FB-" cite="">parte</token>
-    <token tok-pos="" postag="None" cite="">secant</token>
-    <token tok-pos="" postag="None" cite="">zonae</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="None" cite="">quinta</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="None" cite="">ardentior</token>
-    <token tok-pos="" postag="P--P---MD-" cite="">illis</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="N--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.46">parte</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.46">secant</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.46">zonae</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.46">,</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.46">quinta</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="urn:cts:latinLit:phi0959.phi006:1.46">est</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.46">ardentior</token>
+    <token tok-pos="" postag="P--P---MD-" cite="urn:cts:latinLit:phi0959.phi006:1.46">illis</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.46">,</token>
 
     <lb n="47"/>
-    <token tok-pos="" postag="D---------" cite="">sic</token>
-    <token tok-pos="" postag="None" cite="">onus</token>
-    <token tok-pos="" postag="T--SRPPNN-" cite="">inclusum</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">numero</token>
-    <token tok-pos="" postag="None" cite="">distinxit</token>
-    <token tok-pos="" postag="P--S---NB-" cite="">eodem</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.47">sic</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.47">onus</token>
+    <token tok-pos="" postag="T--SRPPNN-" cite="urn:cts:latinLit:phi0959.phi006:1.47">inclusum</token>
+    <token tok-pos="" postag="N--S---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.47">numero</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.47">distinxit</token>
+    <token tok-pos="" postag="P--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.47">eodem</token>
 
     <lb n="48"/>
-    <token tok-pos="" postag="N--S---FN-" cite="">cura</token>
-    <token tok-pos="" postag="N--S---MG-" cite="">dei</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="D---------" cite="">totidem</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="N--P---FN-" cite="">plagae</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">tellure</token>
-    <token tok-pos="" postag="V-3PPIP---" cite="">premuntur</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="N--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.48">cura</token>
+    <token tok-pos="" postag="N--S---MG-" cite="urn:cts:latinLit:phi0959.phi006:1.48">dei</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.48">,</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.48">totidem</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.48">que</token>
+    <token tok-pos="" postag="N--P---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.48">plagae</token>
+    <token tok-pos="" postag="N--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.48">tellure</token>
+    <token tok-pos="" postag="V-3PPIP---" cite="urn:cts:latinLit:phi0959.phi006:1.48">premuntur</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.48">.</token>
 
     <lb n="49"/>
-    <token tok-pos="" postag="None" cite="">Quarum</token>
-    <token tok-pos="" postag="P--S---FN-" cite="">quae</token>
-    <token tok-pos="" postag="A--S---FB-" cite="">media</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="D---------" cite="">non</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="None" cite="">habitabilis</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">aestu</token>
-    <token tok-pos="" postag="None" cite="">:</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.49">Quarum</token>
+    <token tok-pos="" postag="P--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.49">quae</token>
+    <token tok-pos="" postag="A--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.49">media</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="urn:cts:latinLit:phi0959.phi006:1.49">est</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.49">,</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.49">non</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="urn:cts:latinLit:phi0959.phi006:1.49">est</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.49">habitabilis</token>
+    <token tok-pos="" postag="N--S---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.49">aestu</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.49">:</token>
 
     <lb n="50"/>
-    <token tok-pos="" postag="N--S---FN-" cite="">nix</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">tegit</token>
-    <token tok-pos="" postag="A--P---NA-" cite="">alta</token>
-    <token tok-pos="" postag="A--P---FA-" cite="">duas</token>
-    <token tok-pos="" postag="None" cite="">:</token>
-    <token tok-pos="" postag="D---------" cite="">totidem</token>
-    <token tok-pos="" postag="R---------" cite="">inter</token>
-    <token tok-pos="" postag="None" cite="">utrumque</token>
-    <token tok-pos="" postag="None" cite="">locavit</token>
+    <token tok-pos="" postag="N--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.50">nix</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="urn:cts:latinLit:phi0959.phi006:1.50">tegit</token>
+    <token tok-pos="" postag="A--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.50">alta</token>
+    <token tok-pos="" postag="A--P---FA-" cite="urn:cts:latinLit:phi0959.phi006:1.50">duas</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.50">:</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.50">totidem</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.50">inter</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.50">utrumque</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.50">locavit</token>
 
     <lb n="51"/>
-    <token tok-pos="" postag="N--S---FA-" cite="">temperiem</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">dedit</token>
-    <token tok-pos="" postag="T--PRPPNN-" cite="">mixta</token>
-    <token tok-pos="" postag="R---------" cite="">cum</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">frigore</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">flamma</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="N--S---FA-" cite="urn:cts:latinLit:phi0959.phi006:1.51">temperiem</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.51">que</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="urn:cts:latinLit:phi0959.phi006:1.51">dedit</token>
+    <token tok-pos="" postag="T--PRPPNN-" cite="urn:cts:latinLit:phi0959.phi006:1.51">mixta</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.51">cum</token>
+    <token tok-pos="" postag="N--S---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.51">frigore</token>
+    <token tok-pos="" postag="N--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.51">flamma</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.51">.</token>
 
     <lb n="52"/>
-    <token tok-pos="" postag="R---------" cite="">Inminet</token>
-    <token tok-pos="" postag="P--P---FB-" cite="">his</token>
-    <token tok-pos="" postag="N--S---MN-" cite="">aer</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
-    <token tok-pos="" postag="None" cite="">Qui</token>
-    <token tok-pos="" postag="A--S---NB-" cite="">quanto</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="N--S---NB-" cite="">pondere</token>
-    <token tok-pos="" postag="N--S---FG-" cite="">terrae</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.52">Inminet</token>
+    <token tok-pos="" postag="P--P---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.52">his</token>
+    <token tok-pos="" postag="N--S---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.52">aer</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.52">.</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.52">Qui</token>
+    <token tok-pos="" postag="A--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.52">quanto</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="urn:cts:latinLit:phi0959.phi006:1.52">est</token>
+    <token tok-pos="" postag="N--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.52">pondere</token>
+    <token tok-pos="" postag="N--S---FG-" cite="urn:cts:latinLit:phi0959.phi006:1.52">terrae</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.52">,</token>
 
     <lb n="53"/>
-    <token tok-pos="" postag="N--S---NB-" cite="">pondere</token>
-    <token tok-pos="" postag="N--S---FG-" cite="">aquae</token>
-    <token tok-pos="" postag="A--S---MNC" cite="">levior</token>
-    <token tok-pos="" postag="A--S---NB-" cite="">tanto</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="None" cite="">onerosior</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">igni</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="N--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.53">pondere</token>
+    <token tok-pos="" postag="N--S---FG-" cite="urn:cts:latinLit:phi0959.phi006:1.53">aquae</token>
+    <token tok-pos="" postag="A--S---MNC" cite="urn:cts:latinLit:phi0959.phi006:1.53">levior</token>
+    <token tok-pos="" postag="A--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.53">tanto</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="urn:cts:latinLit:phi0959.phi006:1.53">est</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.53">onerosior</token>
+    <token tok-pos="" postag="N--S---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.53">igni</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.53">.</token>
 
     <lb n="54"/>
-    <token tok-pos="" postag="None" cite="">Illic</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="N--P---FA-" cite="">nebulas</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="D---------" cite="">illic</token>
-    <token tok-pos="" postag="None" cite="">consistere</token>
-    <token tok-pos="" postag="N--P---FA-" cite="">nubes</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.54">Illic</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.54">et</token>
+    <token tok-pos="" postag="N--P---FA-" cite="urn:cts:latinLit:phi0959.phi006:1.54">nebulas</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.54">,</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.54">illic</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.54">consistere</token>
+    <token tok-pos="" postag="N--P---FA-" cite="urn:cts:latinLit:phi0959.phi006:1.54">nubes</token>
 
     <lb n="55"/>
-    <token tok-pos="" postag="V-3SRIA---" cite="">iussit</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="None" cite="">humanas</token>
-    <token tok-pos="" postag="None" cite="">motura</token>
-    <token tok-pos="" postag="N--P---NN-" cite="">tonitrua</token>
-    <token tok-pos="" postag="None" cite="">mentes</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.55">iussit</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.55">et</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.55">humanas</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.55">motura</token>
+    <token tok-pos="" postag="N--P---NN-" cite="urn:cts:latinLit:phi0959.phi006:1.55">tonitrua</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.55">mentes</token>
 
     <lb n="56"/>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="C---------" cite="">cum</token>
-    <token tok-pos="" postag="None" cite="">fulminibus</token>
-    <token tok-pos="" postag="T--PPPAMN-" cite="">facientes</token>
-    <token tok-pos="" postag="N--P---NN-" cite="">fulgura</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">ventos</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.56">et</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.56">cum</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.56">fulminibus</token>
+    <token tok-pos="" postag="T--PPPAMN-" cite="urn:cts:latinLit:phi0959.phi006:1.56">facientes</token>
+    <token tok-pos="" postag="N--P---NN-" cite="urn:cts:latinLit:phi0959.phi006:1.56">fulgura</token>
+    <token tok-pos="" postag="N--P---MA-" cite="urn:cts:latinLit:phi0959.phi006:1.56">ventos</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.56">.</token>
 
     <lb n="57"/>
-    <token tok-pos="" postag="None" cite="">His</token>
-    <token tok-pos="" postag="D---------" cite="">quoque</token>
-    <token tok-pos="" postag="D---------" cite="">non</token>
-    <token tok-pos="" postag="None" cite="">passim</token>
-    <token tok-pos="" postag="N--S---MG-" cite="">mundi</token>
-    <token tok-pos="" postag="None" cite="">fabricator</token>
-    <token tok-pos="" postag="None" cite="">habendum</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.57">His</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.57">quoque</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.57">non</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.57">passim</token>
+    <token tok-pos="" postag="N--S---MG-" cite="urn:cts:latinLit:phi0959.phi006:1.57">mundi</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.57">fabricator</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.57">habendum</token>
 
     <lb n="58"/>
-    <token tok-pos="" postag="N--S---MA-" cite="">aera</token>
-    <token tok-pos="" postag="None" cite="">permisit</token>
-    <token tok-pos="" postag="None" cite="">:</token>
-    <token tok-pos="" postag="D---------" cite="">vix</token>
-    <token tok-pos="" postag="D---------" cite="">nunc</token>
-    <token tok-pos="" postag="None" cite="">obsistitur</token>
-    <token tok-pos="" postag="P--P---MD-" cite="">illis</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="N--S---MA-" cite="urn:cts:latinLit:phi0959.phi006:1.58">aera</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.58">permisit</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.58">:</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.58">vix</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.58">nunc</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.58">obsistitur</token>
+    <token tok-pos="" postag="P--P---MD-" cite="urn:cts:latinLit:phi0959.phi006:1.58">illis</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.58">,</token>
 
     <lb n="59"/>
-    <token tok-pos="" postag="C---------" cite="">cum</token>
-    <token tok-pos="" postag="A--P---NA-" cite="">sua</token>
-    <token tok-pos="" postag="P--S---MN-" cite="">quisque</token>
-    <token tok-pos="" postag="None" cite="">regant</token>
-    <token tok-pos="" postag="None" cite="">diverso</token>
-    <token tok-pos="" postag="N--P---NN-" cite="">flamina</token>
-    <token tok-pos="" postag="None" cite="">tractu</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.59">cum</token>
+    <token tok-pos="" postag="A--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.59">sua</token>
+    <token tok-pos="" postag="P--S---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.59">quisque</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.59">regant</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.59">diverso</token>
+    <token tok-pos="" postag="N--P---NN-" cite="urn:cts:latinLit:phi0959.phi006:1.59">flamina</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.59">tractu</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.59">,</token>
 
     <lb n="60"/>
-    <token tok-pos="" postag="C---------" cite="">quin</token>
-    <token tok-pos="" postag="None" cite="">lanient</token>
-    <token tok-pos="" postag="A--S---NA-" cite="">mundum</token>
-    <token tok-pos="" postag="None" cite="">:</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">tanta</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">discordia</token>
-    <token tok-pos="" postag="N--P---MG-" cite="">fratrum</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.60">quin</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.60">lanient</token>
+    <token tok-pos="" postag="A--S---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.60">mundum</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.60">:</token>
+    <token tok-pos="" postag="A--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.60">tanta</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="urn:cts:latinLit:phi0959.phi006:1.60">est</token>
+    <token tok-pos="" postag="N--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.60">discordia</token>
+    <token tok-pos="" postag="N--P---MG-" cite="urn:cts:latinLit:phi0959.phi006:1.60">fratrum</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.60">.</token>
 
     <lb n="61"/>
-    <token tok-pos="" postag="None" cite="">Eurus</token>
-    <token tok-pos="" postag="R---------" cite="">ad</token>
-    <token tok-pos="" postag="None" cite="">Auroram</token>
-    <token tok-pos="" postag="None" cite="">Nabataea</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">regna</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">recessit</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.61">Eurus</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.61">ad</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.61">Auroram</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.61">Nabataea</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.61">que</token>
+    <token tok-pos="" postag="N--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.61">regna</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.61">recessit</token>
 
     <lb n="62"/>
-    <token tok-pos="" postag="None" cite="">Persida</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="D---------" cite="">et</token>
-    <token tok-pos="" postag="N--P---MB-" cite="">radiis</token>
-    <token tok-pos="" postag="N--P---NN-" cite="">iuga</token>
-    <token tok-pos="" postag="T--PRPPNA-" cite="">subdita</token>
-    <token tok-pos="" postag="A--P---MB-" cite="">matutinis</token>
-    <token tok-pos="" postag="None" cite="">;</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.62">Persida</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.62">que</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.62">et</token>
+    <token tok-pos="" postag="N--P---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.62">radiis</token>
+    <token tok-pos="" postag="N--P---NN-" cite="urn:cts:latinLit:phi0959.phi006:1.62">iuga</token>
+    <token tok-pos="" postag="T--PRPPNA-" cite="urn:cts:latinLit:phi0959.phi006:1.62">subdita</token>
+    <token tok-pos="" postag="A--P---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.62">matutinis</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.62">;</token>
 
     <lb n="63"/>
-    <token tok-pos="" postag="None" cite="">vesper</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="None" cite="">occiduo</token>
-    <token tok-pos="" postag="P--S---FN-" cite="">quae</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">litora</token>
-    <token tok-pos="" postag="N--S---MB-" cite="">sole</token>
-    <token tok-pos="" postag="None" cite="">tepescunt</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.63">vesper</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.63">et</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.63">occiduo</token>
+    <token tok-pos="" postag="P--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.63">quae</token>
+    <token tok-pos="" postag="N--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.63">litora</token>
+    <token tok-pos="" postag="N--S---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.63">sole</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.63">tepescunt</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.63">,</token>
 
     <lb n="64"/>
-    <token tok-pos="" postag="A--S---FN-" cite="">proxima</token>
-    <token tok-pos="" postag="V-3PPIA---" cite="">sunt</token>
-    <token tok-pos="" postag="None" cite="">Zephyro</token>
-    <token tok-pos="" postag="None" cite="">:</token>
-    <token tok-pos="" postag="None" cite="">Scythiam</token>
-    <token tok-pos="" postag="M---------" cite="">septem</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="None" cite="">triones</token>
+    <token tok-pos="" postag="A--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.64">proxima</token>
+    <token tok-pos="" postag="V-3PPIA---" cite="urn:cts:latinLit:phi0959.phi006:1.64">sunt</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.64">Zephyro</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.64">:</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.64">Scythiam</token>
+    <token tok-pos="" postag="M---------" cite="urn:cts:latinLit:phi0959.phi006:1.64">septem</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.64">que</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.64">triones</token>
 
     <lb n="65"/>
-    <token tok-pos="" postag="None" cite="">horrifer</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">invasit</token>
-    <token tok-pos="" postag="None" cite="">Boreas</token>
-    <token tok-pos="" postag="None" cite="">:</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">contraria</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">tellus</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.65">horrifer</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.65">invasit</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.65">Boreas</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.65">:</token>
+    <token tok-pos="" postag="A--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.65">contraria</token>
+    <token tok-pos="" postag="N--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.65">tellus</token>
 
     <lb n="66"/>
-    <token tok-pos="" postag="N--P---MB-" cite="">nubibus</token>
-    <token tok-pos="" postag="None" cite="">adsiduis</token>
-    <token tok-pos="" postag="None" cite="">pluvia</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="None" cite="">madescit</token>
-    <token tok-pos="" postag="R---------" cite="">ab</token>
-    <token tok-pos="" postag="None" cite="">Austro</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="N--P---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.66">nubibus</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.66">adsiduis</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.66">pluvia</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.66">que</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.66">madescit</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.66">ab</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.66">Austro</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.66">.</token>
 
     <lb n="67"/>
-    <token tok-pos="" postag="None" cite="">Haec</token>
-    <token tok-pos="" postag="R---------" cite="">super</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">inposuit</token>
-    <token tok-pos="" postag="A--S---MA-" cite="">liquidum</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="N--S---FB-" cite="">gravitate</token>
-    <token tok-pos="" postag="None" cite="">carentem</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.67">Haec</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.67">super</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.67">inposuit</token>
+    <token tok-pos="" postag="A--S---MA-" cite="urn:cts:latinLit:phi0959.phi006:1.67">liquidum</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.67">et</token>
+    <token tok-pos="" postag="N--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.67">gravitate</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.67">carentem</token>
 
     <lb n="68"/>
-    <token tok-pos="" postag="N--S---MA-" cite="">aethera</token>
-    <token tok-pos="" postag="C---------" cite="">nec</token>
-    <token tok-pos="" postag="P--S---NA-" cite="">quicquam</token>
-    <token tok-pos="" postag="None" cite="">terrenae</token>
-    <token tok-pos="" postag="None" cite="">faecis</token>
-    <token tok-pos="" postag="T--SPPAMA-" cite="">habentem</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="N--S---MA-" cite="urn:cts:latinLit:phi0959.phi006:1.68">aethera</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.68">nec</token>
+    <token tok-pos="" postag="P--S---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.68">quicquam</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.68">terrenae</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.68">faecis</token>
+    <token tok-pos="" postag="T--SPPAMA-" cite="urn:cts:latinLit:phi0959.phi006:1.68">habentem</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.68">.</token>
 
     <lb n="69"/>
-    <token tok-pos="" postag="None" cite="">Vix</token>
-    <token tok-pos="" postag="D---------" cite="">ita</token>
-    <token tok-pos="" postag="None" cite="">limitibus</token>
-    <token tok-pos="" postag="None" cite="">dissaepserat</token>
-    <token tok-pos="" postag="A--P---NA-" cite="">omnia</token>
-    <token tok-pos="" postag="A--P---FB-" cite="">certis</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.69">Vix</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.69">ita</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.69">limitibus</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.69">dissaepserat</token>
+    <token tok-pos="" postag="A--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.69">omnia</token>
+    <token tok-pos="" postag="A--P---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.69">certis</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.69">,</token>
 
     <lb n="70"/>
-    <token tok-pos="" postag="C---------" cite="">cum</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="P--S---FN-" cite="">quae</token>
-    <token tok-pos="" postag="None" cite="">pressa</token>
-    <token tok-pos="" postag="D---------" cite="">diu</token>
-    <token tok-pos="" postag="N--S---MV-" cite="">massa</token>
-    <token tok-pos="" postag="None" cite="">latuere</token>
-    <token tok-pos="" postag="R---------" cite="">sub</token>
-    <token tok-pos="" postag="P--S---FB-" cite="">illa</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.70">cum</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.70">,</token>
+    <token tok-pos="" postag="P--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.70">quae</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.70">pressa</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.70">diu</token>
+    <token tok-pos="" postag="N--S---MV-" cite="urn:cts:latinLit:phi0959.phi006:1.70">massa</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.70">latuere</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.70">sub</token>
+    <token tok-pos="" postag="P--S---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.70">illa</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.70">,</token>
 
     <lb n="71"/>
-    <token tok-pos="" postag="N--P---NA-" cite="">sidera</token>
-    <token tok-pos="" postag="V-3PRIA---" cite="">coeperunt</token>
-    <token tok-pos="" postag="A--S---NB-" cite="">toto</token>
-    <token tok-pos="" postag="None" cite="">effervescere</token>
-    <token tok-pos="" postag="N--S---NB-" cite="">caelo</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="N--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.71">sidera</token>
+    <token tok-pos="" postag="V-3PRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.71">coeperunt</token>
+    <token tok-pos="" postag="A--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.71">toto</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.71">effervescere</token>
+    <token tok-pos="" postag="N--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.71">caelo</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.71">.</token>
 
     <lb n="72"/>
-    <token tok-pos="" postag="None" cite="">Neu</token>
-    <token tok-pos="" postag="A--S---MB-" cite="">regio</token>
-    <token tok-pos="" postag="V-3SISA---" cite="">foret</token>
-    <token tok-pos="" postag="A--S---FN-" cite="">ulla</token>
-    <token tok-pos="" postag="A--P---MB-" cite="">suis</token>
-    <token tok-pos="" postag="N--P---NB-" cite="">animalibus</token>
-    <token tok-pos="" postag="None" cite="">orba</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.72">Neu</token>
+    <token tok-pos="" postag="A--S---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.72">regio</token>
+    <token tok-pos="" postag="V-3SISA---" cite="urn:cts:latinLit:phi0959.phi006:1.72">foret</token>
+    <token tok-pos="" postag="A--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.72">ulla</token>
+    <token tok-pos="" postag="A--P---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.72">suis</token>
+    <token tok-pos="" postag="N--P---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.72">animalibus</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.72">orba</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.72">,</token>
 
     <lb n="73"/>
-    <token tok-pos="" postag="N--P---NA-" cite="">astra</token>
-    <token tok-pos="" postag="V-3PPIA---" cite="">tenent</token>
-    <token tok-pos="" postag="A--S---NA-" cite="">caeleste</token>
-    <token tok-pos="" postag="D---------" cite="">solum</token>
-    <token tok-pos="" postag="N--S---FG-" cite="">formae</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="N--P---MG-" cite="">deorum</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="N--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.73">astra</token>
+    <token tok-pos="" postag="V-3PPIA---" cite="urn:cts:latinLit:phi0959.phi006:1.73">tenent</token>
+    <token tok-pos="" postag="A--S---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.73">caeleste</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.73">solum</token>
+    <token tok-pos="" postag="N--S---FG-" cite="urn:cts:latinLit:phi0959.phi006:1.73">formae</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.73">que</token>
+    <token tok-pos="" postag="N--P---MG-" cite="urn:cts:latinLit:phi0959.phi006:1.73">deorum</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.73">,</token>
 
     <lb n="74"/>
-    <token tok-pos="" postag="V-3PRIA---" cite="">cesserunt</token>
-    <token tok-pos="" postag="A--P---MD-" cite="">nitidis</token>
-    <token tok-pos="" postag="V--P-GPFNP" cite="">habitandae</token>
-    <token tok-pos="" postag="N--P---MD-" cite="">piscibus</token>
-    <token tok-pos="" postag="N--P---FN-" cite="">undae</token>
-    <token tok-pos="" postag="," cite="">,</token>
+    <token tok-pos="" postag="V-3PRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.74">cesserunt</token>
+    <token tok-pos="" postag="A--P---MD-" cite="urn:cts:latinLit:phi0959.phi006:1.74">nitidis</token>
+    <token tok-pos="" postag="V--P-GPFNP" cite="urn:cts:latinLit:phi0959.phi006:1.74">habitandae</token>
+    <token tok-pos="" postag="N--P---MD-" cite="urn:cts:latinLit:phi0959.phi006:1.74">piscibus</token>
+    <token tok-pos="" postag="N--P---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.74">undae</token>
+    <token tok-pos="" postag="," cite="urn:cts:latinLit:phi0959.phi006:1.74">,</token>
 
     <lb n="75"/>
-    <token tok-pos="" postag="N--S---FN-" cite="">terra</token>
-    <token tok-pos="" postag="N--P---FA-" cite="">feras</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">cepit</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="A--P---FA-" cite="">volucres</token>
-    <token tok-pos="" postag="None" cite="">agitabilis</token>
-    <token tok-pos="" postag="N--S---MN-" cite="">aer</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="N--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.75">terra</token>
+    <token tok-pos="" postag="N--P---FA-" cite="urn:cts:latinLit:phi0959.phi006:1.75">feras</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.75">cepit</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.75">,</token>
+    <token tok-pos="" postag="A--P---FA-" cite="urn:cts:latinLit:phi0959.phi006:1.75">volucres</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.75">agitabilis</token>
+    <token tok-pos="" postag="N--S---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.75">aer</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.75">.</token>
 
     <lb n="76"/>
-    <token tok-pos="" postag="None" cite="">Sanctius</token>
-    <token tok-pos="" postag="P--P---FB-" cite="">his</token>
-    <token tok-pos="" postag="N--S---NN-" cite="">animal</token>
-    <token tok-pos="" postag="N--S---FG-" cite="">mentis</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="None" cite="">capacius</token>
-    <token tok-pos="" postag="None" cite="">altae</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.76">Sanctius</token>
+    <token tok-pos="" postag="P--P---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.76">his</token>
+    <token tok-pos="" postag="N--S---NN-" cite="urn:cts:latinLit:phi0959.phi006:1.76">animal</token>
+    <token tok-pos="" postag="N--S---FG-" cite="urn:cts:latinLit:phi0959.phi006:1.76">mentis</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.76">que</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.76">capacius</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.76">altae</token>
 
     <lb n="77"/>
-    <token tok-pos="" postag="None" cite="">deerat</token>
-    <token tok-pos="" postag="D---------" cite="">adhuc</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="P--S---NN-" cite="">quod</token>
-    <token tok-pos="" postag="None" cite="">dominari</token>
-    <token tok-pos="" postag="R---------" cite="">in</token>
-    <token tok-pos="" postag="A--P---NA-" cite="">cetera</token>
-    <token tok-pos="" postag="V-3SISA---" cite="">posset</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.77">deerat</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.77">adhuc</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.77">et</token>
+    <token tok-pos="" postag="P--S---NN-" cite="urn:cts:latinLit:phi0959.phi006:1.77">quod</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.77">dominari</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.77">in</token>
+    <token tok-pos="" postag="A--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.77">cetera</token>
+    <token tok-pos="" postag="V-3SISA---" cite="urn:cts:latinLit:phi0959.phi006:1.77">posset</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.77">.</token>
 
     <lb n="78"/>
-    <token tok-pos="" postag="None" cite="">Natus</token>
-    <token tok-pos="" postag="N--S---MN-" cite="">homo</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">est</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="C---------" cite="">sive</token>
-    <token tok-pos="" postag="P--S---MA-" cite="">hunc</token>
-    <token tok-pos="" postag="None" cite="">divino</token>
-    <token tok-pos="" postag="N--S---NB-" cite="">semine</token>
-    <token tok-pos="" postag="V-3SRIA---" cite="">fecit</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.78">Natus</token>
+    <token tok-pos="" postag="N--S---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.78">homo</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="urn:cts:latinLit:phi0959.phi006:1.78">est</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.78">,</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.78">sive</token>
+    <token tok-pos="" postag="P--S---MA-" cite="urn:cts:latinLit:phi0959.phi006:1.78">hunc</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.78">divino</token>
+    <token tok-pos="" postag="N--S---NB-" cite="urn:cts:latinLit:phi0959.phi006:1.78">semine</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.78">fecit</token>
 
     <lb n="79"/>
-    <token tok-pos="" postag="P--S---MN-" cite="">ille</token>
-    <token tok-pos="" postag="None" cite="">opifex</token>
-    <token tok-pos="" postag="N--P---FG-" cite="">rerum</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="N--S---MG-" cite="">mundi</token>
-    <token tok-pos="" postag="None" cite="">melioris</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">origo</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="P--S---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.79">ille</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.79">opifex</token>
+    <token tok-pos="" postag="N--P---FG-" cite="urn:cts:latinLit:phi0959.phi006:1.79">rerum</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.79">,</token>
+    <token tok-pos="" postag="N--S---MG-" cite="urn:cts:latinLit:phi0959.phi006:1.79">mundi</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.79">melioris</token>
+    <token tok-pos="" postag="N--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.79">origo</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.79">,</token>
 
     <lb n="80"/>
-    <token tok-pos="" postag="C---------" cite="">sive</token>
-    <token tok-pos="" postag="A--S---MN-" cite="">recens</token>
-    <token tok-pos="" postag="N--S---FN-" cite="">tellus</token>
-    <token tok-pos="" postag="None" cite="">seducta</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="D---------" cite="">nuper</token>
-    <token tok-pos="" postag="R---------" cite="">ab</token>
-    <token tok-pos="" postag="A--S---MB-" cite="">alto</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.80">sive</token>
+    <token tok-pos="" postag="A--S---MN-" cite="urn:cts:latinLit:phi0959.phi006:1.80">recens</token>
+    <token tok-pos="" postag="N--S---FN-" cite="urn:cts:latinLit:phi0959.phi006:1.80">tellus</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.80">seducta</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.80">que</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.80">nuper</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.80">ab</token>
+    <token tok-pos="" postag="A--S---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.80">alto</token>
 
     <lb n="81"/>
-    <token tok-pos="" postag="N--S---MB-" cite="">aethere</token>
-    <token tok-pos="" postag="None" cite="">cognati</token>
-    <token tok-pos="" postag="None" cite="">retinebat</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">semina</token>
-    <token tok-pos="" postag="N--S---NG-" cite="">caeli</token>
-    <token tok-pos="" postag="None" cite="">;</token>
+    <token tok-pos="" postag="N--S---MB-" cite="urn:cts:latinLit:phi0959.phi006:1.81">aethere</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.81">cognati</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.81">retinebat</token>
+    <token tok-pos="" postag="N--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.81">semina</token>
+    <token tok-pos="" postag="N--S---NG-" cite="urn:cts:latinLit:phi0959.phi006:1.81">caeli</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.81">;</token>
 
     <lb n="82"/>
-    <token tok-pos="" postag="D---------" cite="">quam</token>
-    <token tok-pos="" postag="T--SRPPMN-" cite="">satus</token>
-    <token tok-pos="" postag="None" cite="">Iapeto</token>
-    <token tok-pos="" postag="None" cite="">mixtam</token>
-    <token tok-pos="" postag="None" cite="">pluvialibus</token>
-    <token tok-pos="" postag="N--P---FB-" cite="">undis</token>
+    <token tok-pos="" postag="D---------" cite="urn:cts:latinLit:phi0959.phi006:1.82">quam</token>
+    <token tok-pos="" postag="T--SRPPMN-" cite="urn:cts:latinLit:phi0959.phi006:1.82">satus</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.82">Iapeto</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.82">mixtam</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.82">pluvialibus</token>
+    <token tok-pos="" postag="N--P---FB-" cite="urn:cts:latinLit:phi0959.phi006:1.82">undis</token>
 
     <lb n="83"/>
-    <token tok-pos="" postag="V-3SRIA---" cite="">finxit</token>
-    <token tok-pos="" postag="R---------" cite="">in</token>
-    <token tok-pos="" postag="None" cite="">effigiem</token>
-    <token tok-pos="" postag="None" cite="">moderantum</token>
-    <token tok-pos="" postag="A--P---NN-" cite="">cuncta</token>
-    <token tok-pos="" postag="N--P---MG-" cite="">deorum</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.83">finxit</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.83">in</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.83">effigiem</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.83">moderantum</token>
+    <token tok-pos="" postag="A--P---NN-" cite="urn:cts:latinLit:phi0959.phi006:1.83">cuncta</token>
+    <token tok-pos="" postag="N--P---MG-" cite="urn:cts:latinLit:phi0959.phi006:1.83">deorum</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.83">.</token>
 
     <lb n="84"/>
-    <token tok-pos="" postag="None" cite="">Prona</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="C---------" cite="">cum</token>
-    <token tok-pos="" postag="None" cite="">spectent</token>
-    <token tok-pos="" postag="N--P---NN-" cite="">animalia</token>
-    <token tok-pos="" postag="A--P---NA-" cite="">cetera</token>
-    <token tok-pos="" postag="N--S---FA-" cite="">terram</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.84">Prona</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.84">que</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.84">cum</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.84">spectent</token>
+    <token tok-pos="" postag="N--P---NN-" cite="urn:cts:latinLit:phi0959.phi006:1.84">animalia</token>
+    <token tok-pos="" postag="A--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.84">cetera</token>
+    <token tok-pos="" postag="N--S---FA-" cite="urn:cts:latinLit:phi0959.phi006:1.84">terram</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.84">,</token>
 
     <lb n="85"/>
-    <token tok-pos="" postag="N--S---NA-" cite="">os</token>
-    <token tok-pos="" postag="N--S---MD-" cite="">homini</token>
-    <token tok-pos="" postag="A--S---NA-" cite="">sublime</token>
-    <token tok-pos="" postag="V-3SPIA---" cite="">dedit</token>
-    <token tok-pos="" postag="U---------" cite="">,</token>
-    <token tok-pos="" postag="N--S---NA-" cite="">caelum</token>
-    <token tok-pos="" postag="C---------" cite="">que</token>
-    <token tok-pos="" postag="V---PNA---" cite="">videre</token>
+    <token tok-pos="" postag="N--S---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.85">os</token>
+    <token tok-pos="" postag="N--S---MD-" cite="urn:cts:latinLit:phi0959.phi006:1.85">homini</token>
+    <token tok-pos="" postag="A--S---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.85">sublime</token>
+    <token tok-pos="" postag="V-3SPIA---" cite="urn:cts:latinLit:phi0959.phi006:1.85">dedit</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.85">,</token>
+    <token tok-pos="" postag="N--S---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.85">caelum</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.85">que</token>
+    <token tok-pos="" postag="V---PNA---" cite="urn:cts:latinLit:phi0959.phi006:1.85">videre</token>
 
     <lb n="86"/>
-    <token tok-pos="" postag="V-3SRIA---" cite="">iussit</token>
-    <token tok-pos="" postag="C---------" cite="">et</token>
-    <token tok-pos="" postag="None" cite="">erectos</token>
-    <token tok-pos="" postag="R---------" cite="">ad</token>
-    <token tok-pos="" postag="N--P---NA-" cite="">sidera</token>
-    <token tok-pos="" postag="V---PNA---" cite="">tollere</token>
-    <token tok-pos="" postag="N--P---MA-" cite="">vultus</token>
-    <token tok-pos="" postag="U---------" cite="">.</token>
+    <token tok-pos="" postag="V-3SRIA---" cite="urn:cts:latinLit:phi0959.phi006:1.86">iussit</token>
+    <token tok-pos="" postag="C---------" cite="urn:cts:latinLit:phi0959.phi006:1.86">et</token>
+    <token tok-pos="" postag="None" cite="urn:cts:latinLit:phi0959.phi006:1.86">erectos</token>
+    <token tok-pos="" postag="R---------" cite="urn:cts:latinLit:phi0959.phi006:1.86">ad</token>
+    <token tok-pos="" postag="N--P---NA-" cite="urn:cts:latinLit:phi0959.phi006:1.86">sidera</token>
+    <token tok-pos="" postag="V---PNA---" cite="urn:cts:latinLit:phi0959.phi006:1.86">tollere</token>
+    <token tok-pos="" postag="N--P---MA-" cite="urn:cts:latinLit:phi0959.phi006:1.86">vultus</token>
+    <token tok-pos="" postag="U---------" cite="urn:cts:latinLit:phi0959.phi006:1.86">.</token>
 
     <lb n="87"/>
     <token tok-pos="" postag="None" cite="">Sic</token>

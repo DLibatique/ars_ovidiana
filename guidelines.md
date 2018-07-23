@@ -25,16 +25,83 @@ These guidelines are a set of instructions for what and how to tag.
 #### `token` > `tok-pos`
 * the position of the token within its line (bounded by `lb` empty elements).
 
-#### `token` > `postag`
-* the part of speech parsing of the token in question, including punctuation from Penn's tags. See POSTag table at end of this documentation.
-* postags automatically generated using the Latin 123 NGram Backoff Tagger fuction of `cltk`.
-
 #### `token` > `cite`
 * the CTS URN of the given token.
 
 #### `token` > `type`
 * if the token is a word of speech or vision, let `type` = "speech" OR "vision" respectively.
 * `type` is optional; if the token indicates neither speech nor vision, leave `type` out.
+
+#### `token` > `postag`
+* the part of speech parsing of the token in question, including punctuation from Penn's tags.
+* postags automatically generated using the Latin 123 NGram Backoff Tagger fuction of `cltk`. They all need to be vetted by hand.
+
+*  `postag` key:
+
+Every POS tag, except for punctuation tags, should have 10 slots. If a category does not apply to the token in question, use a single hyphen (-) as a placeholder in that category.
+
+Each item of the category should be either a hyphen (-) or an *uppercase* letter.
+
+These definitions are drawn from Logeion / Perseus at Chicago.
+
+##### 1: major part of speech
+* **V**erb, **N**oun, **A**djective, **P**ronoun, a**D**verb, **C**onjunction, p**R**eposition, particle = **G**
+
+##### 2: minor part of speech
+* Some tags in this slot can attach only to certain parts of speech. Determine the tag in slot 1 (major part of speech) based on the description of the tag. e.g., a possessive pronoun's first two slots will read PS.
+* **S**: possessive pronoun, **M**: modal particle, **A**: determinatives (*is, ipse, idem*), **D**emonstrative, **I**nterrogative, **R**elative, po**S**sessive, **X**: indefinite, **P**ersonal
+
+##### 3: Person
+* 1, 2, or 3
+
+##### 4: Number
+* **S**ingular or **P**lural
+
+##### 5: Tense
+* **P**resent, **I**mperfect, pe**R**fect, **F**uture, p**L**uperfect, fu**T**ure perfect
+
+##### 6: Mood
+* **I**ndicative, **S**ubjunctive, i**M**perative, **P**articiple, i**N**finitive, **G**erundive, gerun**D**, s**U**pine
+
+##### 7: Voice
+* **A**ctive or **P**assive
+
+##### 8: Gender
+* **M**asculine, **F**eminine, **N**euter
+
+##### 9: Case
+* **N**ominative, **G**enitive, **D**ative, **A**ccusative, a**B**lative, **V**ocative
+
+##### 10: Degree
+* **P**ositive, **C**omparative, **S**uperlative
+
+##### Punctuation
+* If the POS tag is for punctuation, you should use a single item, listed as follows, and leave out the remaining 9 slots.
+* " = quotation mark ' or "
+* ( = left parenthesis [, (, {, <
+* ) = right parenthesis ], ), }, >
+* , = comma
+* . = sentence-final punctuation . ! ?
+* : = mid-sentence punctuation : ; ... -- -
+
+##### Examples
+
+> puella, in illa arbore sedens, puerum vocat ut eum videat.
+
+word | postag
+--- | ---
+puella | `N--S---FN-`
+, | `,`
+in | `R---------`
+illa | `PD-S---FB-`
+arbore | `N--S---FB-`
+sedens | `V--PPAFN-`
+, | `,`
+puerum | `N--S---MA-`
+vocat | `V-3SPIA---`
+ut | `C---------`
+eum | `PA-S---MA-`
+videat | `V-3SPSA---`
 
 <hr>
 
