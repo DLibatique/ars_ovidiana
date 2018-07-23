@@ -31,6 +31,11 @@ These guidelines are a set of instructions for what and how to tag.
 #### `token` > `type`
 * if the token is a word of speech or vision, let `type` = "speech" OR "vision" respectively.
 * `type` is optional; if the token indicates neither speech nor vision, leave `type` out.
+* "speech" and "vision" can be defined broadly.
+    * "speech" can indicate anything from voice and speaking to asking, singing, commanding; any word entity that includes a communicative aspect in its denotation.
+    * "speech" can also tag its natural opposites, e.g., muteness, silence, etc.
+    * "vision" can indicate anything from eyes and seeing to images, physical perception, reading; any word entity that includes a visual element in its denotation.
+    * "vision" can also tag its natural opposites, e.g., blindness.
 
 #### `token` > `postag`
 * the part of speech parsing of the token in question, including punctuation from Penn's tags.
@@ -49,7 +54,7 @@ These definitions are drawn from Logeion / Perseus at Chicago.
 
 ##### 2: minor part of speech
 * Some tags in this slot can attach only to certain parts of speech. Determine the tag in slot 1 (major part of speech) based on the description of the tag. e.g., a possessive pronoun's first two slots will read PS.
-* **S**: possessive pronoun, **M**: modal particle, **A**: determinatives (*is, ipse, idem*), **D**emonstrative, **I**nterrogative, **R**elative, po**S**sessive, **X**: indefinite, **P**ersonal
+* **S**: possessive pronoun, **M**: modal particle, **A**: determinatives (*is, ipse, idem*), **D**emonstrative, **I**nterrogative, **R**elative, po**S**sessive, **X**: indefinite, **P**ersonal  
 
 ##### 3: Person
 * 1, 2, or 3
@@ -150,6 +155,7 @@ Example:
     * A character speaking in direct speech will occupy degree 2.
     * A character whose speech is reported by a degree 2 character will occupy degree 3.
     * These levels of narration can continue indefinitely.
+    * First-person references and second-person addresses by the omniscient narrator should be tagged as degree="1" with speaker="Narrator" (see next section).
 
 #### `said` > `speaker`
 * `speaker` indicates the character(s) speaking the direct speech wrapped by the `said` tag.

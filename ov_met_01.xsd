@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="book">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="lb"/>
+        <xs:element ref="said"/>
+        <xs:element ref="token"/>
+      </xs:choice>
+      <xs:attribute name="n" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lb">
+    <xs:complexType>
+      <xs:attribute name="n" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="token">
+    <xs:complexType mixed="true">
+      <xs:attribute name="cite" use="required" type="xs:anyURI"/>
+      <xs:attribute name="postag" use="required"/>
+      <xs:attribute name="tok-pos" use="required"/>
+      <xs:attribute name="type" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="said">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="lb"/>
+        <xs:element ref="said"/>
+        <xs:element ref="token"/>
+      </xs:choice>
+      <xs:attribute name="cite" use="required" type="xs:anyURI"/>
+      <xs:attribute name="degree" use="required" type="xs:integer"/>
+      <xs:attribute name="speaker" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
