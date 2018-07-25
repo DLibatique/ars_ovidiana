@@ -1,4 +1,22 @@
-# Guidelines for the ARS Ovidiana Project
+# *ARS Ovidiana*
+## Ars Rhetorica Suasoriaque Ovidiana
+
+<hr>
+
+<!-- # Pipeline Description
+
+1. Scrape raw text from Perseus
+2. Tokenize into lines using CLTK's Latin Line Tokenizer.
+3. Generate lb elements using `enumerate()`.
+4. Tokenize into words using CLTK's Latin Word Tokenizer.
+5. Assign CTS URN, tok-pos within line, postag, lemma.
+    * for postag, don't forget to input token with `.lower()`
+
+
+
+<hr> -->
+
+# Annotation Guidelines
 
 These guidelines are a set of instructions for what and how to tag.
 
@@ -103,15 +121,6 @@ These definitions are drawn from Logeion / Perseus at Chicago.
 
 ##### 10: Degree
 * **P**ositive, **C**omparative, **S**uperlative
-
-##### Punctuation
-* If the POS tag is for punctuation, you should use a single item, listed as follows, and leave out the remaining 9 slots.
-* " = quotation mark ' or "
-* ( = left parenthesis [, (, {, <
-* ) = right parenthesis ], ), }, >
-* , = comma
-* . = sentence-final punctuation . ! ?
-* : = mid-sentence punctuation : ; ... -- -
 
 ##### Examples
 
