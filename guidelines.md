@@ -1,4 +1,4 @@
-# Guidelines for the Ovidian Focalization Project
+# Guidelines for the ARS Ovidiana Project
 
 These guidelines are a set of instructions for what and how to tag.
 
@@ -10,7 +10,7 @@ These guidelines are a set of instructions for what and how to tag.
 * Each book of Ovid's *Metamorphoses* will occupy one XML file.
 
 #### `book` > `n`
-* Let `n` = the book number.
+* `n` = the book number.
 
 <hr>
 
@@ -50,11 +50,35 @@ Each item of the category should be either a hyphen (-) or an *uppercase* letter
 These definitions are drawn from Logeion / Perseus at Chicago.
 
 ##### 1: major part of speech
-* **V**erb, **N**oun, **A**djective, **P**ronoun, a**D**verb, **C**onjunction, p**R**eposition, particle = **G**
+* **V**erb,
+* **N**oun,
+* **A**djective,
+* **P**ronoun,
+* a**D**verb,
+* **C**onjunction,
+* p**R**eposition,
+* particle = **G**,
+* p**U**nctuation
 
-##### 2: minor part of speech
-* Some tags in this slot can attach only to certain parts of speech. Determine the tag in slot 1 (major part of speech) based on the description of the tag. e.g., a possessive pronoun's first two slots will read PS.
-* **S**: possessive pronoun, **M**: modal particle, **A**: determinatives (*is, ipse, idem*), **D**emonstrative, **I**nterrogative, **R**elative, po**S**sessive, **X**: indefinite, **P**ersonal  
+##### 2: minor part of speech OR punctuation
+* Some tags in this slot can attach only to certain parts of speech. Determine the tag in slot 1 (major part of speech) based on the description of the tag. e.g., a possessive pronoun's first two slots will read PS. A demonstrative adjective's first two slots will read AD.
+* Minor part of speech:
+    * **S**: possessive pronoun,
+    * **M**: modal particle,
+    * **A**: determinatives (*is, ipse, idem*),
+    * **D**emonstrative (*hic*, *ille*, *ipse*)
+    * **I**nterrogative (*quis*, *quid*),
+    * **R**elative (*qui*),
+    * po**S**sessive,
+    * **X**: indefinite,
+    * **P**ersonal  
+* Punctuation:
+    * **Q**uotation mark
+    * **L**eft parenthesis [ ( { <
+    * ri**G**ht parenthesis ] ) } >
+    * **C**omma ,
+    * Sentence-**F**inal punctuation . ! ?
+    * Sentence-Middl**E** punctuation : ; ... -- -
 
 ##### 3: Person
 * 1, 2, or 3
