@@ -1,7 +1,7 @@
-from lxml import etree
+import lxml.etree as ET
 
 #get xml tree
-tree = etree.parse('../ov_met_01.xml')
+tree = ET.parse("../ov_met_01.xml")
 
 #declare xml root
 root = tree.getroot()
@@ -46,7 +46,7 @@ def get_whole_speech():
         print(speech)
 
 #find all tokens tagged with 'speech' or 'vision'
-def get_speech_words(type):
+def get_speech_or_vision_words(type):
 
     #get all token elements in document
     tokens = root.findall('token')
@@ -61,3 +61,5 @@ def get_speech_words(type):
             print(i.text + " (" + i.get('cite') + ")")
 
 get_whole_speech()
+# get_speech_or_vision_words('speech')
+# get_speech_or_vision_words('vision')

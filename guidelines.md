@@ -56,16 +56,17 @@ These guidelines are a set of instructions for what and how to tag.
     * "vision" can also tag its natural opposites, e.g., blindness.
 
 #### `token` > `postag`
-* the part of speech parsing of the token in question, including punctuation from Penn's tags.
-* postags automatically generated using the Latin 123 NGram Backoff Tagger fuction of `cltk`. They all need to be vetted by hand.
+* the part of speech parsing of the token in question, including tags for punctuation as defined by the Penn Treebank Project.
+* POS tags are automatically generated using the Latin 123 NGram Backoff Tagger fuction of `cltk`.
+    * Each tag needs to be vetted by hand.
 
-*  `postag` key:
+##### `postag` key:
 
-Every POS tag, except for punctuation tags, should have 10 slots. If a category does not apply to the token in question, use a single hyphen (-) as a placeholder in that category.
+Every POS tag should have ten (10) slots, one for each category. If a category does not apply to the token in question, use a single hyphen (-) as a placeholder in that category.
 
 Each item of the category should be either a hyphen (-) or an *uppercase* letter.
 
-These definitions are drawn from Logeion / Perseus at Chicago.
+These definitions are drawn from the Ancient Greek and Latin Dependency Treebank. The specifications for slot 2 are from Logeion / Perseus at Chicago, with additional options for punctuation delineated by me (DL).
 
 ##### 1: major part of speech
 * **V**erb,
@@ -79,7 +80,7 @@ These definitions are drawn from Logeion / Perseus at Chicago.
 * p**U**nctuation
 
 ##### 2: minor part of speech OR punctuation
-* Some tags in this slot can attach only to certain parts of speech. Determine the tag in slot 1 (major part of speech) based on the description of the tag. e.g., a possessive pronoun's first two slots will read PS. A demonstrative adjective's first two slots will read AD.
+* Some tags in this slot can attach only to certain parts of speech. Determine the tag in slot 1 (major part of speech) based on the description of the tag. e.g., a possessive pronoun's first two slots will read `PS`. A demonstrative adjective's first two slots will read `AD`.
 * Minor part of speech:
     * **S**: possessive pronoun,
     * **M**: modal particle,
@@ -122,24 +123,25 @@ These definitions are drawn from Logeion / Perseus at Chicago.
 ##### 10: Degree
 * **P**ositive, **C**omparative, **S**uperlative
 
-##### Examples
+##### Example
 
 > puella, in illa arbore sedens, puerum vocat ut eum videat.
 
 word | postag
 --- | ---
 puella | `N--S---FN-`
-, | `,`
+, | `UE--------`
 in | `R---------`
-illa | `PD-S---FB-`
+illa | `AD-S---FB-`
 arbore | `N--S---FB-`
-sedens | `V--PPAFN-`
-, | `,`
+sedens | `V--SPPAFN-`
+, | `UE--------`
 puerum | `N--S---MA-`
 vocat | `V-3SPIA---`
 ut | `C---------`
 eum | `PA-S---MA-`
 videat | `V-3SPSA---`
+. | `UF--------`
 
 <hr>
 
