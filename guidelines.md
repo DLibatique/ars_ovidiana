@@ -123,6 +123,25 @@ These definitions are drawn from the Ancient Greek and Latin Dependency Treebank
 ##### 10: Degree
 * **P**ositive, **C**omparative, **S**uperlative
 
+##### `postag` table view:
+
+1: Major Part of Speech | 2: Minor Part of Speech or Punctuation | 3: Person | 4: Number | 5: Tense | 6: Mood | 7: Voice | 8: Gender | 9: Case | 10: Degree
+--- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+**V**erb | po**S**essive | **1** | **S**ingular | **P**resent | **I**ndicative | **A**ctive | **M**asculine | **N**ominative | **P**ositive
+**N**oun | **M**odal (particle) | **2** | **Plural** | **I**mperfect | **S**ubjunctive | **P**assive | **F**eminine | **G**enitive | **C**omparative
+**A**djective | determin**A**tives (*is, ipse, idem*) | **3** || pe**R**fect| i**M**perative || **N**euter | **D**ative | **S**uperlative
+**P**ronoun | **D**emonstrative (*hic*, *ille*, *ipse*) ||| **F**uture | **P**articiple ||| **A**ccusative
+a**D**verb | **I**nterrogative (*quis*, *quid*) ||| p**L**uperfect | i**N**finitive ||| a**B**lative
+**C**onjunction | **R**elative (*qui*) ||| fu**T**ure perfect | **G**erundive ||| **V**ocative
+p**R**eposition | indefinite = **X** ||| gerun**D**
+particle = **G** | **P**ersonal ||| s**U**pine
+p**U**nctuation | **Q**uotation mark
+| **L**eft parenthesis [ ( { <
+| ri**G**ht parenthesis ] ) } >
+| **C**omma ,
+| Sentence-**F**inal punctuation . ! ?
+| Sentence-Middl**E** punctuation : ; ... -- -
+
 ##### Example
 
 > puella, in illa arbore sedens, puerum vocat ut eum videat.

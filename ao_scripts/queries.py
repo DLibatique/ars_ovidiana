@@ -36,14 +36,16 @@ def get_whole_speech():
                 " ,": ",",
                 " .": ".",
                 " :": ":",
-                " !": "!"
+                " !": "!",
+                " ;": ";",
+                " ?": "?"
                 }
 
             for k,v in replacements.items():
                 speech = speech.replace(k, v)
 
         #print speaker, full speech, and citation
-        print(speech)
+        print(speech + '\n')
 
 #find all tokens tagged with 'speech' or 'vision'
 def get_speech_or_vision_words(type):
@@ -60,6 +62,6 @@ def get_speech_or_vision_words(type):
             #print the word of speech or vision and the citation
             print(i.text + " (" + i.get('cite') + ")")
 
-get_whole_speech()
+# get_whole_speech()
 # get_speech_or_vision_words('speech')
-# get_speech_or_vision_words('vision')
+get_speech_or_vision_words('vision')
