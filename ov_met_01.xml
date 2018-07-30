@@ -11,7 +11,6 @@ to do list in order of importance:
 - tag words of speech or vision with type attribute
 - vet postags
 
-
 <book n="1">
 
     <lb n="1" cite="urn:cts:latinLit:phi0959.phi006:1.1"/>
@@ -211,14 +210,14 @@ to do list in order of importance:
     <token tok-pos="7" cite="urn:cts:latinLit:phi0959.phi006:1.20" postag="V--PPPANN-" lemma="habeo">habentia</token>
     <token tok-pos="8" cite="urn:cts:latinLit:phi0959.phi006:1.20" postag="N--S---NA-" lemma="pondus">pondus</token>
     <token tok-pos="9" cite="urn:cts:latinLit:phi0959.phi006:1.20" postag="UF--------" lemma=".">.</token>
--->
+
     <lb n="21" cite="urn:cts:latinLit:phi0959.phi006:1.21"/>
     <token tok-pos="1" cite="urn:cts:latinLit:phi0959.phi006:1.21" postag="AD-S---FA-" lemma="hic">Hanc</token>
     <token tok-pos="2" cite="urn:cts:latinLit:phi0959.phi006:1.21" postag="N--S---MN-" lemma="deus">deus</token>
     <token tok-pos="3" cite="urn:cts:latinLit:phi0959.phi006:1.21" postag="C---------" lemma="et">et</token>
     <token tok-pos="4" cite="urn:cts:latinLit:phi0959.phi006:1.21" postag="A--S---FNC" lemma="bonus">melior</token>
-    <token tok-pos="5" cite="urn:cts:latinLit:phi0959.phi006:1.21" postag="None" lemma="lito">litem</token>
-    <token tok-pos="6" cite="urn:cts:latinLit:phi0959.phi006:1.21" postag="N--S---FB-" lemma="natura">natura</token>
+    <token tok-pos="5" cite="urn:cts:latinLit:phi0959.phi006:1.21" postag="N--S---FA-" lemma="lis">litem</token>
+    <token tok-pos="6" cite="urn:cts:latinLit:phi0959.phi006:1.21" postag="N--S---FN-" lemma="natura">natura</token>
     <token tok-pos="7" cite="urn:cts:latinLit:phi0959.phi006:1.21" postag="V-3SRIA---" lemma="dis-redimo">diremit</token>
     <token tok-pos="8" cite="urn:cts:latinLit:phi0959.phi006:1.21" postag="UF--------" lemma=".">.</token>
 
@@ -228,38 +227,38 @@ to do list in order of importance:
     <token tok-pos="3" cite="urn:cts:latinLit:phi0959.phi006:1.22" postag="N--P---FA-" lemma="terra">terras</token>
     <token tok-pos="4" cite="urn:cts:latinLit:phi0959.phi006:1.22" postag="C---------" lemma="et">et</token>
     <token tok-pos="5" cite="urn:cts:latinLit:phi0959.phi006:1.22" postag="N--P---FB-" lemma="terra">terris</token>
-    <token tok-pos="6" cite="urn:cts:latinLit:phi0959.phi006:1.22" postag="None" lemma="abscido">abscidit</token>
-    <token tok-pos="7" cite="urn:cts:latinLit:phi0959.phi006:1.22" postag="N--P---FA-" lemma="undo">undas</token>
+    <token tok-pos="6" cite="urn:cts:latinLit:phi0959.phi006:1.22" postag="V-3SRIA---" lemma="abscido">abscidit</token>
+    <token tok-pos="7" cite="urn:cts:latinLit:phi0959.phi006:1.22" postag="N--P---FA-" lemma="unda">undas</token>
     <token tok-pos="8" cite="urn:cts:latinLit:phi0959.phi006:1.22" postag="UC--------" lemma=",">,</token>
 
     <lb n="23" cite="urn:cts:latinLit:phi0959.phi006:1.23"/>
     <token tok-pos="1" cite="urn:cts:latinLit:phi0959.phi006:1.23" postag="C---------" lemma="et">et</token>
-    <token tok-pos="2" cite="urn:cts:latinLit:phi0959.phi006:1.23" postag="A--S---MA-" lemma="liquidus">liquidum</token>
-    <token tok-pos="3" cite="urn:cts:latinLit:phi0959.phi006:1.23" postag="None" lemma="spisso">spisso</token>
-    <token tok-pos="4" cite="urn:cts:latinLit:phi0959.phi006:1.23" postag="None" lemma="secerno">secrevit</token>
+    <token tok-pos="2" cite="urn:cts:latinLit:phi0959.phi006:1.23" postag="A--S---NA-" lemma="liquidus">liquidum</token>
+    <token tok-pos="3" cite="urn:cts:latinLit:phi0959.phi006:1.23" postag="A--S---MB-" lemma="spissus">spisso</token>
+    <token tok-pos="4" cite="urn:cts:latinLit:phi0959.phi006:1.23" postag="V-3SRIA---" lemma="secerno">secrevit</token>
     <token tok-pos="5" cite="urn:cts:latinLit:phi0959.phi006:1.23" postag="R---------" lemma="ab">ab</token>
-    <token tok-pos="6" cite="urn:cts:latinLit:phi0959.phi006:1.23" postag="N--S---NB-" lemma="aer">aere</token>
+    <token tok-pos="6" cite="urn:cts:latinLit:phi0959.phi006:1.23" postag="N--S---MB-" lemma="aer">aere</token>
     <token tok-pos="7" cite="urn:cts:latinLit:phi0959.phi006:1.23" postag="N--S---NA-" lemma="caelum1">caelum</token>
     <token tok-pos="8" cite="urn:cts:latinLit:phi0959.phi006:1.23" postag="UF--------" lemma=".">.</token>
 
     <lb n="24" cite="urn:cts:latinLit:phi0959.phi006:1.24"/>
     <token tok-pos="1" cite="urn:cts:latinLit:phi0959.phi006:1.24" postag="PR-P---NA-" lemma="qui1">Quae</token>
     <token tok-pos="2" cite="urn:cts:latinLit:phi0959.phi006:1.24" postag="C---------" lemma="postquam">postquam</token>
-    <token tok-pos="3" cite="urn:cts:latinLit:phi0959.phi006:1.24" postag="None" lemma="evolvo">evolvit</token>
-    <token tok-pos="4" cite="urn:cts:latinLit:phi0959.phi006:1.24" postag="None" lemma="caecus1">caeco</token>
+    <token tok-pos="3" cite="urn:cts:latinLit:phi0959.phi006:1.24" postag="V-3SRIA---" lemma="evolvo">evolvit</token>
+    <token tok-pos="4" cite="urn:cts:latinLit:phi0959.phi006:1.24" postag="A--S---MB-" lemma="caecus1">caeco</token>
     <token tok-pos="5" cite="urn:cts:latinLit:phi0959.phi006:1.24" postag="C---------" lemma="que" enclitic="True">que</token>
-    <token tok-pos="6" cite="urn:cts:latinLit:phi0959.phi006:1.24" postag="None" lemma="eximo">exemit</token>
-    <token tok-pos="7" cite="urn:cts:latinLit:phi0959.phi006:1.24" postag="None" lemma="acervus">acervo</token>
+    <token tok-pos="6" cite="urn:cts:latinLit:phi0959.phi006:1.24" postag="V-3SRIA---" lemma="eximo">exemit</token>
+    <token tok-pos="7" cite="urn:cts:latinLit:phi0959.phi006:1.24" postag="N--S---MB-" lemma="acervus">acervo</token>
     <token tok-pos="8" cite="urn:cts:latinLit:phi0959.phi006:1.24" postag="UC--------" lemma=",">,</token>
 
     <lb n="25" cite="urn:cts:latinLit:phi0959.phi006:1.25"/>
-    <token tok-pos="1" cite="urn:cts:latinLit:phi0959.phi006:1.25" postag="None" lemma="dissocio">dissociata</token>
+    <token tok-pos="1" cite="urn:cts:latinLit:phi0959.phi006:1.25" postag="V--PRPPNA-" lemma="dissocio">dissociata</token>
     <token tok-pos="2" cite="urn:cts:latinLit:phi0959.phi006:1.25" postag="N--P---MB-" lemma="locus">locis</token>
-    <token tok-pos="3" cite="urn:cts:latinLit:phi0959.phi006:1.25" postag="None" lemma="concordi">concordi</token>
+    <token tok-pos="3" cite="urn:cts:latinLit:phi0959.phi006:1.25" postag="A--S---FB-" lemma="concors">concordi</token>
     <token tok-pos="4" cite="urn:cts:latinLit:phi0959.phi006:1.25" postag="N--S---FB-" lemma="pax">pace</token>
     <token tok-pos="5" cite="urn:cts:latinLit:phi0959.phi006:1.25" postag="V-3SRIA---" lemma="ligo1">ligavit</token>
     <token tok-pos="6" cite="urn:cts:latinLit:phi0959.phi006:1.25" postag="UF--------" lemma=".">.</token>
-
+-->
     <lb n="26" cite="urn:cts:latinLit:phi0959.phi006:1.26"/>
     <token tok-pos="1" cite="urn:cts:latinLit:phi0959.phi006:1.26" postag="A--S---FN-" lemma="igneus">Ignea</token>
     <token tok-pos="2" cite="urn:cts:latinLit:phi0959.phi006:1.26" postag="None" lemma="conuexi">convexi</token>

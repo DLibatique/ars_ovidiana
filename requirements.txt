@@ -1,0 +1,13 @@
+cltk==0.1.91
+gitdb2==2.0.4
+GitPython==2.1.11
+lxml==4.2.3
+nltk==3.3
+pprint==0.1
+python-crfsuite==0.9.5
+pyuca==1.2
+PyYAML==3.13
+regex==2018.7.11
+six==1.11.0
+smmap2==2.0.4
+Whoosh==2.7.4
