@@ -1,4 +1,4 @@
-cltk==0.1.91
+cltk==0.1.96
 gitdb2==2.0.4
 GitPython==2.1.11
 lxml==4.2.3
