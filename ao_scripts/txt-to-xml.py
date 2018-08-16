@@ -68,6 +68,7 @@ for a,b in line_assigned:
                 pass
 
         #assign postag to variable
+        #pass token with .lower()
         tagged_tok = pos_tagger.tag_ngram_123_backoff(tok.lower())
 
         #empty token (?)
