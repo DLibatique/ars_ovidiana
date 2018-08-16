@@ -2898,7 +2898,7 @@ to do list in order of importance:
     <token tok-pos="3" cite="urn:cts:latinLit:phi0959.phi006:1.290" postag="UC--------" lemma=",">,</token>
     <token tok-pos="4" cite="urn:cts:latinLit:phi0959.phi006:1.290" postag="None" lemma="premo">pressae</token>
     <token tok-pos="5" cite="urn:cts:latinLit:phi0959.phi006:1.290" postag="C---------" lemma="que" enclitic="True">que</token>
-    <token tok-pos="6" cite="urn:cts:latinLit:phi0959.phi006:1.290" postag="V-3PPIA---" lemma="lateo">latent</token>
+    <token tok-pos="6" cite="urn:cts:latinLit:phi0959.phi006:1.290" postag="V-3PPIA---" lemma="lateo" type="vision">latent</token>
     <token tok-pos="7" cite="urn:cts:latinLit:phi0959.phi006:1.290" postag="R---------" lemma="sub">sub</token>
     <token tok-pos="8" cite="urn:cts:latinLit:phi0959.phi006:1.290" postag="N--S---MB-" lemma="gurges1">gurgite</token>
     <token tok-pos="9" cite="urn:cts:latinLit:phi0959.phi006:1.290" postag="None" lemma="turris">turres</token>

@@ -34,7 +34,7 @@ lemmatizer = LemmaReplacer('latin')
 jv_replacer = JVReplacer()
 
 #get file and record to variable
-infile = open('../ovid_metamorphoses/ov_met_02.txt')
+infile = open('../ovid_metamorphoses/ov_met_06.txt')
 raw = infile.read()
 infile.close()
 
@@ -52,7 +52,7 @@ ugly_xml_string_total = ''
 for a,b in line_assigned:
     #get lb element with attributes
     ugly_xml_string_line = ''
-    ugly_xml_string_line += '<lb n="' + str(a) + '" cite="urn:cts:latinLit:phi0959.phi006:2.' + str(a) + '"/>'
+    ugly_xml_string_line += '<lb n="' + str(a) + '" cite="urn:cts:latinLit:phi0959.phi006:6.' + str(a) + '"/>'
 
     #get token elements with attributes
     ugly_xml_string_tokens = ''
@@ -100,7 +100,7 @@ for a,b in line_assigned:
             lemma = l_tok[0]
 
         #assign CTS URN to variable
-        citation = 'urn:cts:latinLit:phi0959.phi006:2.' + str(a)
+        citation = 'urn:cts:latinLit:phi0959.phi006:6.' + str(a)
 
         #concatenate token elements
         ugly_xml_string_tokens += f'<token tok-pos="{token_position}" postag="{postag}" lemma="{lemma}" cite="{citation}">' + tok + '</token>'
