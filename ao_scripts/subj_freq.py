@@ -1,3 +1,5 @@
+# script to figure out frequency of each type of subjunctive
+
 from cltk.tag.pos import POSTag
 from cltk.tokenize.word import WordTokenizer
 from os import listdir
@@ -5,7 +7,7 @@ from os import listdir
 tagger = POSTag('latin')
 wt = WordTokenizer('latin')
 
-filelist = sorted([f for f in listdir('.') if f.endswith('txt')])
+filelist = sorted([f for f in listdir('./ovid_metamorphoses') if f.endswith('txt')])
 
 present, imperfect, perfect, pluperfect = 0, 0, 0, 0
 pres_ex, impf_ex, perf_ex, plup_ex = [], [], [], []
@@ -24,7 +26,7 @@ def count_subj(filename):
 
     for t in tokenized:
 
-        tagged = tagger.tag_ngram_123_backoff(t)
+        tagged = tagger.tag_crf(t)
 
         if len(tagged) > 1 or len(tagged) == 0 or tagged[0][1] == None:
             pass
